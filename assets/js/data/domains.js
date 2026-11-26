@@ -1,14 +1,14 @@
 window.DG_DATA = window.DG_DATA || {};
 window.DG_DATA.domains = {
-  icon: '◈',
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg>',
   path: 'domains.html',
   title: { ar: 'الدومينات', en: 'Domain names', es: 'Dominios', fr: 'Noms de domaine', de: 'Domains' },
   blurb: {
-    ar: 'مفيش دومين حقيقي ببلاش. الفرق الحقيقي في سعر التجديد السنوي، مش سعر أول سنة.',
-    en: 'A real domain is never free. The honest difference is the yearly renewal price, not the first-year teaser.',
-    es: 'Un dominio real nunca es gratis. La diferencia honesta es el precio de renovación anual, no la oferta del primer año.',
-    fr: 'Un vrai domaine n’est jamais gratuit. La vraie différence est le prix de renouvellement annuel, pas l’offre de première année.',
-    de: 'Eine echte Domain ist nie kostenlos. Der ehrliche Unterschied ist der jährliche Verlängerungspreis, nicht der Erstjahres-Lockpreis.',
+    ar: 'الدومينات المسجلة عادة ليها رسوم تسجيل أو تجديد سنوية. العناوين المجانية بتكون ساب دومين من المزوّد، وفي عروض مشروطة بدومين مجاني. المقارنة الحقيقية في سعر التجديد، مش سعر أول سنة.',
+    en: 'Registered domains usually have a yearly registration or renewal cost. Free addresses are provider subdomains, with some conditional free-domain offers. The honest comparison is the renewal price, not the first-year teaser.',
+    es: 'Los dominios registrados suelen tener un coste anual de registro o renovación. Las direcciones gratuitas son subdominios del proveedor y existen ofertas condicionadas de dominio gratis. La comparación honesta es el precio de renovación, no la oferta del primer año.',
+    fr: 'Les domaines enregistrés ont généralement un coût annuel d’enregistrement ou de renouvellement. Les adresses gratuites sont des sous-domaines du fournisseur et certaines offres conditionnelles incluent un domaine gratuit. La comparaison honnête porte sur le prix de renouvellement, pas sur l’offre de première année.',
+    de: 'Registrierte Domains haben in der Regel eine jährliche Registrierungs- oder Verlängerungsgebühr. Kostenlose Adressen sind Subdomains des Anbieters, und es gibt konditionierte Gratis-Domain-Angebote. Der ehrliche Vergleich ist der Verlängerungspreis, nicht der Lockpreis des ersten Jahres.',
   },
   entries: [
     {
