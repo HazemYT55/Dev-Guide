@@ -1,6 +1,6 @@
 window.DG_DATA = window.DG_DATA || {};
 window.DG_DATA.monitoring = {
-  icon: '📈',
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>',
   path: 'monitoring.html',
   title: { ar: 'المراقبة وتتبع الأخطاء', en: 'Monitoring and error tracking', es: 'Monitorización y errores', fr: 'Supervision et suivi d’erreurs', de: 'Monitoring und Fehler-Tracking' },
   blurb: {
