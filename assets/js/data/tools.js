@@ -32,8 +32,8 @@ window.DG_DATA.tools = {
       url: 'https://replit.com',
       free: { ar: 'مفيش خطة مجانية دائمة على صفحة الأسعار الحالية', en: 'No permanent free plan on the current pricing page', es: 'Sin plan gratis permanente en la página de precios actual', fr: 'Pas d’offre gratuite permanente sur la page tarifaire actuelle', de: 'Kein dauerhafter Gratis-Tarif auf der aktuellen Preisseite' },
       paid: { ar: 'Core بـ٢٠ دولار/شهر (١٨ بالدفع السنوي)؛ Pro بـ١٠٠ دولار/شهر (٩٠ سنويًا)', en: 'Core $20/mo ($18/mo billed annually); Pro $100/mo ($90/mo annually)', es: 'Core $20/mes ($18/mes con pago anual); Pro $100/mes ($90/mes anual)', fr: 'Core 20 $/mois (18 $/mois en annuel) ; Pro 100 $/mois (90 $/mois en annuel)', de: 'Core 20 $/Monat (18 $/Monat jährlich); Pro 100 $/Monat (90 $/Monat jährlich)' },
-      note: { ar: 'خطة Starter المجانية اتشالت؛ دي نقطة مهمة للمبتدئين.', en: 'The old free Starter plan is gone, a real catch for beginners.', es: 'El antiguo plan Starter gratis ya no existe; una traba real para principiantes.', fr: 'L’ancienne offre Starter gratuite a disparu, un vrai piège pour les débutants.', de: 'Der alte kostenlose Starter-Tarif ist weg, ein echter Haken für Einsteiger.' },
-      source: 'https://replit.com/pricing',
+      note: { ar: 'خطة Starter المجانية اتقفلت للمستخدمين الجدد في نوفمبر ٢٠٢٦؛ في تجربة Core مجانية ٣ أيام لو إنت مؤهل.', en: 'The free Starter plan closed to new builders in November 2026; eligible new users get a 3-day Core trial instead.', es: 'El plan Starter gratis se cerró a nuevos usuarios en noviembre de 2026; los usuarios nuevos elegibles reciben una prueba de Core de 3 días.', fr: 'L’offre Starter gratuite est fermée aux nouveaux utilisateurs depuis novembre 2026 ; les nouveaux éligibles ont un essai Core de 3 jours.', de: 'Der kostenlose Starter-Tarif ist seit November 2026 für Neukunden geschlossen; berechtigte neue Nutzer erhalten eine 3-tägige Core-Testphase.' },
+      source: 'https://docs.replit.com/billing/plans/starter-plan',
     },
     {
       name: 'JetBrains IDEs',
