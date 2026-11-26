@@ -13,6 +13,8 @@ window.DG_I18N = {
     backHome: '← رجوع لكل الأقسام',
     homeTitle: 'دليل المطور المبتدئ',
     disclaimer: 'دليل مستقل للتعليم. مفيش روابط تسويق بالعمولة، والأسعار بالدولار الأمريكي وقت المراجعة. القرار الأخير دايمًا على الصفحة الرسمية للخدمة.',
+    searchPlaceholder: 'دوّر على خدمة أو قسم…',
+    noResults: 'مفيش نتايج مطابقة.',
     noFree: 'مفيش خطة مجانية دائمة',
   },
   en: {
@@ -28,6 +30,8 @@ window.DG_I18N = {
     backHome: '← Back to all categories',
     homeTitle: 'The beginner developer guide',
     disclaimer: 'An independent guide for learning. No affiliate links, prices in USD as of the check date. Always confirm on the official page before committing.',
+    searchPlaceholder: 'Search services and categories…',
+    noResults: 'No matching results.',
     noFree: 'No permanent free plan',
   },
   es: {
@@ -43,6 +47,8 @@ window.DG_I18N = {
     backHome: '← Volver a todas las categorías',
     homeTitle: 'La guía del desarrollador principiante',
     disclaimer: 'Guía independiente con fines educativos. Sin enlaces de afiliados; precios en USD en la fecha de verificación. Confirma siempre en la página oficial antes de pagar.',
+    searchPlaceholder: 'Buscar servicios y categorías…',
+    noResults: 'Sin resultados.',
     noFree: 'Sin plan gratuito permanente',
   },
   fr: {
@@ -58,6 +64,8 @@ window.DG_I18N = {
     backHome: '← Retour à toutes les catégories',
     homeTitle: 'Le guide du développeur débutant',
     disclaimer: 'Guide indépendant à but pédagogique. Aucun lien affilié ; prix en USD à la date de vérification. Confirmez toujours sur la page officielle avant de payer.',
+    searchPlaceholder: 'Rechercher des services et catégories…',
+    noResults: 'Aucun résultat.',
     noFree: 'Pas d’offre gratuite permanente',
   },
   de: {
@@ -73,6 +81,8 @@ window.DG_I18N = {
     backHome: '← Zurück zu allen Kategorien',
     homeTitle: 'Der Leitfaden für Entwickler-Einsteiger',
     disclaimer: 'Ein unabhängiger Leitfaden zum Lernen. Keine Affiliate-Links; Preise in USD zum Prüfdatum. Vor einer Zahlung immer auf der offiziellen Seite bestätigen.',
+    searchPlaceholder: 'Dienste und Kategorien suchen…',
+    noResults: 'Keine Treffer.',
     noFree: 'Kein dauerhaft kostenloser Tarif',
   },
 };
