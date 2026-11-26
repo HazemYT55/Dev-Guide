@@ -1,6 +1,6 @@
 window.DG_DATA = window.DG_DATA || {};
 window.DG_DATA.email = {
-  icon: '✉️',
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>',
   path: 'email.html',
   title: { ar: 'إرسال الإيميلات (Transactional)', en: 'Transactional email', es: 'Email transaccional', fr: 'E-mail transactionnel', de: 'Transaktions-E-Mails' },
   blurb: {
