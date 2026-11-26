@@ -50,14 +50,34 @@
     var ui = I18N[lang];
     var html = '<section class="hero"><h1>' + esc(ui.homeTitle) + '</h1><p>' + esc(ui.tagline) + '</p>' +
       '<span class="updated">' + esc(ui.updated) + '</span></section>' +
-      '<h2 class="section-title">' + esc(ui.categoriesTitle) + '</h2><div class="cat-grid">';
+      '<h2 class="section-title">' + esc(ui.categoriesTitle) + '</h2>' +
+      '<input class="search" id="dg-search" type="search" placeholder="' + esc(ui.searchPlaceholder) + '" aria-label="' + esc(ui.searchPlaceholder) + '">' +
+      '<div class="cat-grid">';
     Object.keys(DATA).forEach(function (id) {
       var c = DATA[id];
-      html += '<a class="cat-card" href="' + esc(c.path) + '"><div class="icon">' + esc(c.icon) + '</div>' +
+      html += '<a class="cat-card" href="' + esc(c.path) + '"><div class="icon">' + c.icon + '</div>' +
         '<h3>' + esc(t(c.title)) + '</h3><p>' + esc(t(c.blurb)) + '</p></a>';
     });
     html += '</div>';
     root.innerHTML = html;
+    var box = document.getElementById('dg-search');
+    if (box) box.addEventListener('input', function () {
+      var q = box.value.trim().toLowerCase();
+      var any = false;
+      root.querySelectorAll('.cat-card').forEach(function (card) {
+        var hit = !q || card.textContent.toLowerCase().indexOf(q) !== -1;
+        card.style.display = hit ? '' : 'none';
+        if (hit) any = true;
+      });
+      var empty = document.getElementById('dg-empty');
+      if (!any && !empty) {
+        var d = document.createElement('p');
+        d.id = 'dg-empty';
+        d.className = 'no-results';
+        d.textContent = ui.noResults;
+        root.querySelector('.cat-grid').appendChild(d);
+      } else if (any && empty) empty.remove();
+    });
   }
 
   function renderCategory(id) {
@@ -66,8 +86,9 @@
     var c = DATA[id];
     if (!c) { renderHome(); return; }
     var html = '<a class="back-link" href="index.html">' + esc(ui.backHome) + '</a>' +
-      '<section class="hero"><h1>' + esc(c.icon) + ' ' + esc(t(c.title)) + '</h1><p>' + esc(t(c.blurb)) + '</p>' +
-      '<span class="updated">' + esc(ui.updated) + '</span></section>';
+      '<section class="hero"><h1>' + c.icon + ' ' + esc(t(c.title)) + '</h1><p>' + esc(t(c.blurb)) + '</p>' +
+      '<span class="updated">' + esc(ui.updated) + '</span></section>' +
+      '<input class="search" id="dg-search" type="search" placeholder="' + esc(ui.searchPlaceholder) + '" aria-label="' + esc(ui.searchPlaceholder) + '">';
     c.entries.forEach(function (e) {
       html += '<article class="entry"><div class="entry-head"><h3>' + esc(e.name) + '</h3>' +
         '<a href="' + esc(e.url) + '" target="_blank" rel="noopener">' + esc(ui.visit) + ' ↗</a></div><dl class="kv">' +
@@ -78,6 +99,24 @@
     });
     root.innerHTML = html;
     document.title = t(c.title) + ' · Dev-Guide';
+    var box = document.getElementById('dg-search');
+    if (box) box.addEventListener('input', function () {
+      var q = box.value.trim().toLowerCase();
+      var any = false;
+      root.querySelectorAll('.entry').forEach(function (card) {
+        var hit = !q || card.textContent.toLowerCase().indexOf(q) !== -1;
+        card.style.display = hit ? '' : 'none';
+        if (hit) any = true;
+      });
+      var empty = document.getElementById('dg-empty');
+      if (!any && !empty) {
+        var d = document.createElement('p');
+        d.id = 'dg-empty';
+        d.className = 'no-results';
+        d.textContent = ui.noResults;
+        root.appendChild(d);
+      } else if (any && empty) empty.remove();
+    });
   }
 
   function apply() {
