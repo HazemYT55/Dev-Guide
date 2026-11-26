@@ -137,3 +137,17 @@ body {
   .kv { grid-template-columns: 1fr; gap: 2px; }
   .kv dt { margin-top: 8px; }
 }
+
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 1rem;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #d4d4d8;
+  border-radius: 10px;
+  font: inherit;
+  background: #fff;
+  color: inherit;
+}
+.search:focus { outline: 2px solid #0f766e; outline-offset: 1px; }
+.no-results { color: #6b7280; padding: 0.5rem 0.2rem; }
