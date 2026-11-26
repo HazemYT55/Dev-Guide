@@ -1,6 +1,6 @@
 window.DG_DATA = window.DG_DATA || {};
 window.DG_DATA.serverless = {
-  icon: '⚡',
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg>',
   path: 'serverless.html',
   title: { ar: 'دوال سيرفرليس', en: 'Serverless functions', es: 'Funciones serverless', fr: 'Fonctions serverless', de: 'Serverless-Funktionen' },
   blurb: {
