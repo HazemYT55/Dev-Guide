@@ -1,6 +1,6 @@
 window.DG_DATA = window.DG_DATA || {};
 window.DG_DATA.analytics = {
-  icon: '📊',
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><rect x="4" y="12" width="4" height="8" rx="1"/><rect x="10" y="7" width="4" height="13" rx="1"/><rect x="16" y="3" width="4" height="17" rx="1"/></svg>',
   path: 'analytics.html',
   title: { ar: 'تحليلات الزيارات', en: 'Web analytics', es: 'Analítica web', fr: 'Analyse d’audience', de: 'Web-Analytics' },
   blurb: {
