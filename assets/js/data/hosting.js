@@ -1,6 +1,6 @@
 window.DG_DATA = window.DG_DATA || {};
 window.DG_DATA.hosting = {
-  icon: '⌂',
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>',
   path: 'hosting.html',
   title: { ar: 'استضافة المواقع الثابتة', en: 'Static site hosting', es: 'Hosting de sitios estáticos', fr: 'Hébergement de sites statiques', de: 'Hosting für statische Websites' },
   blurb: {
