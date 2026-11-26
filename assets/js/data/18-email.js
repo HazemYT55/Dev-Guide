@@ -1,0 +1,62 @@
+window.DG_DATA = window.DG_DATA || {};
+window.DG_DATA.email = {
+  icon: '✉️',
+  path: 'email.html',
+  title: { ar: 'إرسال الإيميلات (Transactional)', en: 'Transactional email', es: 'Email transaccional', fr: 'E-mail transactionnel', de: 'Transaktions-E-Mails' },
+  blurb: {
+    ar: 'إيميلات التفعيل والفواتير من تطبيقك. انتبه: الخطط المجانية في المجال ده بتتغير بسرعة.',
+    en: 'Sending sign-up and receipt emails from your app. Note: free plans in this space change fast.',
+    es: 'Envío de correos de registro y recibos desde tu app. Ojo: los planes gratis de este sector cambian rápido.',
+    fr: 'Envoi d’e-mails d’inscription et de reçus depuis votre appli. Attention : les offres gratuites de ce secteur changent vite.',
+    de: 'Registrierungs- und Beleg-Mails aus deiner App. Achtung: Gratis-Tarife ändern sich hier schnell.',
+  },
+  entries: [
+    {
+      name: 'Resend',
+      url: 'https://resend.com',
+      free: { ar: '٣٬٠٠٠ إيميل شهريًا بحد أقصى ١٠٠ في اليوم', en: '3,000 emails per month, max 100 per day', es: '3.000 correos al mes, máximo 100 al día', fr: '3 000 e-mails par mois, 100 par jour maximum', de: '3.000 E-Mails pro Monat, maximal 100 pro Tag' },
+      paid: { ar: 'Pro من ٢٠ دولار/شهر (٥٠٬٠٠٠ إيميل)', en: 'Pro from $20/mo (50,000 emails)', es: 'Pro desde $20/mes (50.000 correos)', fr: 'Pro dès 20 $/mois (50 000 e-mails)', de: 'Pro ab 20 $/Monat (50.000 E-Mails)' },
+      note: { ar: 'API حديث وسهل للمطورين؛ تجربة استخدام ممتازة.', en: 'Modern, developer-first API; excellent DX.', es: 'API moderna orientada a desarrolladores; excelente DX.', fr: 'API moderne pensée pour les développeurs ; excellente DX.', de: 'Moderne, entwicklerfreundliche API; exzellente DX.' },
+      source: 'https://resend.com/pricing',
+    },
+    {
+      name: 'Brevo',
+      url: 'https://www.brevo.com',
+      free: { ar: '٣٠٠ إيميل في اليوم، مجاني للأبد ومن غير بطاقة', en: '300 emails per day, free forever, no card', es: '300 correos al día, gratis para siempre, sin tarjeta', fr: '300 e-mails par jour, gratuit à vie, sans carte', de: '300 E-Mails pro Tag, dauerhaft kostenlos, ohne Karte' },
+      paid: { ar: 'خطط مدفوعة تبدأ من ٥٬٠٠٠ إيميل شهريًا', en: 'Paid plans start at 5,000 emails per month tiers', es: 'Planes de pago desde niveles de 5.000 correos al mes', fr: 'Offres payantes à partir de 5 000 e-mails par mois', de: 'Bezahltarife ab 5.000 E-Mails pro Monat' },
+      note: { ar: 'بيجمع بين إيميلات المعاملات والتسويق في مكان واحد.', en: 'Combines transactional and marketing email in one place.', es: 'Combina email transaccional y de marketing en un solo lugar.', fr: 'Combine e-mail transactionnel et marketing au même endroit.', de: 'Kombiniert Transaktions- und Marketing-E-Mail an einem Ort.' },
+      source: 'https://www.brevo.com/pricing/',
+    },
+    {
+      name: 'Postmark',
+      url: 'https://postmarkapp.com',
+      free: { ar: '١٠٠ إيميل شهريًا للأبد (خطة المطور)', en: '100 emails per month forever (developer plan)', es: '100 correos al mes para siempre (plan de desarrollo)', fr: '100 e-mails par mois à vie (offre développeur)', de: '100 E-Mails pro Monat dauerhaft (Entwickler-Tarif)' },
+      paid: { ar: 'من ١٥ دولار/شهر لعشرة آلاف إيميل', en: 'From $15/mo for 10,000 emails', es: 'Desde $15/mes por 10.000 correos', fr: 'Dès 15 $/mois pour 10 000 e-mails', de: 'Ab 15 $/Monat für 10.000 E-Mails' },
+      note: { ar: 'المجاني للتجربة بس؛ الأقوى في وصول الإيميلات للبريد الوارد.', en: 'The free plan is for testing only; best-in-class deliverability.', es: 'El plan gratis es solo para pruebas; entregabilidad de primer nivel.', fr: 'L’offre gratuite sert aux tests ; délivrabilité de premier ordre.', de: 'Der Gratis-Tarif ist nur zum Testen; erstklassige Zustellbarkeit.' },
+      source: 'https://postmarkapp.com/pricing',
+    },
+    {
+      name: 'Mailgun',
+      url: 'https://www.mailgun.com',
+      free: { ar: '١٠٠ إيميل في اليوم على الخطة المجانية', en: '100 emails per day on the free plan', es: '100 correos al día en el plan gratis', fr: '100 e-mails par jour avec l’offre gratuite', de: '100 E-Mails pro Tag im Gratis-Tarif' },
+      paid: { ar: 'Foundation من ٣٥ دولار/شهر بعد شهر تجريبي', en: 'Foundation from $35/mo after a one-month trial', es: 'Foundation desde $35/mes tras un mes de prueba', fr: 'Foundation dès 35 $/mois après un mois d’essai', de: 'Foundation ab 35 $/Monat nach einem Testmonat' },
+      source: 'https://www.mailgun.com/pricing',
+    },
+    {
+      name: 'Amazon SES',
+      url: 'https://aws.amazon.com/ses/',
+      free: { ar: 'مفيش خطة مجانية خاصة بالعملاء الجدد (من يوليو ٢٠٢٦)؛ لكن فيه ٢٠٠ دولار كريدت AWS لأول ٦ شهور', en: 'No SES-specific free tier for new accounts (since July 2026); new AWS customers get $200 in credits for 6 months', es: 'Sin nivel gratuito propio para cuentas nuevas (desde julio de 2026); los clientes nuevos de AWS reciben $200 en créditos por 6 meses', fr: 'Plus d’offre gratuite dédiée pour les nouveaux comptes (depuis juillet 2026) ; les nouveaux clients AWS reçoivent 200 $ de crédits sur 6 mois', de: 'Kein eigener Gratis-Tarif für neue Konten (seit Juli 2026); neue AWS-Kunden erhalten 200 $ Guthaben für 6 Monate' },
+      paid: { ar: '٠٫١٠ دولار لكل ١٬٠٠٠ إيميل (تسعير حسب الاستخدام)', en: '$0.10 per 1,000 emails à la carte', es: '$0,10 por cada 1.000 correos a la carta', fr: '0,10 $ par 1 000 e-mails à la carte', de: '0,10 $ pro 1.000 E-Mails à la carte' },
+      note: { ar: 'الأرخص عند الأحجام الكبيرة لكن إعداده أعقد من الباقي.', en: 'Cheapest at scale, but setup is more involved than the rest.', es: 'El más barato a gran escala, pero su configuración es más compleja.', fr: 'Le moins cher à grande échelle, mais la configuration est plus complexe.', de: 'Am günstigsten bei großen Mengen, aber die Einrichtung ist aufwendiger.' },
+      source: 'https://aws.amazon.com/ses/pricing/',
+    },
+    {
+      name: 'SendGrid',
+      url: 'https://sendgrid.com',
+      free: { ar: 'مفيش خطة مجانية دائمة (اتلغت ٢٠٢٥)؛ تجربة ٦٠ يوم بحد ١٠٠ إيميل/يوم', en: 'No permanent free plan (retired 2025); a 60-day trial at 100 emails/day', es: 'Sin plan gratis permanente (retirado en 2025); prueba de 60 días a 100 correos/día', fr: 'Plus d’offre gratuite permanente (retirée en 2025) ; essai de 60 jours à 100 e-mails/jour', de: 'Kein dauerhafter Gratis-Tarif (2025 abgeschafft); 60-Tage-Test mit 100 E-Mails/Tag' },
+      paid: { ar: 'Essentials من ١٩٫٩٥ دولار/شهر', en: 'Essentials from $19.95/mo', es: 'Essentials desde $19,95/mes', fr: 'Essentials dès 19,95 $/mois', de: 'Essentials ab 19,95 $/Monat' },
+      note: { ar: 'اسم كبير ومعروف، لكن المجاني اتحول لتجربة مؤقتة.', en: 'A big name, but its free tier is now a time-limited trial.', es: 'Un nombre conocido, pero su plan gratis ahora es una prueba limitada.', fr: 'Une grande marque, mais son offre gratuite est devenue un essai limité.', de: 'Ein großer Name, aber der Gratis-Tarif ist jetzt ein zeitlich begrenzter Test.' },
+      source: 'https://www.twilio.com/en-us/products/email-api/pricing',
+    },
+  ],
+};

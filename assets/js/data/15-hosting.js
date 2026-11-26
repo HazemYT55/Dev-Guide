@@ -1,0 +1,63 @@
+window.DG_DATA = window.DG_DATA || {};
+window.DG_DATA.hosting = {
+  icon: '⌂',
+  path: 'hosting.html',
+  title: { ar: 'استضافة المواقع الثابتة', en: 'Static site hosting', es: 'Hosting de sitios estáticos', fr: 'Hébergement de sites statiques', de: 'Hosting für statische Websites' },
+  blurb: {
+    ar: 'أين تنشر موقع HTML/CSS/JS بتاعك. كل اللي تحت ليه خطة مجانية ورابط مجاني.',
+    en: 'Where to publish your HTML/CSS/JS site. Everything below has a free plan and a free URL.',
+    es: 'Dónde publicar tu sitio HTML/CSS/JS. Todo lo de abajo tiene plan gratis y URL gratis.',
+    fr: 'Où publier votre site HTML/CSS/JS. Tout ce qui suit a une offre gratuite et une URL gratuite.',
+    de: 'Wo du deine HTML/CSS/JS-Seite veröffentlichst. Alles hier hat einen Gratis-Tarif und eine Gratis-URL.',
+  },
+  entries: [
+    {
+      name: 'Cloudflare Pages',
+      url: 'https://pages.cloudflare.com',
+      free: { ar: 'مواقع غير محدودة، لحد ٢٠٬٠٠٠٠ ملف للموقع، رابط yourname.pages.dev، ورفع بالسحب والإفلات من غير Git', en: 'Unlimited sites, up to 20,000 files per site, free yourname.pages.dev URL, drag-and-drop upload without Git', es: 'Sitios ilimitados, hasta 20.000 archivos por sitio, URL yourname.pages.dev gratis, subida arrastrando sin Git', fr: 'Sites illimités, jusqu’à 20 000 fichiers par site, URL yourname.pages.dev gratuite, envoi par glisser-déposer sans Git', de: 'Unbegrenzt viele Sites, bis zu 20.000 Dateien pro Site, gratis yourname.pages.dev-URL, Drag-and-Drop-Upload ohne Git' },
+      paid: { ar: 'معظم المواقع تفضل بصفر دولار؛ خطة Workers المدفوعة من ٥ دولار/شهر لو ضفت دوال سيرفرليس', en: 'Most sites stay at $0; Workers Paid from $5/mo only if you add serverless functions', es: 'La mayoría se queda en $0; Workers Paid desde $5/mes solo si añades funciones serverless', fr: 'La plupart des sites restent à 0 $ ; Workers Paid dès 5 $/mois seulement pour des fonctions serverless', de: 'Die meisten Sites bleiben bei 0 $; Workers Paid ab 5 $/Monat nur bei Serverless-Funktionen' },
+      note: { ar: 'أسهل توازن بين الجودة والسهولة؛ شركة عالمية ورفع مباشر من المتصفح.', en: 'The easiest quality pick: global CDN and direct browser upload.', es: 'La opción más fácil y sólida: CDN global y subida directa desde el navegador.', fr: 'Le choix le plus simple et solide : CDN mondial et envoi direct depuis le navigateur.', de: 'Die einfachste hochwertige Wahl: globales CDN und direkter Browser-Upload.' },
+      source: 'https://developers.cloudflare.com/pages/platform/limits/',
+    },
+    {
+      name: 'Netlify',
+      url: 'https://www.netlify.com',
+      free: { ar: 'صفر دولار مع ٣٠٠ كريدت استخدام شهريًا؛ نشر من Git أو CLI أو سحب وإفلات', en: '$0 with 300 usage credits per month; deploy from Git, CLI, or drag-and-drop', es: '$0 con 300 créditos de uso al mes; despliegue desde Git, CLI o arrastrar y soltar', fr: '0 $ avec 300 crédits d’usage par mois ; déploiement via Git, CLI ou glisser-déposer', de: '0 $ mit 300 Nutzungs-Credits pro Monat; Deploy per Git, CLI oder Drag-and-Drop' },
+      paid: { ar: 'حزم كريدت إضافية من ٥ دولار؛ خطط Pro للفرق', en: 'Extra credit packs from $5; Pro plans for teams', es: 'Paquetes de créditos desde $5; planes Pro para equipos', fr: 'Packs de crédits dès 5 $ ; offres Pro pour les équipes', de: 'Zusätzliche Credit-Pakete ab 5 $; Pro-Tarife für Teams' },
+      note: { ar: 'الكريدت بيخلص مع الباندويدث والبيلد؛ الترافيك العالي ممكن يستهلكها بسرعة.', en: 'Credits burn on bandwidth and builds; heavy traffic can exhaust them.', es: 'Los créditos se consumen con ancho de banda y builds; mucho tráfico puede agotarlos.', fr: 'Les crédits fondent avec la bande passante et les builds ; un fort trafic peut les épuiser.', de: 'Credits werden für Bandbreite und Builds verbraucht; viel Traffic kann sie aufbrauchen.' },
+      source: 'https://www.netlify.com/pricing/',
+    },
+    {
+      name: 'Vercel',
+      url: 'https://vercel.com',
+      free: { ar: 'خطة Hobby بصفر دولار: ٥ جيجا باندويدث شهريًا، رابط project.vercel.app', en: 'Hobby plan at $0: 5 GB bandwidth per month, project.vercel.app URL', es: 'Plan Hobby a $0: 5 GB de ancho de banda al mes, URL project.vercel.app', fr: 'Offre Hobby à 0 $ : 5 Go de bande passante par mois, URL project.vercel.app', de: 'Hobby-Tarif für 0 $: 5 GB Bandbreite pro Monat, project.vercel.app-URL' },
+      paid: { ar: 'Pro من ٢٠ دولار/شهر للعضو', en: 'Pro from $20/mo per member', es: 'Pro desde $20/mes por miembro', fr: 'Pro dès 20 $/mois par membre', de: 'Pro ab 20 $/Monat pro Mitglied' },
+      note: { ar: 'الأفضل مع Git أو CLI؛ مفيش رفع بالسحب والإفلات.', en: 'Best with Git or CLI; no drag-and-drop upload.', es: 'Mejor con Git o CLI; sin subida de arrastrar y soltar.', fr: 'Idéal avec Git ou CLI ; pas d’envoi par glisser-déposer.', de: 'Am besten mit Git oder CLI; kein Drag-and-Drop-Upload.' },
+      source: 'https://vercel.com/docs/limits',
+    },
+    {
+      name: 'GitHub Pages',
+      url: 'https://pages.github.com',
+      free: { ar: 'استضافة ثابتة مجانية للمستودعات العامة، رابط username.github.io', en: 'Free static hosting for public repositories, username.github.io URL', es: 'Hosting estático gratis para repositorios públicos, URL username.github.io', fr: 'Hébergement statique gratuit pour les dépôts publics, URL username.github.io', de: 'Kostenloses Static-Hosting für öffentliche Repos, username.github.io-URL' },
+      paid: { ar: 'مجاني للمستودعات العامة', en: 'Free for public repositories', es: 'Gratis para repositorios públicos', fr: 'Gratuit pour les dépôts publics', de: 'Kostenlos für öffentliche Repos' },
+      note: { ar: 'محتاج Git؛ موقع واحد لكل مستودع أو حساب.', en: 'Requires Git; one site per repository or account.', es: 'Requiere Git; un sitio por repositorio o cuenta.', fr: 'Nécessite Git ; un site par dépôt ou compte.', de: 'Erfordert Git; eine Site pro Repo oder Konto.' },
+      source: 'https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages',
+    },
+    {
+      name: 'Render',
+      url: 'https://render.com',
+      free: { ar: 'مواقع ثابتة مجانية بشهادة TLS، رابط yoursite.onrender.com', en: 'Free static sites with managed TLS, yoursite.onrender.com URL', es: 'Sitios estáticos gratis con TLS gestionado, URL yoursite.onrender.com', fr: 'Sites statiques gratuits avec TLS géré, URL yoursite.onrender.com', de: 'Kostenlose statische Sites mit verwaltetem TLS, yoursite.onrender.com-URL' },
+      paid: { ar: 'الدفع بس على الخدمات الديناميكية؛ الثابت يفضل مجاني', en: 'You only pay for dynamic services; static stays free', es: 'Solo pagas por servicios dinámicos; lo estático sigue gratis', fr: 'Seuls les services dynamiques sont payants ; le statique reste gratuit', de: 'Nur dynamische Dienste kosten; Statisches bleibt kostenlos' },
+      note: { ar: 'ربط بمستودع Git إجباري؛ إعادة نشر تلقائية مع كل push.', en: 'Git repo required; redeploys automatically on every push.', es: 'Requiere repositorio Git; redespliega con cada push.', fr: 'Dépôt Git obligatoire ; redéploiement automatique à chaque push.', de: 'Git-Repo erforderlich; automatisches Redeploy bei jedem Push.' },
+      source: 'https://render.com/docs/static-sites',
+    },
+    {
+      name: 'Surge',
+      url: 'https://surge.sh',
+      free: { ar: 'مشاريع غير محدودة بصفر دولار، رابط yourname.surge.sh، ودومين خاص مجاني', en: 'Unlimited projects at $0, yourname.surge.sh URL, custom domains free', es: 'Proyectos ilimitados a $0, URL yourname.surge.sh, dominios propios gratis', fr: 'Projets illimités à 0 $, URL yourname.surge.sh, domaines personnalisés gratuits', de: 'Unbegrenzte Projekte für 0 $, yourname.surge.sh-URL, eigene Domains kostenlos' },
+      paid: { ar: 'Pro من ٣٠ دولار/شهر لحماية الباسورد والتحويلات بس', en: 'Pro from $30/mo only for password protection and redirects', es: 'Pro desde $30/mes solo para contraseñas y redirecciones', fr: 'Pro dès 30 $/mois uniquement pour mots de passe et redirections', de: 'Pro ab 30 $/Monat nur für Passwortschutz und Weiterleitungen' },
+      note: { ar: 'النشر بأمر واحد في التيرمنال؛ محتاج npm.', en: 'Publish with one terminal command; needs npm.', es: 'Publica con un solo comando; necesita npm.', fr: 'Publication en une commande ; nécessite npm.', de: 'Veröffentlichen mit einem Terminal-Befehl; braucht npm.' },
+      source: 'https://surge.sh/pricing',
+    },
+  ],
+};
