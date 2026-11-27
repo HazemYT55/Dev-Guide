@@ -173,5 +173,14 @@ window.DG_DATA.courses = {
       note: { ar: 'محاضرات وواجبات وامتحانات حقيقية من MIT، من غير شهادة.', en: 'Real MIT lectures, assignments and exams, without a certificate.', es: 'Clases, tareas y exámenes reales del MIT, sin certificado.', fr: 'De vrais cours, devoirs et examens du MIT, sans certificat.', de: 'Echte MIT-Vorlesungen, Aufgaben und Prüfungen, ohne Zertifikat.' },
       source: 'https://ocw.mit.edu/',
     },
+    {
+      plan: 'free',
+      name: 'Advent of Code',
+      url: 'https://adventofcode.com',
+      free: { ar: 'مجاني: ٢٥ لغز برمجة يومي كل ديسمبر', en: 'Free to use: 25 daily programming puzzles every December', es: 'Gratis: 25 acertijos de programación diarios cada diciembre', fr: 'Gratuit : 25 puzzles de programmation quotidiens chaque décembre', de: 'Kostenlos: 25 tägliche Programmier-Rätsel jeden Dezember' },
+      paid: { ar: 'مفيش خطط مدفوعة؛ بيشتغل بالرعايات ومتجر اختياري', en: 'No paid plans; runs on sponsorships and an optional shop', es: 'Sin planes de pago; se financia con patrocinios y una tienda opcional', fr: 'Pas d’offres payantes ; financé par des sponsors et une boutique optionnelle', de: 'Keine kostenpflichtigen Tarife; finanziert durch Sponsoren und einen optionalen Shop' },
+      note: { ar: 'تقليد سنوي: حل الألغاز بأي لغة وتنافس على لوحة الصدارة.', en: 'A yearly tradition: solve puzzles in any language and climb the leaderboard.', es: 'Una tradición anual: resuelve acertijos en cualquier lenguaje y sube en el ranking.', fr: 'Une tradition annuelle : résolvez les puzzles dans n’importe quel langage et grimpez au classement.', de: 'Eine jährliche Tradition: löse Rätsel in jeder Sprache und klettere die Bestenliste hoch.' },
+      source: 'https://adventofcode.com/2025/about',
+    },
   ],
 };
