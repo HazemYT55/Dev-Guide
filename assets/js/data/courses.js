@@ -4,11 +4,11 @@ window.DG_DATA.courses = {
   path: 'courses.html',
   title: { ar: 'كورسات وتعلّم', en: 'Courses and learning', es: 'Cursos y aprendizaje', fr: 'Cours et apprentissage', de: 'Kurse und Lernen' },
   blurb: {
-    ar: 'أين تتعلم البرمجة من الصفر. أول اتنين مجانين تمامًا.',
-    en: 'Where to learn programming from zero. The first two are completely free.',
-    es: 'Dónde aprender programación desde cero. Los dos primeros son totalmente gratis.',
-    fr: 'Où apprendre la programmation à partir de zéro. Les deux premiers sont entièrement gratuits.',
-    de: 'Wo du Programmieren von null lernst. Die ersten beiden sind komplett kostenlos.',
+    ar: 'أين تتعلم البرمجة من الصفر. في اختيارات مجانية تمامًا.',
+    en: 'Where to learn programming from zero; several picks are completely free.',
+    es: 'Dónde aprender programación desde cero; varias opciones son totalmente gratis.',
+    fr: 'Où apprendre la programmation à partir de zéro ; plusieurs choix sont entièrement gratuits.',
+    de: 'Wo du Programmieren von null lernst; mehrere Angebote sind komplett kostenlos.',
   },
   entries: [
     {
