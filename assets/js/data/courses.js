@@ -164,5 +164,14 @@ window.DG_DATA.courses = {
       note: { ar: 'المرجع الأول لسكرين كاستس Laravel وPHP وتطوير الويب الحديث من Jeffrey Way.', en: 'The reference for Laravel, PHP and modern web-dev screencasts by Jeffrey Way.', es: 'La referencia en screencasts de Laravel, PHP y desarrollo web moderno, por Jeffrey Way.', fr: 'La référence des screencasts Laravel, PHP et dev web moderne, par Jeffrey Way.', de: 'Die Referenz für Laravel-, PHP- und moderne Web-Dev-Screencasts von Jeffrey Way.' },
       source: 'https://laracasts.com/',
     },
+    {
+      plan: 'free',
+      name: 'MIT OpenCourseWare',
+      url: 'https://ocw.mit.edu',
+      free: { ar: 'مجاني بالكامل: مكتبة أونلاين لأكتر من ٢٥٠٠ مادة من منهج MIT', en: 'Completely free: an online library of 2,500+ courses from MIT’s curriculum', es: 'Totalmente gratis: una biblioteca en línea de más de 2.500 cursos del plan de MIT', fr: 'Entièrement gratuit : une bibliothèque en ligne de plus de 2 500 cours du programme du MIT', de: 'Komplett kostenlos: eine Online-Bibliothek mit über 2.500 Kursen aus dem MIT-Curriculum' },
+      paid: { ar: 'مفيش خطط مدفوعة إطلاقًا', en: 'No paid plans at all', es: 'Sin planes de pago en absoluto', fr: 'Aucune offre payante', de: 'Überhaupt keine kostenpflichtigen Tarife' },
+      note: { ar: 'محاضرات وواجبات وامتحانات حقيقية من MIT، من غير شهادة.', en: 'Real MIT lectures, assignments and exams, without a certificate.', es: 'Clases, tareas y exámenes reales del MIT, sin certificado.', fr: 'De vrais cours, devoirs et examens du MIT, sans certificat.', de: 'Echte MIT-Vorlesungen, Aufgaben und Prüfungen, ohne Zertifikat.' },
+      source: 'https://ocw.mit.edu/',
+    },
   ],
 };
