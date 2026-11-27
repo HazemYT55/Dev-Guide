@@ -110,5 +110,14 @@ window.DG_DATA.cms = {
       note: { ar: 'هيدلس CMS سريع للمدونات والصفحات التسويقية؛ المجاني مناسب للمشاريع الصغيرة.', en: 'Fast headless CMS for blogs and marketing pages; the free tier fits small projects.', es: 'CMS headless rápido para blogs y páginas de marketing; el nivel gratis sirve para proyectos pequeños.', fr: 'CMS headless rapide pour blogs et pages marketing ; l’offre gratuite convient aux petits projets.', de: 'Schnelles Headless-CMS für Blogs und Marketingseiten; der Gratis-Tarif reicht für kleine Projekte.' },
       source: 'https://buttercms.com/pricing/',
     },
+    {
+      plan: 'oss',
+      name: 'TinaCMS',
+      url: 'https://tina.io',
+      free: { ar: 'مفتوح المصدر؛ وTinaCloud مجانية للأبد: مشاريع ومجموعات غير محدودة و٢ مستخدمين و١٠٠ جيجا نقل بيانات شهريًا', en: 'Open source; TinaCloud free forever: unlimited projects and collections, 2 users, 100 GB bandwidth a month', es: 'Código abierto; TinaCloud gratis para siempre: proyectos y colecciones ilimitados, 2 usuarios, 100 GB de ancho de banda al mes', fr: 'Open source ; TinaCloud gratuit pour toujours : projets et collections illimités, 2 utilisateurs, 100 Go de bande passante par mois', de: 'Open Source; TinaCloud dauerhaft gratis: unbegrenzte Projekte und Kollektionen, 2 Nutzer, 100 GB Bandbreite pro Monat' },
+      paid: { ar: 'من ٢٤ دولار/شهر للمشروع (Team بالسنوي): لحد ١٠ مستخدمين وسير عمل تحريري', en: 'From $24/project/mo (Team, billed yearly): up to 10 users and editorial workflow', es: 'Desde $24/proyecto/mes (Team, anual): hasta 10 usuarios y flujo editorial', fr: 'Dès 24 $/projet/mois (Team, annuel) : jusqu’à 10 utilisateurs et workflow éditorial', de: 'Ab 24 $/Projekt/Monat (Team, jährlich): bis zu 10 Nutzer und Redaktionsworkflow' },
+      note: { ar: 'هيدلس CMS مبني على Git بتعديل مرئي مباشر جوه موقعك.', en: 'Git-backed headless CMS with live visual editing inside your site.', es: 'CMS headless basado en Git con edición visual en vivo dentro de tu sitio.', fr: 'CMS headless adossé à Git avec édition visuelle en direct dans votre site.', de: 'Git-basiertes Headless-CMS mit visueller Live-Bearbeitung direkt auf der Website.' },
+      source: 'https://tina.io/pricing',
+    },
   ],
 };
