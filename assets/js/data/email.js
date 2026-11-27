@@ -98,5 +98,14 @@ window.DG_DATA.email = {
       paid: { ar: 'Starter من ١٠ دولار/شهر', en: 'Starter from $10/mo', es: 'Starter desde $10/mes', fr: 'Starter dès 10 $/mois', de: 'Starter ab 10 $/Monat' },
       source: 'https://www.smtp2go.com/pricing/',
     },
+    {
+      plan: 'free',
+      name: 'Loops',
+      url: 'https://loops.so',
+      free: { ar: 'مجاني: ١٠٠٠ جهة اتصال و٤٠٠٠ إرسال تسويقي كل ٣٠ يوم والرسائل المعاملاتية متضمنة مع شعار Loops', en: 'Free: 1,000 contacts, 4,000 marketing sends per 30 days, transactional included, Loops branding', es: 'Gratis: 1.000 contactos, 4.000 envíos de marketing por 30 días, transaccionales incluidos, marca Loops', fr: 'Gratuit : 1 000 contacts, 4 000 envois marketing par 30 jours, transactionnels inclus, marque Loops', de: 'Kostenlos: 1.000 Kontakte, 4.000 Marketing-Sends pro 30 Tage, Transaktionsmails inklusive, Loops-Branding' },
+      paid: { ar: 'Growth بـ٤٩ دولار/شهر: من ٥٠٠٠ جهة اتصال وإرسال غير محدود من غير شعار', en: 'Growth $49/mo: from 5,000 contacts, unlimited sends, no branding', es: 'Growth $49/mes: desde 5.000 contactos, envíos ilimitados, sin marca', fr: 'Growth 49 $/mois : à partir de 5 000 contacts, envois illimités, sans marque', de: 'Growth 49 $/Monat: ab 5.000 Kontakten, unbegrenzte Sends, ohne Branding' },
+      note: { ar: 'سعر واحد لكل أنواع الإيميلات: تسويقي ومنتج ومعاملاتي.', en: 'One price covers marketing, product and transactional email.', es: 'Un solo precio cubre email de marketing, producto y transaccional.', fr: 'Un seul prix couvre les e-mails marketing, produit et transactionnels.', de: 'Ein Preis deckt Marketing-, Produkt- und Transaktions-E-Mails ab.' },
+      source: 'https://loops.so/pricing',
+    },
   ],
 };
