@@ -52,6 +52,59 @@
   // One service as a collapsible strip (shared by home and category pages).
   var PLAN_CHIP = { free: 'chip-free', trial: 'chip-trial', paid: 'chip-paid', oss: 'chip-oss', student: 'chip-student' };
   function planChip(e, ui) {
+(function () {
+  var DATA = window.DG_DATA || {};
+  var I18N = window.DG_I18N;
+  var LANGS = window.DG_LANGS;
+
+  function getLang() {
+    var fromUrl = null;
+    try { fromUrl = new URLSearchParams(location.search).get('lang'); } catch (e) {}
+    if (fromUrl && I18N[fromUrl]) return fromUrl;
+    var saved = null;
+    try { saved = localStorage.getItem('dg-lang'); } catch (e) {}
+    if (saved && I18N[saved]) return saved;
+    var nav = (navigator.language || 'en').slice(0, 2);
+    return I18N[nav] ? nav : 'en';
+  }
+
+  var lang = getLang();
+
+  function t(obj) {
+    if (obj == null) return '';
+    if (typeof obj === 'string') return obj;
+    return obj[lang] || obj.en || '';
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function expandAll() {
+    return /[?&]expand=1/.test(location.search);
+  }
+
+  function renderLangBar() {
+    var bar = document.getElementById('langs');
+    if (!bar) return;
+    bar.innerHTML = '';
+    LANGS.forEach(function (l) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = l.label;
+      b.setAttribute('aria-pressed', l.code === lang ? 'true' : 'false');
+      b.addEventListener('click', function () {
+        try { localStorage.setItem('dg-lang', l.code); } catch (e) {}
+        lang = l.code;
+        apply();
+      });
+      bar.appendChild(b);
+    });
+  }
+
+  // One service as a collapsible strip (shared by home and category pages).
+  var PLAN_CHIP = { free: 'chip-free', trial: 'chip-trial', paid: 'chip-paid', oss: 'chip-oss', student: 'chip-student' };
+  function planChip(e, ui) {
     var plan = e.plan || 'free';
     var label = plan === 'trial' ? ui.trialLabel : plan === 'paid' ? ui.paidOnlyLabel : plan === 'oss' ? ui.ossLabel : plan === 'student' ? ui.studentLabel : ui.freeLabel;
     return '<span class="chip ' + (PLAN_CHIP[plan] || 'chip-free') + '">' + esc(label) + '</span>';
@@ -166,7 +219,20 @@
     var root = document.getElementById('content');
     var ui = I18N[lang];
     var c = DATA[id];
-    if (!c) { renderHome(); return; }
+    if (!c) {
+      // Category data not present (e.g. a cached older loader on a newer page).
+      // Say so honestly instead of silently showing the home grid, then still
+      // render home below so the visitor has usable content.
+      var note = document.createElement('p');
+      note.className = 'stale-note';
+      note.setAttribute('style', 'padding:12px 16px;margin:16px 0;border:1px solid #d97706;border-radius:8px;background:#fffbeb;color:#92400e;');
+      note.textContent = lang === 'ar'
+        ? 'هذا القسم غير موجود في النسخة المخزّنة لديك بعد. حدّث الصفحة لتحميله، وإليك الصفحة الرئيسية مؤقتًا.'
+        : 'This section is not in your cached copy yet. Refresh the page to load it; showing the home page meanwhile.';
+      renderHome();
+      root.insertBefore(note, root.firstChild);
+      return;
+    }
     var open = expandAll();
     var html = '<a class="back-link" href="index.html">' + esc(ui.backHome) + '</a>' +
       '<section class="hero"><h1><span class="h-icon">' + c.icon + '</span> ' + esc(t(c.title)) + '</h1><p>' + esc(t(c.blurb)) + '</p>' +
