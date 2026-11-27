@@ -182,5 +182,23 @@ window.DG_DATA.tools = {
       note: { ar: 'عميل قواعد بيانات أصلي وسريع بيدعم PostgreSQL وMySQL وSQLite وغيرهم كتير.', en: 'A fast, native database client supporting PostgreSQL, MySQL, SQLite and many more.', es: 'Un cliente de bases de datos nativo y rápido compatible con PostgreSQL, MySQL, SQLite y muchas más.', fr: 'Un client de bases de données natif et rapide, compatible PostgreSQL, MySQL, SQLite et bien d’autres.', de: 'Ein schneller, nativer Datenbank-Client für PostgreSQL, MySQL, SQLite und viele weitere.' },
       source: 'https://tableplus.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Expo (EAS)',
+      url: 'https://expo.dev',
+      free: { ar: 'مجاني بـ٠ دولار/شهر؛ وExpo SDK نفسه مفتوح المصدر (MIT)', en: 'Free plan at $0/mo; the Expo SDK itself is open source (MIT)', es: 'Plan gratis a $0/mes; el SDK de Expo es open source (MIT)', fr: 'Offre gratuite à 0 $/mois ; le SDK Expo est open source (MIT)', de: 'Gratis-Tarif für 0 $/Monat; das Expo SDK selbst ist Open Source (MIT)' },
+      paid: { ar: 'Starter بـ١٩ دولار/شهر + استهلاك؛ Production بـ١٩٩ دولار/شهر + استهلاك', en: 'Starter $19/mo plus usage; Production $199/mo plus usage', es: 'Starter $19/mes más uso; Production $199/mes más uso', fr: 'Starter 19 $/mois plus l’usage ; Production 199 $/mois plus l’usage', de: 'Starter 19 $/Monat plus Nutzung; Production 199 $/Monat plus Nutzung' },
+      note: { ar: 'خدمات EAS السحابية بتبني وترفع وتحدّث تطبيقات React Native.', en: 'EAS cloud services build, submit and update React Native apps.', es: 'Los servicios en la nube de EAS compilan, envían y actualizan apps React Native.', fr: 'Les services cloud EAS compilent, soumettent et mettent à jour les apps React Native.', de: 'EAS-Cloud-Dienste bauen, reichen ein und aktualisieren React-Native-Apps.' },
+      source: 'https://expo.dev/pricing',
+    },
+    {
+      plan: 'paid',
+      name: 'Bunny CDN',
+      url: 'https://bunny.net',
+      free: { ar: 'مفيش خطة مجانية؛ بس الدفع حسب الاستخدام بحد أدنى دولار واحد/شهر', en: 'No free plan, but pay-as-you-go with a $1 monthly minimum', es: 'Sin plan gratis, pero pago por uso con mínimo de $1/mes', fr: 'Pas d’offre gratuite, mais paiement à l’usage avec minimum de 1 $/mois', de: 'Kein Gratis-Tarif, aber nutzungsbasierte Abrechnung mit 1 $ Mindestbetrag/Monat' },
+      paid: { ar: 'من ٠٫٠١ دولار/جيجا في أوروبا وأمريكا الشمالية (مناطق تانية ٠٫٠٣-٠٫٠٦) وبتقل مع الحجم لحد ٠٫٠٠٢', en: 'From $0.01/GB in Europe and North America (other regions $0.03-0.06), dropping with volume to $0.002', es: 'Desde $0,01/GB en Europa y Norteamérica (otras regiones $0,03-0,06), bajando con el volumen hasta $0,002', fr: 'Dès 0,01 $/Go en Europe et Amérique du Nord (autres régions 0,03-0,06 $), dégressif jusqu’à 0,002 $', de: 'Ab 0,01 $/GB in Europa und Nordamerika (andere Regionen 0,03-0,06 $), mit Volumen bis 0,002 $ fallend' },
+      note: { ar: 'CDN سريع ورخيص مع ١١٩ نقطة حضور؛ كل الميزات متاحة من أول دولار.', en: 'Fast, cheap CDN with 119 PoPs; all features included from the first dollar.', es: 'CDN rápido y barato con 119 PoPs; todas las funciones incluidas desde el primer dólar.', fr: 'CDN rapide et abordable avec 119 PoPs ; toutes les fonctions dès le premier dollar.', de: 'Schnelles, günstiges CDN mit 119 PoPs; alle Funktionen ab dem ersten Dollar inklusive.' },
+      source: 'https://bunny.net/pricing/',
+    },
   ],
 };
