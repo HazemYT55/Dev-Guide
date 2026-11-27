@@ -96,21 +96,51 @@ body {
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 20px;
-  margin-bottom: 14px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
 }
 
 .entry-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-.entry-head h3 { font-size: 18px; }
-.entry-head a { color: var(--accent); text-decoration: none; font-size: 13px; white-space: nowrap; }
-.entry-head a:hover { text-decoration: underline; }
+.entry-head h3 { font-size: 16px; margin-bottom: 6px; }
+.entry-head h3 a { color: var(--ink); text-decoration: none; }
+.entry-head h3 a:hover { color: var(--accent); text-decoration: underline; }
 
-.kv { display: grid; grid-template-columns: 130px 1fr; gap: 6px 14px; margin-top: 12px; font-size: 14px; }
-.kv dt { color: var(--ink-2); font-weight: 600; }
-.kv dd { color: var(--ink); }
+.rowline { font-size: 14px; margin: 4px 0; line-height: 1.5; }
+
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1px 10px;
+  margin-inline-end: 8px;
+  white-space: nowrap;
+}
+.tag-free { background: #e6f4ea; color: #18794e; }
+.tag-paid { background: #eef1f6; color: #42506b; }
+
+.warnline {
+  margin: 6px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--warn-ink);
+}
+.warnline::before { content: '\26A0\FE0E  '; font-size: 12px; }
+
+.more { margin-top: 6px; }
+.more summary {
+  cursor: pointer;
+  font-size: 12.5px;
+  color: var(--accent);
+  font-weight: 600;
+  list-style: none;
+}
+.more summary::-webkit-details-marker { display: none; }
+.more summary::before { content: '+ '; }
+.more[open] summary::before { content: '\2212 '; }
 
 .note {
-  margin-top: 12px;
+  margin-top: 8px;
   background: var(--warn-bg);
   color: var(--warn-ink);
   font-size: 13px;
@@ -118,7 +148,7 @@ body {
   padding: 10px 12px;
 }
 
-.src { margin-top: 10px; font-size: 12px; color: var(--ink-2); }
+.src { margin-top: 8px; font-size: 12px; color: var(--ink-2); word-break: break-all; }
 .src a { color: var(--ink-2); }
 
 .back-link { display: inline-block; margin: 24px 0 4px; color: var(--accent); text-decoration: none; font-size: 14px; }
