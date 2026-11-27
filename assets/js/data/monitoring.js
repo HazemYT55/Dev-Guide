@@ -100,5 +100,14 @@ window.DG_DATA.monitoring = {
       note: { ar: 'قوي جدًا لكن معقد؛ مناسب لما تكبر، مش أول أداة مراقبة.', en: 'Very powerful but complex; fits when you grow, not a first monitoring tool.', es: 'Muy potente pero complejo; sirve al crecer, no como primera herramienta.', fr: 'Très puissant mais complexe ; utile en grandissant, pas comme premier outil.', de: 'Sehr mächtig, aber komplex; eher für später, nicht als erstes Monitoring.' },
       source: 'https://grafana.com/pricing/',
     },
+    {
+      plan: 'free',
+      name: 'Atlassian Statuspage',
+      url: 'https://www.atlassian.com/software/statuspage',
+      free: { ar: 'خطة مجانية: صفحة حالة عامة، ١٠٠ مشترك، وبريميوم متريكس أساسية', en: 'Free plan: a public status page, 100 subscribers and basic metrics', es: 'Plan gratis: página de estado pública, 100 suscriptores y métricas básicas', fr: 'Offre gratuite : page de statut publique, 100 abonnés et métriques de base', de: 'Gratis-Tarif: öffentliche Statusseite, 100 Abonnenten und Basis-Metriken' },
+      paid: { ar: 'المدفوع من ٢٩ دولار/شهر وبيحتاج مشتركين أكتر ومزايا أعلى', en: 'Paid from $29/mo, scaling to $99/$399/$1,499 for more subscribers and features', es: 'De pago desde $29/mes, hasta $99/$399/$1.499 según suscriptores y funciones', fr: 'Payant dès 29 $/mois, jusqu’à 99/399/1 499 $ selon abonnés et fonctionnalités', de: 'Kostenpflichtig ab 29 $/Monat, bis 99/399/1.499 $ je nach Abonnenten und Funktionen' },
+      note: { ar: 'أشهر خدمة صفحات الحالة؛ من أتلسيان وبتتكامل مع Jira وOpsgenie.', en: 'The best-known hosted status-page service; from Atlassian and integrates with Jira and Opsgenie.', es: 'El servicio de páginas de estado más conocido; de Atlassian e integrado con Jira y Opsgenie.', fr: 'Le service de pages de statut le plus connu ; par Atlassian, intégré à Jira et Opsgenie.', de: 'Der bekannteste gehostete Statusseiten-Dienst; von Atlassian, integriert mit Jira und Opsgenie.' },
+      source: 'https://www.atlassian.com/software/statuspage/pricing',
+    },
   ],
 };
