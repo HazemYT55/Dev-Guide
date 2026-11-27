@@ -119,5 +119,23 @@ window.DG_DATA.messaging = {
       note: { ar: 'إشعارات push ورسائل للموبايل والويب؛ شائع للتطبيقات.', en: 'Push and messaging for mobile and web; popular for apps.', es: 'Push y mensajería para móvil y web; popular para apps.', fr: 'Push et messagerie mobile et web ; populaire pour les apps.', de: 'Push und Messaging für Mobile und Web; beliebt für Apps.' },
       source: 'https://onesignal.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Firebase Cloud Messaging',
+      url: 'https://firebase.google.com/products/cloud-messaging',
+      free: { ar: 'من غير أي تكلفة: إشعارات push لـ iOS وأندرويد والويب', en: 'No cost: cross-platform push notifications for iOS, Android and web', es: 'Sin costo: notificaciones push multiplataforma para iOS, Android y web', fr: 'Sans frais : notifications push multiplateformes pour iOS, Android et le web', de: 'Kostenlos: plattformübergreifende Push-Benachrichtigungen für iOS, Android und Web' },
+      paid: { ar: 'FCM نفسه مجاني بالكامل؛ باقي منتجات Firebase بتحاسب حسب الاستخدام', en: 'FCM itself has no paid tier; other Firebase products bill by usage', es: 'FCM en sí no tiene plan de pago; otros productos Firebase facturan por uso', fr: 'FCM lui-même n’a pas d’offre payante ; les autres produits Firebase facturent à l’usage', de: 'FCM selbst hat keinen kostenpflichtigen Tarif; andere Firebase-Produkte rechnen nach Nutzung ab' },
+      note: { ar: 'الطريقة القياسية لإرسال الإشعارات على نطاق ضخم؛ محتاج Firebase SDK.', en: 'The standard way to send push at scale; needs the Firebase SDK.', es: 'La forma estándar de enviar push a escala; necesita el SDK de Firebase.', fr: 'Le moyen standard d’envoyer du push à grande échelle ; nécessite le SDK Firebase.', de: 'Der Standardweg für Push in großem Umfang; braucht das Firebase SDK.' },
+      source: 'https://firebase.google.com/products/cloud-messaging',
+    },
+    {
+      plan: 'free',
+      name: 'CloudAMQP',
+      url: 'https://www.cloudamqp.com',
+      free: { ar: 'خطة Loyal Lemming المجانية: بروكر مشترك، ٢ مليون رسالة في الشهر و٤٠ اتصال', en: 'Loyal Lemming free plan: shared broker, 2M messages/mo and 40 connections', es: 'Plan gratis Loyal Lemming: broker compartido, 2 M de mensajes/mes y 40 conexiones', fr: 'Offre gratuite Loyal Lemming : broker partagé, 2 M de messages/mois et 40 connexions', de: 'Gratis-Tarif Loyal Lemming: Shared Broker, 2 Mio. Nachrichten/Monat und 40 Verbindungen' },
+      paid: { ar: 'الخطط المخصصة (Dedicated) من ١٩ دولار/شهر', en: 'Dedicated plans from $19/mo', es: 'Planes dedicados desde $19/mes', fr: 'Offres dédiées dès 19 $/mois', de: 'Dedizierte Tarife ab 19 $/Monat' },
+      note: { ar: 'RabbitMQ وLavinMQ مُدارة على السحابة اللي تختارها.', en: 'Managed RabbitMQ and LavinMQ on the cloud you choose.', es: 'RabbitMQ y LavinMQ gestionados en la nube que elijas.', fr: 'RabbitMQ et LavinMQ managés sur le cloud de votre choix.', de: 'Managed RabbitMQ und LavinMQ in der Cloud deiner Wahl.' },
+      source: 'https://www.cloudamqp.com/plans.html',
+    },
   ],
 };
