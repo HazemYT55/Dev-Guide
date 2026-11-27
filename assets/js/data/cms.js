@@ -6,21 +6,6 @@ window.DG_DATA.cms = {
   blurb: {
     ar: 'أنظمة إدارة محتوى بتوصّل المحتوى بـ API لأي موقع أو تطبيق: خطط مجانية بحدود واضحة وأسعار مدفوعة موثّقة.',
     en: 'Content management systems that deliver content by API to any site or app: free plans with clear limits and verified paid prices.',
-window.DG_DATA.cms = {
-  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>',
-  path: 'cms.html',
-  title: { ar: 'أنظمة إدارة المحتوى (Headless CMS)', en: 'Headless CMS', es: 'CMS headless', fr: 'CMS headless', de: 'Headless CMS' },
-  blurb: {
-    ar: 'أنظمة إدارة محتوى بتوصّل المحتوى بـ API لأي موقع أو تطبيق: خطط مجانية بحدود واضحة وأسعار مدفوعة موثّقة.',
-    en: 'Content management systems that deliver content by API to any site or app: free plans with clear limits and verified paid prices.',
-    es: 'Sistemas de gestión de contenido que entregan contenido por API a cualquier web o app: planes gratis con límites claros y precios de pago verificados.',
-window.DG_DATA.cms = {
-  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>',
-  path: 'cms.html',
-  title: { ar: 'أنظمة إدارة المحتوى (Headless CMS)', en: 'Headless CMS', es: 'CMS headless', fr: 'CMS headless', de: 'Headless CMS' },
-  blurb: {
-    ar: 'أنظمة إدارة محتوى بتوصّل المحتوى بـ API لأي موقع أو تطبيق: خطط مجانية بحدود واضحة وأسعار مدفوعة موثّقة.',
-    en: 'Content management systems that deliver content by API to any site or app: free plans with clear limits and verified paid prices.',
     es: 'Sistemas de gestión de contenido que entregan contenido por API a cualquier web o app: planes gratis con límites claros y precios de pago verificados.',
     fr: 'Des CMS qui livrent le contenu par API à tout site ou app : offres gratuites avec limites claires et prix payants vérifiés.',
     de: 'Content-Management-Systeme, die Inhalte per API an jede Website oder App liefern: Gratis-Tarife mit klaren Limits und geprüfte Preise.',
