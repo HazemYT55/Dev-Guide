@@ -12,6 +12,7 @@ window.DG_DATA.courses = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'freeCodeCamp',
       url: 'https://www.freecodecamp.org',
       free: { ar: 'كل حاجة ببلاش: المنهج كامل والشهادات، وممول بالتبرعات', en: 'Everything at $0: the full curriculum and certifications, funded by donations', es: 'Todo a $0: el currículo completo y las certificaciones, financiado por donaciones', fr: 'Tout à 0 $ : le programme complet et les certifications, financé par des dons', de: 'Alles für 0 $: der komplette Lehrplan und Zertifikate, spendenfinanziert' },
@@ -20,6 +21,7 @@ window.DG_DATA.courses = {
       source: 'https://www.freecodecamp.org/donate',
     },
     {
+      plan: 'free',
       name: 'The Odin Project',
       url: 'https://www.theodinproject.com',
       free: { ar: 'منهج ويب كامل ببلاش، مبني على أحسن المصادر المجانية ومشاريع من عندهم', en: 'Full web-dev curriculum at $0, built from the best free resources plus their own projects', es: 'Currículo completo de desarrollo web a $0, hecho con los mejores recursos gratuitos y proyectos propios', fr: 'Programme complet de développement web à 0 $, construit à partir des meilleures ressources gratuites et de projets maison', de: 'Kompletter Webentwicklungs-Lehrplan für 0 $, aufgebaut aus den besten kostenlosen Quellen plus eigenen Projekten' },
@@ -28,6 +30,7 @@ window.DG_DATA.courses = {
       source: 'https://www.theodinproject.com/faq',
     },
     {
+      plan: 'free',
       name: 'Codecademy',
       url: 'https://www.codecademy.com',
       free: { ar: 'خطة Basic بصفر دولار "مجانية للأبد" بكورسات محدودة', en: "Basic plan $0, 'always free', with limited courses", es: 'Plan Basic a $0, "gratis siempre", con cursos limitados', fr: 'Offre Basic à 0 $, « gratuite pour toujours », avec des cours limités', de: 'Basic-Tarif für 0 $, "für immer kostenlos", mit begrenzten Kursen' },
@@ -36,6 +39,7 @@ window.DG_DATA.courses = {
       source: 'https://www.codecademy.com/pricing',
     },
     {
+      plan: 'free',
       name: 'MDN Web Docs',
       url: 'https://developer.mozilla.org',
       free: { ar: 'المرجع الرسمي الفعلي لـHTML وCSS وJS، مجاني', en: 'The de facto reference for HTML, CSS and JS, free', es: 'La referencia de facto de HTML, CSS y JS, gratis', fr: 'La référence de fait pour HTML, CSS et JS, gratuite', de: 'Die faktische Referenz für HTML, CSS und JS, kostenlos' },
@@ -44,6 +48,7 @@ window.DG_DATA.courses = {
       source: 'https://developer.mozilla.org/',
     },
     {
+      plan: 'free',
       name: 'Khan Academy',
       url: 'https://www.khanacademy.org',
       free: { ar: 'كل حاجة مجانية بالكامل: أكتر من ٨٤٠ كورس في مواد أساسية وجامعية، منها البرمجة', en: 'Everything is completely free: 840+ courses across core and early-college subjects, including computing', es: 'Todo es completamente gratis: más de 840 cursos de materias básicas y universitarias, incluida la programación', fr: 'Tout est entièrement gratuit : plus de 840 cours de matières de base et universitaires, dont l’informatique', de: 'Alles ist komplett kostenlos: über 840 Kurse in Grund- und College-Fächern, darunter Informatik' },
@@ -51,6 +56,7 @@ window.DG_DATA.courses = {
       source: 'https://www.khanacademy.org/about',
     },
     {
+      plan: 'free',
       name: 'Harvard CS50',
       url: 'https://cs50.harvard.edu/x/',
       free: { ar: 'كورس هارفارد الشهير كامل مجاني كـ OpenCourseWare، ١١ أسبوع من المادة', en: 'Harvard’s famous intro course fully free as OpenCourseWare, eleven weeks of material', es: 'El famoso curso de Harvard completamente gratis como OpenCourseWare, once semanas de material', fr: 'Le célèbre cours d’Harvard entièrement gratuit en OpenCourseWare, onze semaines de contenu', de: 'Harvards berühmter Einführungskurs komplett kostenlos als OpenCourseWare, elf Wochen Material' },
@@ -59,6 +65,7 @@ window.DG_DATA.courses = {
       source: 'https://cs50.harvard.edu/x/',
     },
     {
+      plan: 'free',
       name: 'Full Stack Open',
       url: 'https://fullstackopen.com/en/',
       free: { ar: 'كورس Full Stack مجاني من جامعة هلسنكي: React وNode.js وTypeScript وأكتر', en: 'A free full-stack course from the University of Helsinki: React, Node.js, TypeScript and more', es: 'Curso full-stack gratis de la Universidad de Helsinki: React, Node.js, TypeScript y más', fr: 'Cours full stack gratuit de l’Université d’Helsinki : React, Node.js, TypeScript et plus', de: 'Kostenloser Full-Stack-Kurs der Universität Helsinki: React, Node.js, TypeScript und mehr' },
@@ -67,6 +74,7 @@ window.DG_DATA.courses = {
       source: 'https://fullstackopen.com/en/',
     },
     {
+      plan: 'free',
       name: 'W3Schools',
       url: 'https://www.w3schools.com',
       free: { ar: 'دروس HTML وCSS وJavaScript ولغات تانية مجانية مع أمثلة تجربها في المتصفح', en: 'Free HTML, CSS, JavaScript and more tutorials with examples you run and edit in the browser', es: 'Tutoriales gratis de HTML, CSS, JavaScript y más, con ejemplos que ejecutas en el navegador', fr: 'Tutoriels HTML, CSS, JavaScript et plus, gratuits, avec des exemples à exécuter dans le navigateur', de: 'Kostenlose Tutorials zu HTML, CSS, JavaScript und mehr, mit Beispielen direkt im Browser' },
@@ -75,6 +83,7 @@ window.DG_DATA.courses = {
       source: 'https://www.w3schools.com/',
     },
     {
+      plan: 'free',
       name: 'Scrimba',
       url: 'https://scrimba.com',
       free: { ar: 'مجموعة كورسات مجانية ولحد ١٠ تحديات تفاعلية', en: 'A selection of free courses plus up to 10 interactive challenges', es: 'Una selección de cursos gratis y hasta 10 retos interactivos', fr: 'Une sélection de cours gratuits plus jusqu’à 10 défis interactifs', de: 'Eine Auswahl kostenloser Kurse plus bis zu 10 interaktive Challenges' },
@@ -83,6 +92,7 @@ window.DG_DATA.courses = {
       source: 'https://scrimba.helpscoutdocs.com/article/73-whats-the-difference-between-pro-and-free',
     },
     {
+      plan: 'free',
       name: 'The Modern JavaScript Tutorial',
       url: 'https://javascript.info',
       free: { ar: 'كتاب JavaScript كامل مجاني ومفتوح المصدر، من الأساسيات للمتقدم', en: 'A complete JavaScript book, free and open source, from basics to advanced topics', es: 'Un libro completo de JavaScript, gratis y de código abierto, de básico a avanzado', fr: 'Un livre JavaScript complet, gratuit et open source, du basique à l’avancé', de: 'Ein vollständiges JavaScript-Buch, kostenlos und Open Source, von Grundlagen bis fortgeschritten' },
