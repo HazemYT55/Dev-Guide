@@ -135,5 +135,14 @@ window.DG_DATA.tools = {
       note: { ar: 'CDN للصور والفيديو مع تحسين وتحويل لحظي.', en: 'Image and video CDN with realtime optimization and transformation.', es: 'CDN de imágenes y vídeo con optimización y transformación en tiempo real.', fr: 'CDN d’images et vidéos avec optimisation et transformation en temps réel.', de: 'Bild- und Video-CDN mit Optimierung und Transformation in Echtzeit.' },
       source: 'https://imagekit.io/plans',
     },
+    {
+      plan: 'paid',
+      name: 'Sublime Text',
+      url: 'https://www.sublimetext.com',
+      free: { ar: 'تقييم مجاني مفتوح المدة، لكن لازم ترخيص للاستخدام المستمر', en: 'Free evaluation with no time limit, but a license is required for continued use', es: 'Evaluación gratuita sin límite de tiempo, pero se requiere licencia para uso continuo', fr: 'Évaluation gratuite sans limite de temps, mais une licence est requise pour un usage continu', de: 'Kostenlose, zeitlich unbegrenzte Testversion, für die weitere Nutzung ist jedoch eine Lizenz erforderlich' },
+      paid: { ar: 'ترخيص شخصي ٩٩ دولار دفعة واحدة مع ٣ سنين تحديثات', en: 'Personal license $99 once-off, including 3 years of updates', es: 'Licencia personal de $99 en pago único, con 3 años de actualizaciones', fr: 'Licence personnelle à 99 $ en paiement unique, avec 3 ans de mises à jour', de: 'Persönliche Lizenz für 99 $ als Einmalkauf, inklusive 3 Jahre Updates' },
+      note: { ar: 'محرر سريع جدًا وخفيف؛ الترخيص الشخصي بيشتغل على كل أجهزتك وأنظمتك، وبعد ٣ سنين محتاج ترقية عشان تحديثات جديدة.', en: 'A very fast, lightweight editor; the personal license covers all your computers and operating systems, and after 3 years an upgrade is needed for further updates.', es: 'Un editor muy rápido y ligero; la licencia personal cubre todos tus equipos y sistemas, y tras 3 años se necesita una actualización para seguir recibiendo novedades.', fr: 'Un éditeur très rapide et léger ; la licence personnelle couvre tous vos ordinateurs et systèmes, et après 3 ans une mise à niveau est nécessaire pour les nouvelles versions.', de: 'Ein sehr schneller, schlanker Editor; die persönliche Lizenz gilt für alle deine Rechner und Systeme, nach 3 Jahren ist ein Upgrade für weitere Updates nötig.' },
+      source: 'https://www.sublimetext.com/buy',
+    },
   ],
 };
