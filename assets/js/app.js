@@ -52,59 +52,6 @@
   // One service as a collapsible strip (shared by home and category pages).
   var PLAN_CHIP = { free: 'chip-free', trial: 'chip-trial', paid: 'chip-paid', oss: 'chip-oss', student: 'chip-student' };
   function planChip(e, ui) {
-(function () {
-  var DATA = window.DG_DATA || {};
-  var I18N = window.DG_I18N;
-  var LANGS = window.DG_LANGS;
-
-  function getLang() {
-    var fromUrl = null;
-    try { fromUrl = new URLSearchParams(location.search).get('lang'); } catch (e) {}
-    if (fromUrl && I18N[fromUrl]) return fromUrl;
-    var saved = null;
-    try { saved = localStorage.getItem('dg-lang'); } catch (e) {}
-    if (saved && I18N[saved]) return saved;
-    var nav = (navigator.language || 'en').slice(0, 2);
-    return I18N[nav] ? nav : 'en';
-  }
-
-  var lang = getLang();
-
-  function t(obj) {
-    if (obj == null) return '';
-    if (typeof obj === 'string') return obj;
-    return obj[lang] || obj.en || '';
-  }
-
-  function esc(s) {
-    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-  }
-
-  function expandAll() {
-    return /[?&]expand=1/.test(location.search);
-  }
-
-  function renderLangBar() {
-    var bar = document.getElementById('langs');
-    if (!bar) return;
-    bar.innerHTML = '';
-    LANGS.forEach(function (l) {
-      var b = document.createElement('button');
-      b.type = 'button';
-      b.textContent = l.label;
-      b.setAttribute('aria-pressed', l.code === lang ? 'true' : 'false');
-      b.addEventListener('click', function () {
-        try { localStorage.setItem('dg-lang', l.code); } catch (e) {}
-        lang = l.code;
-        apply();
-      });
-      bar.appendChild(b);
-    });
-  }
-
-  // One service as a collapsible strip (shared by home and category pages).
-  var PLAN_CHIP = { free: 'chip-free', trial: 'chip-trial', paid: 'chip-paid', oss: 'chip-oss', student: 'chip-student' };
-  function planChip(e, ui) {
     var plan = e.plan || 'free';
     var label = plan === 'trial' ? ui.trialLabel : plan === 'paid' ? ui.paidOnlyLabel : plan === 'oss' ? ui.ossLabel : plan === 'student' ? ui.studentLabel : ui.freeLabel;
     return '<span class="chip ' + (PLAN_CHIP[plan] || 'chip-free') + '">' + esc(label) + '</span>';
