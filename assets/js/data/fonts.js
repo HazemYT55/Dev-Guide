@@ -110,6 +110,15 @@ window.DG_DATA.fonts = {
       paid: { ar: 'مفيش خطط مدفوعة؛ كل الخطوط مجانية', en: 'No paid plans; every typeface is free', es: 'Sin planes de pago; todas las tipografías son gratis', fr: 'Pas d’offre payante ; toutes les polices sont gratuites', de: 'Keine kostenpflichtigen Tarife; alle Schriften sind gratis' },
       note: { ar: 'خطوط عرض معاصرة وجريئة مناسبة للعناوين والهويات.', en: 'Bold contemporary display typefaces for headlines and identities.', es: 'Tipografías display contemporáneas y llamativas para titulares e identidades.', fr: 'Polices display contemporaines et audacieuses pour titres et identités.', de: 'Markante zeitgenössische Display-Schriften für Headlines und Identitäten.' },
       source: 'https://uncut.wtf/',
+    },    {
+      plan: 'free',
+      name: 'Font Awesome',
+      url: 'https://fontawesome.com',
+      free: { ar: 'مجموعة أيقونات مجانية دائمة بتغطي الاستخدام اليومي', en: 'A free-forever icon set that covers everyday use', es: 'Un conjunto de iconos gratis para siempre que cubre el uso diario', fr: 'Un jeu d’icônes gratuit à vie qui couvre l’usage quotidien', de: 'Ein dauerhaft kostenloses Icon-Set für den täglichen Bedarf' },
+      paid: { ar: 'Pro من ٤٨ دولار/سنة بيفتح المكتبة الكاملة بأكتر من ٦٥ ألف أيقونة', en: 'Pro from $48/yr unlocks the full library of over 65,000 icons', es: 'Pro desde $48/año desbloquea la biblioteca completa de más de 65.000 iconos', fr: 'Pro dès 48 $/an débloque la bibliothèque complète de plus de 65 000 icônes', de: 'Pro ab 48 $/Jahr schaltet die komplette Bibliothek mit über 65.000 Icons frei' },
+      note: { ar: 'أشهر مكتبة أيقونات ويب؛ سهلة التضمين بـ SVG أو webfont.', en: 'The best-known web icon library; easy to embed as SVG or webfont.', es: 'La biblioteca de iconos web más conocida; fácil de integrar como SVG o webfont.', fr: 'La bibliothèque d’icônes web la plus connue ; facile à intégrer en SVG ou webfont.', de: 'Die bekannteste Web-Icon-Bibliothek; einfach als SVG oder Webfont einzubinden.' },
+      source: 'https://fontawesome.com/plans',
     },
+
   ],
 };
