@@ -12,6 +12,7 @@ window.DG_DATA.payments = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'Stripe',
       url: 'https://stripe.com',
       free: { ar: 'مفيش رسوم تسجيل ولا اشتراك شهري ولا رسوم مخفية؛ بتدفع بس على كل عملية', en: 'No setup, monthly, or hidden fees; you only pay per transaction', es: 'Sin cuotas de alta, mensuales ni ocultas; solo pagas por transacción', fr: 'Pas de frais d’installation, mensuels ou cachés ; vous ne payez que par transaction', de: 'Keine Einrichtungs-, Monats- oder versteckten Gebühren; du zahlst nur pro Transaktion' },
@@ -21,6 +22,7 @@ window.DG_DATA.payments = {
       source: 'https://stripe.com/global',
     },
     {
+      plan: 'paid',
       name: 'Lemon Squeezy',
       url: 'https://www.lemonsqueezy.com',
       free: { ar: 'مغلق للتسجيلات الجديدة من ١٦ نوفمبر ٢٠٢٦ — متبدأش مشروع جديد عليه', en: 'Closed to new sign-ups since 16 November 2026, do not start a new project on it', es: 'Cerrado a nuevos registros desde el 16 de noviembre de 2026; no empieces un proyecto nuevo con él', fr: 'Fermé aux nouvelles inscriptions depuis le 16 novembre 2026, n’y démarrez pas de nouveau projet', de: 'Seit 16. November 2026 für Neuanmeldungen geschlossen, starte kein neues Projekt damit' },
@@ -30,6 +32,7 @@ window.DG_DATA.payments = {
       source: 'https://www.lemonsqueezy.com/blog/saying-goodbye-to-lemon-squeezy',
     },
     {
+      plan: 'free',
       name: 'PayPal',
       url: 'https://www.paypal.com',
       free: { ar: 'مفيش اشتراك شهري مطلوب؛ بتدفع على كل عملية', en: 'No monthly subscription required; you pay per transaction', es: 'Sin suscripción mensual obligatoria; pagas por transacción', fr: 'Pas d’abonnement mensuel obligatoire ; vous payez par transaction', de: 'Kein Monatsabo nötig; du zahlst pro Transaktion' },
@@ -38,6 +41,7 @@ window.DG_DATA.payments = {
       source: 'https://www.paypal.com/us/business/fees',
     },
     {
+      plan: 'free',
       name: 'Polar',
       url: 'https://polar.sh',
       free: { ar: 'خطة Starter بصفر دولار/شهر: بتدفع ٥٪ + ٥٠ سنت من كل عملية بس', en: 'Starter plan at $0/mo: you just pay 5% + 50¢ per transaction', es: 'Plan Starter a $0/mes: solo pagas 5% + 50¢ por transacción', fr: 'Offre Starter à 0 $/mois : vous payez seulement 5 % + 0,50 $ par transaction', de: 'Starter-Tarif für 0 $/Monat: du zahlst nur 5 % + 0,50 $ pro Transaktion' },
@@ -46,6 +50,7 @@ window.DG_DATA.payments = {
       source: 'https://polar.sh/',
     },
     {
+      plan: 'free',
       name: 'Paddle',
       url: 'https://www.paddle.com',
       free: { ar: 'مفيش رسوم شهرية ولا رسوم خفية؛ بتدفع بس على كل عملية', en: 'No monthly fees or hidden costs; you pay per transaction only', es: 'Sin cuotas mensuales ni costos ocultos; solo pagas por transacción', fr: 'Pas de frais mensuels ni cachés ; vous payez par transaction seulement', de: 'Keine Monats- oder versteckten Gebühren; du zahlst nur pro Transaktion' },
@@ -54,6 +59,7 @@ window.DG_DATA.payments = {
       source: 'https://www.paddle.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Gumroad',
       url: 'https://gumroad.com',
       free: { ar: 'مفيش اشتراك شهري؛ بتدفع بس لما تبيع', en: 'No monthly charge; you pay only when you sell', es: 'Sin cargo mensual; solo pagas cuando vendes', fr: 'Pas d’abonnement mensuel ; vous payez seulement quand vous vendez', de: 'Keine Monatsgebühr; du zahlst nur beim Verkauf' },
@@ -62,6 +68,7 @@ window.DG_DATA.payments = {
       source: 'https://gumroad.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Payhip',
       url: 'https://payhip.com',
       free: { ar: 'خطة Free Forever بصفر دولار: كل المميزات ومنتجات غير محدودة، بس +٥٪ على كل عملية', en: 'Free Forever plan at $0: all features and unlimited products, with +5% per transaction', es: 'Plan Free Forever a $0: todas las funciones y productos ilimitados, con +5% por transacción', fr: 'Offre Free Forever à 0 $ : toutes les fonctions et produits illimités, avec +5 % par transaction', de: 'Free-Forever-Tarif für 0 $: alle Funktionen und unbegrenzte Produkte, mit +5 % pro Transaktion' },
@@ -70,6 +77,7 @@ window.DG_DATA.payments = {
       source: 'https://payhip.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Paymob',
       url: 'https://paymob.com',
       free: { ar: 'مفيش رسوم شهرية ولا اشتراك؛ بتدفع بس على العمليات الناجحة', en: 'No monthly or subscription fees; you pay per successful transaction only', es: 'Sin cuotas mensuales ni de suscripción; solo pagas por transacción exitosa', fr: 'Pas de frais mensuels ni d’abonnement ; vous payez par transaction réussie seulement', de: 'Keine Monats- oder Abo-Gebühren; du zahlst nur pro erfolgreicher Transaktion' },
@@ -78,6 +86,7 @@ window.DG_DATA.payments = {
       source: 'https://www.paymob.com/en/pricing',
     },
     {
+      plan: 'free',
       name: 'Moyasar',
       url: 'https://moyasar.com',
       free: { ar: 'التسجيل مجاني؛ الرسوم حسب العمليات', en: 'Signup is free; charges are per transaction', es: 'El registro es gratis; los cargos son por transacción', fr: 'L’inscription est gratuite ; les frais sont par transaction', de: 'Anmeldung kostenlos; Gebühren fallen pro Transaktion an' },
@@ -86,6 +95,7 @@ window.DG_DATA.payments = {
       source: 'https://moyasar.com/en/resources/faqs/',
     },
     {
+      plan: 'free',
       name: 'Tap Payments',
       url: 'https://www.tap.company',
       free: { ar: 'التسجيل مجاني؛ الرسوم على العمليات', en: 'Signup is free; fees apply per transaction', es: 'El registro es gratis; hay tarifas por transacción', fr: 'L’inscription est gratuite ; des frais s’appliquent par transaction', de: 'Anmeldung kostenlos; Gebühren fallen pro Transaktion an' },
