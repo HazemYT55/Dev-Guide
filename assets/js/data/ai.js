@@ -149,5 +149,15 @@ window.DG_DATA.ai = {
       note: { ar: 'نماذج تفريغ صوتي وفهم للكلام؛ الخطة المجانية كفاية للتجربة الجادة.', en: 'Speech-to-text and speech-understanding models; the free tier is enough for a serious trial.', es: 'Modelos de transcripción y comprensión del habla; el nivel gratis alcanza para una prueba seria.', fr: 'Modèles de transcription et de compréhension de la parole ; l’offre gratuite suffit pour un vrai essai.', de: 'Speech-to-Text- und Sprachverständnis-Modelle; der Gratis-Tarif reicht für einen ernsthaften Test.' },
       source: 'https://www.assemblyai.com/pricing',
     },
+    {
+      plan: 'paid',
+      name: 'DeepInfra',
+      url: 'https://deepinfra.com',
+      free: { ar: 'مفيش خطة مجانية؛ الدفع حسب الاستخدام من أول token', en: 'No free plan; pay-per-use from the first token', es: 'Sin plan gratis; pago por uso desde el primer token', fr: 'Pas d’offre gratuite ; paiement à l’usage dès le premier token', de: 'Kein Gratis-Tarif; nutzungsbasierte Abrechnung ab dem ersten Token' },
+      paid: { ar: 'بالـ token للنماذج اللغوية (أرخص للـ cached input) وبالدقيقة للـ GPUs المخصصة', en: 'Per token for language models (cheaper for cached input) and per minute for dedicated GPUs', es: 'Por token para modelos de lenguaje (más barato con entrada en caché) y por minuto para GPUs dedicadas', fr: 'Par token pour les modèles de langage (moins cher en entrée mise en cache) et à la minute pour les GPU dédiés', de: 'Pro Token für Sprachmodelle (günstiger bei gecachter Eingabe) und pro Minute für dedizierte GPUs' },
+      warn: { ar: 'مفيش خطة مجانية: بتدفع من أول استخدام.', en: 'No free plan: you pay from the first call.', es: 'Sin plan gratis: pagas desde la primera llamada.', fr: 'Pas d’offre gratuite : vous payez dès le premier appel.', de: 'Kein Gratis-Tarif: ab dem ersten Aufruf kostenpflichtig.' },
+      note: { ar: 'استضافة inference سريعة ورخيصة لنماذج مفتوحة زي Llama وQwen وDeepSeek.', en: 'Fast, low-cost inference hosting for open models like Llama, Qwen and DeepSeek.', es: 'Hosting de inferencia rápido y barato para modelos abiertos como Llama, Qwen y DeepSeek.', fr: 'Hébergement d’inférence rapide et économique pour les modèles ouverts comme Llama, Qwen et DeepSeek.', de: 'Schnelles, günstiges Inference-Hosting für offene Modelle wie Llama, Qwen und DeepSeek.' },
+      source: 'https://deepinfra.com/pricing',
+    },
   ],
 };

@@ -201,5 +201,15 @@ window.DG_DATA.monitoring = {
       note: { ar: 'تتبع أخطاء وأداء ولوجز من Spatie، الفريق اللي ورا أشهر باكدجات Laravel.', en: 'Error tracking, performance and logs from Spatie, the team behind well-known Laravel packages.', es: 'Seguimiento de errores, rendimiento y logs de Spatie, el equipo detrás de los paquetes Laravel más conocidos.', fr: 'Suivi d’erreurs, performance et logs par Spatie, l’équipe derrière les packages Laravel les plus connus.', de: 'Fehler-Tracking, Performance und Logs von Spatie, dem Team hinter bekannten Laravel-Paketen.' },
       source: 'https://flareapp.io/pricing',
     },
+    {
+      plan: 'trial',
+      name: 'Raygun',
+      url: 'https://raygun.com',
+      free: { ar: 'مفيش خطة مجانية دائمة؛ تجربة مجانية ١٤ يوم', en: 'No forever-free plan; a free 14-day trial', es: 'Sin plan gratis permanente; prueba gratis de 14 días', fr: 'Pas d’offre gratuite permanente ; essai gratuit de 14 jours', de: 'Kein dauerhaft kostenloser Tarif; 14-tägige kostenlose Testphase' },
+      paid: { ar: 'دفع حسب الاستخدام: أحداث محجوزة سنويًا، أو حسب الطلب بـ٠٫٠٠١ دولار للخطأ', en: 'Usage-based: reserved events billed annually, or on-demand at $0.001 per error', es: 'Por uso: eventos reservados anuales, o bajo demanda a $0,001 por error', fr: 'À l’usage : événements réservés annuels, ou à la demande à 0,001 $ par erreur', de: 'Nutzungsbasiert: reservierte Events jährlich, oder On-Demand für 0,001 $ pro Fehler' },
+      warn: { ar: 'مفيش خطة مجانية دائمة: تجربة ١٤ يوم بس.', en: 'No forever-free plan: a 14-day trial only.', es: 'Sin plan gratis permanente: solo una prueba de 14 días.', fr: 'Pas d’offre gratuite permanente : un essai de 14 jours seulement.', de: 'Kein dauerhaft kostenloser Tarif: nur eine 14-tägige Testphase.' },
+      note: { ar: 'Crash reporting وتتبع أداء حقيقي للمستخدمين (RUM) للويب والموبايل.', en: 'Crash reporting and real-user performance monitoring for web and mobile.', es: 'Crash reporting y monitoreo de rendimiento de usuarios reales para web y móvil.', fr: 'Crash reporting et monitoring de performance réelle pour web et mobile.', de: 'Crash Reporting und Real-User-Monitoring für Web und Mobile.' },
+      source: 'https://raygun.com/pricing',
+    },
   ],
 };

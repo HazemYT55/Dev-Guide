@@ -116,5 +116,14 @@ window.DG_DATA.email = {
       source: 'https://emailoctopus.com/pricing',
     },
 
+    {
+      plan: 'oss',
+      name: 'Plunk',
+      url: 'https://www.useplunk.com',
+      free: { ar: 'مفتوح المصدر وبتستضيفه بنفسك مجانًا؛ على السحابة تخزين جهات الاتصال مجاني', en: 'Open source and free to self-host; on the cloud, contact storage is free', es: 'Open source y gratis autoalojado; en la nube, el almacenamiento de contactos es gratis', fr: 'Open source et gratuit en auto-hébergement ; sur le cloud, le stockage des contacts est gratuit', de: 'Open Source und kostenlos selbst gehostet; in der Cloud ist die Kontaktspeicherung kostenlos' },
+      paid: { ar: 'السحابة بالدفع حسب الإيميل: ١٠ آلاف إيميل بـ١٠ يورو، من غير اشتراك على جهات الاتصال', en: 'Cloud is pay-per-email: 10,000 emails for €10, never billed per contact', es: 'La nube es pago por email: 10 mil emails por 10 €, nunca por contacto', fr: 'Le cloud est payé par email : 10 000 emails pour 10 €, jamais par contact', de: 'Die Cloud wird pro E-Mail abgerechnet: 10.000 E-Mails für 10 €, niemals pro Kontakt' },
+      note: { ar: 'إيميلات ترانزاكشن وماركتينج من نفس الـ API؛ بديل مفتوح المصدر أرخص بكتير.', en: 'Transactional and marketing emails from one API; a much cheaper open-source option.', es: 'Emails transaccionales y de marketing desde una sola API; una opción open source mucho más barata.', fr: 'Emails transactionnels et marketing via une seule API ; une option open source bien moins chère.', de: 'Transaktions- und Marketing-E-Mails über eine API; eine deutlich günstigere Open-Source-Option.' },
+      source: 'https://www.useplunk.com/',
+    },
   ],
 };
