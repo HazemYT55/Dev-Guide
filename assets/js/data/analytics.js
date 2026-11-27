@@ -102,5 +102,14 @@ window.DG_DATA.analytics = {
       note: { ar: 'تركيز على الخصوصية مع تتبع أخطاء وتحليل جلسات.', en: 'Privacy-focused, with error tracking and session analysis built in.', es: 'Enfocado en privacidad, con seguimiento de errores y análisis de sesiones.', fr: 'Axé vie privée, avec suivi des erreurs et analyse de sessions intégrés.', de: 'Datenschutzorientiert, mit Fehler-Tracking und Sitzungsanalyse eingebaut.' },
       source: 'https://swetrix.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'ChartMogul',
+      url: 'https://chartmogul.com',
+      free: { ar: 'مجاني لحد ١٠ آلاف دولار إيراد شهري متكرر (MRR)', en: 'Free up to $10K monthly recurring revenue (MRR)', es: 'Gratis hasta $10K de ingresos recurrentes mensuales (MRR)', fr: 'Gratuit jusqu’à 10 K$ de revenus récurrents mensuels (MRR)', de: 'Kostenlos bis 10.000 $ monatlich wiederkehrender Umsatz (MRR)' },
+      paid: { ar: 'المدفوع بيبدأ بعد ما تعدي ١٠ آلاف دولار MRR؛ الأسعار على صفحة التسعير', en: 'Paid plans start above $10K MRR; prices are on the pricing page', es: 'Los planes de pago empiezan por encima de $10K MRR; precios en la página de precios', fr: 'Les offres payantes commencent au-delà de 10 K$ MRR ; tarifs sur la page de tarification', de: 'Bezahlte Tarife beginnen über 10.000 $ MRR; Preise stehen auf der Preisseite' },
+      note: { ar: 'تحليلات اشتراكات SaaS: MRR وchurn وLTV؛ بيتكامل مع Stripe وغيرها.', en: 'SaaS subscription analytics: MRR, churn and LTV; integrates with Stripe and others.', es: 'Analítica de suscripciones SaaS: MRR, churn y LTV; se integra con Stripe y otros.', fr: 'Analytique d’abonnements SaaS : MRR, churn et LTV ; s’intègre à Stripe et autres.', de: 'SaaS-Abo-Analysen: MRR, Churn und LTV; integriert sich mit Stripe und anderen.' },
+      source: 'https://chartmogul.com/pricing/',
+    },
   ],
 };
