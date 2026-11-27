@@ -92,5 +92,14 @@ window.DG_DATA.messaging = {
       paid: { ar: 'Business بالدفع حسب الاستخدام: $0.005 لكل إرسال، من غير رسوم لكل مقعد أو قناة', en: 'Business is pay as you go: $0.005 per send, no per-seat or per-channel fees', es: 'Business es pago por uso: $0,005 por envío, sin cargos por asiento o canal', fr: 'Business en paiement à l’usage : 0,005 $ par envoi, sans frais par siège ou canal', de: 'Business nutzungsbasiert: 0,005 $ pro Sendung, keine Gebühren pro Sitz oder Kanal' },
       source: 'https://www.courier.com/pricing/',
     },
+    {
+      plan: 'free',
+      name: 'Upstash QStash',
+      url: 'https://upstash.com/docs/qstash',
+      free: { ar: '١٠٠٠ رسالة يوميًا و٥٠ جيجا باندويدث مجانًا', en: '1,000 messages per day and 50 GB bandwidth free', es: '1.000 mensajes al día y 50 GB de ancho de banda gratis', fr: '1 000 messages par jour et 50 Go de bande passante gratuits', de: '1.000 Nachrichten pro Tag und 50 GB Bandbreite kostenlos' },
+      paid: { ar: 'الدفع حسب الاستخدام: ١ دولار لكل ١٠٠ ألف رسالة', en: 'Pay as you go: $1 per 100k messages', es: 'Pago por uso: $1 por 100.000 mensajes', fr: 'Paiement à l’usage : 1 $ par 100 000 messages', de: 'Nutzungsbasiert: 1 $ pro 100.000 Nachrichten' },
+      note: { ar: 'طوابير رسائل serverless عبر HTTP مع جدولة وإعادة محاولة.', en: 'Serverless message queues over HTTP with scheduling and retries.', es: 'Colas de mensajes serverless por HTTP con programación y reintentos.', fr: 'Files de messages serverless via HTTP avec planification et réessais.', de: 'Serverlose Nachrichten-Warteschlangen über HTTP mit Planung und Wiederholungen.' },
+      source: 'https://upstash.com/pricing/qstash',
+    },
   ],
 };
