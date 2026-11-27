@@ -101,5 +101,14 @@ window.DG_DATA.forms = {
       note: { ar: 'Backend نماذج بسيط زي Formspree؛ السبام مش بيتحسب من رصيدك.', en: 'A simple form backend like Formspree; spam does not count against your quota.', es: 'Backend de formularios simple como Formspree; el spam no cuenta en tu cuota.', fr: 'Backend de formulaires simple comme Formspree ; le spam ne compte pas dans votre quota.', de: 'Einfaches Formular-Backend wie Formspree; Spam zählt nicht ins Kontingent.' },
       source: 'https://usebasin.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'EmailJS',
+      url: 'https://www.emailjs.com',
+      free: { ar: '٢٠٠ طلب شهريًا مجانًا', en: '200 requests per month free', es: '200 solicitudes al mes gratis', fr: '200 requêtes par mois gratuites', de: '200 Anfragen pro Monat kostenlos' },
+      paid: { ar: 'من ٩ دولار/شهر (٢٠٠٠ طلب شهريًا)', en: 'From $9/mo (2,000 monthly requests)', es: 'Desde $9/mes (2.000 solicitudes mensuales)', fr: 'Dès 9 $/mois (2 000 requêtes mensuelles)', de: 'Ab 9 $/Monat (2.000 Anfragen pro Monat)' },
+      note: { ar: 'ابعت إيميل من جافاسكريبت في المتصفح من غير باك إند؛ بيتوصل بخدمات الإيميل العادية.', en: 'Send email from browser JavaScript with no backend; connects to regular email services.', es: 'Envía correo desde JavaScript en el navegador sin backend; se conecta a servicios de correo normales.', fr: 'Envoyez des e-mails depuis le navigateur en JavaScript sans backend ; se connecte aux services e-mail classiques.', de: 'E-Mails direkt aus dem Browser per JavaScript ohne Backend senden; verbindet sich mit üblichen E-Mail-Diensten.' },
+      source: 'https://www.emailjs.com/pricing',
+    },
   ],
 };
