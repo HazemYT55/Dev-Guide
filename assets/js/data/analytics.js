@@ -166,5 +166,14 @@ window.DG_DATA.analytics = {
       note: { ar: 'تحليلات مفتوحة المصدر لتطبيقات الموبايل والديسكتوب، مع استضافة بيانات في أوروبا أو أمريكا.', en: 'Open-source analytics for mobile and desktop apps, with EU or US data residency.', es: 'Analítica open source para apps móviles y de escritorio, con datos en la UE o EE. UU.', fr: 'Analytique open source pour apps mobiles et desktop, avec résidence des données en UE ou aux États-Unis.', de: 'Open-Source-Analytics für Mobile- und Desktop-Apps, mit Datenstandort EU oder USA.' },
       source: 'https://aptabase.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Counter.dev',
+      url: 'https://counter.dev',
+      free: { ar: 'خدمة تحليلات مجانية للكل، من غير كوكيز ولا بصمة IP', en: 'A free analytics service for everyone, with no cookies and no IP fingerprinting', es: 'Un servicio de analítica gratis para todos, sin cookies ni huella de IP', fr: 'Un service d’analytique gratuit pour tous, sans cookies ni empreinte IP', de: 'Ein kostenloser Analytics-Dienst für alle, ohne Cookies und ohne IP-Fingerprinting' },
+      paid: { ar: 'ادفع لما تحب (Pay when ready)؛ مفيش اشتراك إجباري', en: 'Pay when ready; no required subscription', es: 'Paga cuando quieras; sin suscripción obligatoria', fr: 'Payez quand vous voulez ; aucun abonnement obligatoire', de: 'Zahle, wann du willst; kein erforderliches Abo' },
+      note: { ar: 'مفتوح المصدر بالكامل (AGPL-v3) وبيركز على الزوار الفريدين بس من غير تعقيد.', en: 'Fully open source (AGPL-v3) and focused on unique visitors without the clutter.', es: 'Totalmente open source (AGPL-v3) y centrado en visitantes únicos sin ruido.', fr: 'Entièrement open source (AGPL-v3) et centré sur les visiteurs uniques, sans superflu.', de: 'Vollständig Open Source (AGPL-v3) und auf Unique Visitors fokussiert, ohne Ballast.' },
+      source: 'https://counter.dev/',
+    },
   ],
 };
