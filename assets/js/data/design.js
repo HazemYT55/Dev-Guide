@@ -100,5 +100,15 @@ window.DG_DATA.design = {
       note: { ar: 'الاستضافة الذاتية للخطوط أسرع وأفضل للخصوصية من تحميلها من CDN خارجي.', en: 'Self-hosting fonts is faster and better for privacy than loading them from an external CDN.', es: 'Autoalojar fuentes es más rápido y mejor para la privacidad que cargarlas desde un CDN externo.', fr: 'L’auto-hébergement des polices est plus rapide et meilleur pour la vie privée qu’un CDN externe.', de: 'Selbst gehostete Schriftarten sind schneller und besser für die Privatsphäre als ein externes CDN.' },
       source: 'https://fontsource.org/',
     },
+    {
+      plan: 'trial',
+      name: 'Sketch',
+      url: 'https://www.sketch.com',
+      free: { ar: 'تجربة مجانية ٣٠ يوم من غير بطاقة', en: '30-day free trial, no credit card needed', es: 'Prueba gratis de 30 días, sin tarjeta', fr: 'Essai gratuit de 30 jours, sans carte bancaire', de: '30 Tage kostenlos testen, ohne Kreditkarte' },
+      paid: { ar: 'اشتراك Standard من ١٢ دولار/محرر/شهر، أو ترخيص Mac دفعة واحدة ١٢٠ دولار/مقعد مع سنة تحديثات', en: 'Standard subscription from $12/editor/mo, or a Mac-only license at $120/seat once-off with one year of updates', es: 'Suscripción Standard desde $12/editor/mes, o licencia solo Mac de $120/puesto en pago único con un año de actualizaciones', fr: 'Abonnement Standard dès 12 $/éditeur/mois, ou licence Mac à 120 $/poste en paiement unique avec un an de mises à jour', de: 'Standard-Abo ab 12 $/Editor/Monat oder Mac-Lizenz für 120 $/Platz als Einmalkauf mit einem Jahr Updates' },
+      warn: { ar: 'مفيش خطة مجانية دائمة؛ بعد الـ٣٠ يوم لازم اشتراك أو ترخيص.', en: 'No permanent free plan; after 30 days you need a subscription or a license.', es: 'Sin plan gratis permanente; tras 30 días necesitas suscripción o licencia.', fr: 'Pas d’offre gratuite permanente ; après 30 jours, il faut un abonnement ou une licence.', de: 'Kein dauerhafter Gratis-Tarif; nach 30 Tagen brauchst du ein Abo oder eine Lizenz.' },
+      note: { ar: 'محرر تصميم واجهات أصلي للماك؛ ترخيص الماك بيشتغل أوفلاين ومِلكك للأبد.', en: 'A native Mac interface-design editor; the Mac license works offline and is yours to keep.', es: 'Editor nativo de diseño de interfaces para Mac; la licencia Mac funciona sin conexión y es tuya para siempre.', fr: 'Éditeur de design d’interfaces natif pour Mac ; la licence Mac fonctionne hors ligne et vous appartient.', de: 'Native Mac-App für Interface-Design; die Mac-Lizenz funktioniert offline und gehört dir dauerhaft.' },
+      source: 'https://www.sketch.com/pricing/',
+    },
   ],
 };
