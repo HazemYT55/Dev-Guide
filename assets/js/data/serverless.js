@@ -118,5 +118,14 @@ window.DG_DATA.serverless = {
       note: { ar: 'حوّل سكربتات Python/TypeScript لـ workflows وأدوات داخلية بسرعة.', en: 'Turn Python/TypeScript scripts into workflows and internal tools quickly.', es: 'Convierte scripts de Python/TypeScript en flujos de trabajo y herramientas internas rápidamente.', fr: 'Transformez des scripts Python/TypeScript en workflows et outils internes rapidement.', de: 'Python-/TypeScript-Skripte schnell in Workflows und interne Tools verwandeln.' },
       source: 'https://windmill.dev/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Trigger.dev',
+      url: 'https://trigger.dev',
+      free: { ar: 'مجاني بصفر دولار: ٥ دولار كريدتس كل شهر، ٢٠ رن متزامن و٥ أعضاء فريق', en: 'Free at $0: $5 of credits every month, 20 concurrent runs and 5 team members', es: 'Gratis a $0: $5 de créditos cada mes, 20 ejecuciones simultáneas y 5 miembros', fr: 'Gratuit à 0 $ : 5 $ de crédits chaque mois, 20 exécutions simultanées et 5 membres', de: 'Gratis für 0 $: 5 $ Credits pro Monat, 20 parallele Läufe und 5 Teammitglieder' },
+      paid: { ar: 'Hobby بـ١٠ دولار/شهر بـ١٠ دولار كريدتس شهرية', en: 'Hobby at $10/mo with $10 of monthly credits', es: 'Hobby a $10/mes con $10 de créditos mensuales', fr: 'Hobby à 10 $/mois avec 10 $ de crédits mensuels', de: 'Hobby für 10 $/Monat mit 10 $ monatlichen Credits' },
+      note: { ar: 'باكجراوند جوبز ومهام طويلة الأمد من جوه الكود، من غير ما تدير workers.', en: 'Background jobs and long-running tasks from your code, without managing workers.', es: 'Trabajos en segundo plano y tareas largas desde tu código, sin gestionar workers.', fr: 'Jobs d’arrière-plan et tâches longues depuis votre code, sans gérer de workers.', de: 'Hintergrund-Jobs und langlaufende Tasks direkt aus dem Code, ohne Worker-Verwaltung.' },
+      source: 'https://trigger.dev/pricing',
+    },
   ],
 };
