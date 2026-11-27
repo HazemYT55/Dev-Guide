@@ -14,6 +14,21 @@ window.DG_DATA.auth = {
     {
       plan: 'free',
       name: 'Clerk',
+window.DG_DATA.auth = {
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>',
+  path: 'auth.html',
+  title: { ar: 'تسجيل الدخول والمستخدمين', en: 'Auth and users', es: 'Autenticación y usuarios', fr: 'Authentification et utilisateurs', de: 'Auth und Nutzer' },
+  blurb: {
+    ar: 'تسجيل دخول بالإيميل وبالسوشيال من غير ما تبنيه بنفسك. الحد المهم هنا هو عدد المستخدمين النشطين شهريًا (MAU).',
+    en: 'Email and social sign-in without building it yourself. The limit that matters is monthly active users (MAU).',
+    es: 'Inicio de sesión con email y redes sociales sin construirlo tú. El límite que importa son los usuarios activos mensuales (MAU).',
+    fr: 'Connexion par e-mail et réseaux sociaux sans la coder. La limite qui compte est le nombre d’utilisateurs actifs mensuels (MAU).',
+    de: 'E-Mail- und Social-Login ohne Eigenbau. Das Limit, das zählt, sind die monatlich aktiven Nutzer (MAU).',
+  },
+  entries: [
+    {
+      plan: 'free',
+      name: 'Clerk',
       url: 'https://clerk.com',
       free: { ar: '٥٠٬٠٠٠ مستخدم نشط شهريًا (MRU) من غير بطاقة', en: '50,000 monthly retained users (MRU), no card required', es: '50.000 usuarios retenidos mensuales (MRU), sin tarjeta', fr: '50 000 utilisateurs retenus mensuels (MRU), sans carte', de: '50.000 monatlich zurückkehrende Nutzer (MRU), ohne Karte' },
       paid: { ar: 'Pro من ٢٥ دولار/شهر', en: 'Pro from $25/mo', es: 'Pro desde $25/mes', fr: 'Pro dès 25 $/mois', de: 'Pro ab 25 $/Monat' },
@@ -117,6 +132,15 @@ window.DG_DATA.auth = {
       paid: { ar: 'Pro بـ٢٩ دولار/شهر + ٠٫٠١ دولار لكل MAU فوق الـ١٠ آلاف؛ SAML SSO بـ٤٩ دولار/شهر لكل اتصال', en: 'Pro $29/mo + $0.01 per MAU above 10K; SAML SSO $49/mo per connection', es: 'Pro $29/mes + $0,01 por MAU por encima de 10K; SAML SSO $49/mes por conexión', fr: 'Pro 29 $/mois + 0,01 $ par MAU au-delà de 10 000 ; SAML SSO 49 $/mois par connexion', de: 'Pro 29 $/Monat + 0,01 $ pro MAU über 10.000; SAML SSO 49 $/Monat pro Verbindung' },
       note: { ar: 'مصادقة passkeys-first؛ الشركات الناشئة بتقدر تاخد مليون MAU مجانًا ببرنامج خاص.', en: 'Passkeys-first auth; startups can apply for 1M free MAUs.', es: 'Autenticación passkeys-first; las startups pueden solicitar 1M de MAU gratis.', fr: 'Auth passkeys-first ; les startups peuvent demander 1 M de MAU gratuits.', de: 'Passkeys-first-Auth; Startups können 1 Mio. kostenlose MAUs beantragen.' },
       source: 'https://www.hanko.io/pricing',
+    },
+    {
+      plan: 'oss',
+      name: 'SuperTokens',
+      url: 'https://supertokens.com',
+      free: { ar: 'مفتوح المصدر: سيلف هوستد مجاني من غير حدود؛ والكلاود المُدار مجاني لحد ٥ آلاف مستخدم نشط شهريًا', en: 'Open source: self-hosted free with no limits; managed cloud free up to 5K monthly active users', es: 'Código abierto: autoalojado gratis sin límites; nube gestionada gratis hasta 5 mil usuarios activos al mes', fr: 'Open source : auto-hébergé gratuit sans limites ; cloud géré gratuit jusqu’à 5 000 utilisateurs actifs mensuels', de: 'Open Source: selbst gehostet gratis ohne Limits; verwaltete Cloud gratis bis 5.000 monatlich aktive Nutzer' },
+      paid: { ar: 'الكلاود المُدار: ٠٫٠٢ دولار لكل مستخدم نشط بعد أول ٥ آلاف؛ ومميزات إضافية بفوترة منفصلة', en: 'Managed cloud: $0.02 per MAU beyond the first 5K; extra features billed separately', es: 'Nube gestionada: $0.02 por usuario activo más allá de los primeros 5 mil; funciones extra se facturan aparte', fr: 'Cloud géré : 0,02 $ par utilisateur actif au-delà des 5 000 premiers ; fonctions supplémentaires facturées séparément', de: 'Verwaltete Cloud: 0,02 $ pro aktivem Nutzer über die ersten 5.000 hinaus; Zusatzfunktionen separat abgerechnet' },
+      note: { ar: 'بديل مفتوح المصدر لـ Auth0: تسجيل دخول بإيميل وسوشيال وبدون باسورد.', en: 'Open-source Auth0 alternative: email, social and passwordless login.', es: 'Alternativa open source a Auth0: login por email, social y sin contraseña.', fr: 'Alternative open source à Auth0 : connexion email, sociale et sans mot de passe.', de: 'Open-Source-Alternative zu Auth0: Login per E-Mail, Social und passwortlos.' },
+      source: 'https://supertokens.com/pricing',
     },
   ],
 };
