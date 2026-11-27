@@ -3,8 +3,8 @@
 // always fetches matching data, and a cached loader keeps rendering the
 // previous consistent release (GitHub Pages caches assets for ~10 minutes).
 (function () {
-  var V = '2026-11-27.3';
-  var files = ['hosting', 'domains', 'databases', 'email', 'auth', 'serverless', 'monitoring', 'analytics', 'forms', 'courses', 'tools', 'design', 'dns-ssl', 'payments', 'ai', 'fonts', 'baas', 'messaging'];
+  var V = '2026-11-27.4';
+  var files = ['hosting', 'domains', 'databases', 'email', 'auth', 'serverless', 'monitoring', 'analytics', 'forms', 'courses', 'tools', 'design', 'dns-ssl', 'payments', 'ai', 'fonts', 'baas', 'messaging', 'cms'];
   files.forEach(function (f) {
     document.write('<script src="assets/js/data/' + f + '.js?v=' + V + '"><\/script>');
   });
