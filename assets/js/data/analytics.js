@@ -12,6 +12,7 @@ window.DG_DATA.analytics = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'Cloudflare Web Analytics',
       url: 'https://www.cloudflare.com/web-analytics/',
       free: { ar: 'مجاني تمامًا وبيحترم الخصوصية ومن غير كوكيز', en: 'Completely free, privacy-first, no cookies', es: 'Totalmente gratis, enfocado en privacidad, sin cookies', fr: 'Entièrement gratuit, axé vie privée, sans cookies', de: 'Komplett kostenlos, datenschutzorientiert, ohne Cookies' },
@@ -20,6 +21,7 @@ window.DG_DATA.analytics = {
       source: 'https://developers.cloudflare.com/web-analytics/',
     },
     {
+      plan: 'free',
       name: 'Umami',
       url: 'https://umami.is',
       free: { ar: 'خطة Hobby بصفر دولار: ١٠٠ ألف حدث شهريًا وموقع واحد؛ والاستضافة الذاتية مجانية مفتوحة المصدر', en: 'Hobby at $0: 100K events/mo and 1 website; self-hosting is free and open source', es: 'Hobby a $0: 100K eventos/mes y 1 sitio web; el autoalojamiento es gratis y open source', fr: 'Hobby à 0 $ : 100 000 événements/mois et 1 site ; l’auto-hébergement est gratuit et open source', de: 'Hobby für 0 $: 100.000 Events/Monat und 1 Website; Selbst-Hosting ist kostenlos und Open Source' },
@@ -27,6 +29,7 @@ window.DG_DATA.analytics = {
       source: 'https://umami.is/pricing',
     },
     {
+      plan: 'trial',
       name: 'Plausible',
       url: 'https://plausible.io',
       free: { ar: 'مفيش خطة مجانية؛ تجربة ٣٠ يوم من غير بطاقة', en: 'No free plan; a 30-day trial with no card', es: 'Sin plan gratis; prueba de 30 días sin tarjeta', fr: 'Pas d’offre gratuite ; essai de 30 jours sans carte', de: 'Kein Gratis-Tarif; 30-tägiger Test ohne Karte' },
@@ -35,6 +38,7 @@ window.DG_DATA.analytics = {
       source: 'https://plausible.io/pricing',
     },
     {
+      plan: 'free',
       name: 'GoatCounter',
       url: 'https://www.goatcounter.com',
       free: { ar: 'استضافة مجانية (بتدعمها التبرعات) للاستخدام المعقول، أو self-hosted مجاني', en: 'Free hosted service (donation-supported) for reasonable usage, or free self-hosted', es: 'Servicio alojado gratis (apoyado por donaciones) para uso razonable, o self-hosted gratis', fr: 'Service hébergé gratuit (financé par les dons) pour un usage raisonnable, ou auto-hébergé gratuit', de: 'Kostenlos gehostet (spendenfinanziert) bei angemessener Nutzung, oder kostenlos selbst gehostet' },
@@ -43,6 +47,7 @@ window.DG_DATA.analytics = {
       source: 'https://www.goatcounter.com/',
     },
     {
+      plan: 'oss',
       name: 'Matomo',
       url: 'https://matomo.org',
       free: { ar: 'نسخة On-Premise مجانية ومفتوحة المصدر على سيرفرك؛ السحابة فيها تجربة مجانية', en: 'The On-Premise version is free and open source on your server; the cloud has a free trial', es: 'La versión On-Premise es gratis y open source en tu servidor; la nube tiene prueba gratis', fr: 'La version On-Premise est gratuite et open source sur votre serveur ; le cloud a un essai gratuit', de: 'Die On-Premise-Version ist kostenlos und Open Source auf deinem Server; die Cloud hat eine Testphase' },
@@ -51,6 +56,7 @@ window.DG_DATA.analytics = {
       source: 'https://matomo.org/pricing/',
     },
     {
+      plan: 'free',
       name: 'Simple Analytics',
       url: 'https://www.simpleanalytics.com',
       free: { ar: 'خطة مجانية للأبد للمواقع الشخصية: آخر شهر بيانات بس وشعار مطلوب', en: 'Free forever plan for hobby sites: latest month of data only, badge required', es: 'Plan gratis para siempre para sitios hobby: solo el último mes de datos, insignia obligatoria', fr: 'Offre gratuite pour les sites perso : seulement le dernier mois de données, badge requis', de: 'Dauerhaft gratis für Hobby-Seiten: nur der letzte Datenmonat, Badge erforderlich' },
@@ -59,6 +65,7 @@ window.DG_DATA.analytics = {
       source: 'https://www.simpleanalytics.com/pricing',
     },
     {
+      plan: 'free',
       name: 'PostHog',
       url: 'https://posthog.com',
       free: { ar: 'رصيد مجاني بيتجدد كل شهر: مليون حدث تحليلات، وجلسات تسجيل بحدود', en: 'A monthly renewing free allowance: 1M analytics events, plus session recordings with limits', es: 'Cuota gratis que se renueva cada mes: 1M de eventos, más grabaciones de sesión con límites', fr: 'Quota gratuit renouvelé chaque mois : 1M d’événements, plus des enregistrements de session limités', de: 'Monatlich erneuertes Gratis-Kontingent: 1 Mio. Analytics-Events plus begrenzte Session-Recordings' },
@@ -67,6 +74,7 @@ window.DG_DATA.analytics = {
       source: 'https://posthog.com/pricing',
     },
     {
+      plan: 'trial',
       name: 'Fathom',
       url: 'https://usefathom.com',
       free: { ar: 'مفيش خطة مجانية؛ تجربة ٧ أيام بس ببطاقة', en: 'No free plan; a 7-day trial that needs a card', es: 'Sin plan gratis; prueba de 7 días que requiere tarjeta', fr: 'Pas d’offre gratuite ; essai de 7 jours avec carte requise', de: 'Kein Gratis-Tarif; 7-tägige Testphase mit Karte' },
@@ -76,6 +84,7 @@ window.DG_DATA.analytics = {
       source: 'https://usefathom.com/pricing',
     },
     {
+      plan: 'oss',
       name: 'OpenPanel',
       url: 'https://openpanel.dev',
       free: { ar: 'Self-hosted مجاني للأبد؛ والسحابة مجانية للمشاريع مفتوحة المصدر لحد ٢٫٥ مليون حدث', en: 'Self-hosted free forever; cloud free for open-source projects up to 2.5M events', es: 'Self-hosted gratis para siempre; nube gratis para proyectos open source hasta 2,5M de eventos', fr: 'Auto-hébergé gratuit pour toujours ; cloud gratuit pour l’open source jusqu’à 2,5 M d’événements', de: 'Selbst gehostet für immer kostenlos; Cloud gratis für Open Source bis 2,5 Mio. Events' },
@@ -84,6 +93,7 @@ window.DG_DATA.analytics = {
       source: 'https://openpanel.dev/pricing',
     },
     {
+      plan: 'oss',
       name: 'Swetrix',
       url: 'https://swetrix.com',
       free: { ar: 'مفتوح المصدر وتقدر تستضيفه مجانًا؛ السحابة فيها تجربة ١٤ يوم بس ببطاقة', en: 'Open source and self-hostable for free; the cloud has a 14-day trial that needs a card', es: 'Open source y autoalojable gratis; la nube tiene prueba de 14 días que requiere tarjeta', fr: 'Open source et auto-hébergeable gratuitement ; le cloud a un essai de 14 jours avec carte', de: 'Open Source und kostenlos selbst hostbar; die Cloud hat einen 14-tägigen Test mit Karte' },
