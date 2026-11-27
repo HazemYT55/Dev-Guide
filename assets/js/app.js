@@ -116,6 +116,51 @@
         d.textContent = ui.noResults;
         root.appendChild(d);
       } else if (any && empty) empty.remove();
+      fixGroupHeaders(root);
+    });
+  }
+
+  // Organization: categories alphabetical in the current language; services grouped
+  // by plan (Free, Open source, Student, Trial, Paid only), alphabetical inside each group.
+  var PLAN_RANK = { free: 0, oss: 1, student: 2, trial: 3, paid: 4 };
+  function collator() { return new Intl.Collator(lang, { sensitivity: 'base' }); }
+  function sortedEntries(c) {
+    var cmp = collator();
+    return c.entries.slice().sort(function (a, b) {
+      var ra = PLAN_RANK[a.plan || 'free'], rb = PLAN_RANK[b.plan || 'free'];
+      if (ra !== rb) return ra - rb;
+      return cmp.compare(a.name, b.name);
+    });
+  }
+  function grpLabel(plan, ui) {
+    return plan === 'oss' ? ui.grpOss : plan === 'trial' ? ui.grpTrial : plan === 'student' ? ui.grpStudent : plan === 'paid' ? ui.grpPaid : ui.grpFree;
+  }
+  // Services with small group headers between plan groups.
+  function groupedServicesHtml(c, ui, open) {
+    var entries = sortedEntries(c);
+    var counts = {};
+    entries.forEach(function (e) { var p = e.plan || 'free'; counts[p] = (counts[p] || 0) + 1; });
+    var html = '', last = null;
+    entries.forEach(function (e) {
+      var p = e.plan || 'free';
+      if (p !== last) {
+        html += '<p class="grp-head">' + esc(grpLabel(p, ui)) + ' <span class="grp-count">' + counts[p] + '</span></p>';
+        last = p;
+      }
+      html += serviceHtml(e, ui, open);
+    });
+    return html;
+  }
+
+  // Hide group headers whose group has no visible entries (used after search filtering).
+  function fixGroupHeaders(root) {
+    root.querySelectorAll('.grp-head').forEach(function (h) {
+      var el = h.nextElementSibling, any = false;
+      while (el && !el.classList.contains('grp-head')) {
+        if (el.style.display !== 'none') any = true;
+        el = el.nextElementSibling;
+      }
+      h.style.display = any ? '' : 'none';
     });
   }
 
@@ -130,7 +175,15 @@
       '<span class="updated">' + esc(ui.updated) + '</span></div></section>' +
       '<input class="search" id="dg-search" type="search" placeholder="' + esc(ui.searchPlaceholder) + '" aria-label="' + esc(ui.searchPlaceholder) + '">' +
       '<div class="entry-list cat-list">';
-    Object.keys(DATA).forEach(function (id) {
+    var cmp = collator();
+    var ids = Object.keys(DATA).sort(function (a, b) { return cmp.compare(t(DATA[a].title), t(DATA[b].title)); });
+    var lastLetter = null;
+    ids.forEach(function (id) {
+      var letter = t(DATA[id].title).trim().charAt(0).toUpperCase().replace(/[\u0623\u0625\u0622]/g, '\u0627');
+      if (letter !== lastLetter) {
+        html += '<p class="grp-head cat-grp">' + esc(letter) + '</p>';
+        lastLetter = letter;
+      }
       var c = DATA[id];
       html += '<article class="entry cat" data-open="' + (open ? '1' : '0') + '">' +
         '<button type="button" class="strip" aria-expanded="' + (open ? 'true' : 'false') + '">' +
@@ -141,7 +194,7 @@
         '<div class="entry-body"' + (open ? '' : ' hidden') + '>' +
         '<p class="cat-blurb">' + esc(t(c.blurb)) + '</p>' +
         '<div class="entry-list svc-list">';
-      c.entries.forEach(function (e) { html += serviceHtml(e, ui, false); });
+      html += groupedServicesHtml(c, ui, false);
       html += '</div></div></article>';
     });
     html += '</div>';
@@ -187,7 +240,7 @@
       '<span class="updated">' + esc(ui.updated) + '</span></div></section>' +
       '<input class="search" id="dg-search" type="search" placeholder="' + esc(ui.searchPlaceholder) + '" aria-label="' + esc(ui.searchPlaceholder) + '">' +
       '<div class="entry-list">';
-    c.entries.forEach(function (e) { html += serviceHtml(e, ui, open); });
+    html += groupedServicesHtml(c, ui, open);
     html += '</div>';
     root.innerHTML = html;
     document.title = t(c.title) + ' · Dev-Guide';
