@@ -115,5 +115,15 @@ window.DG_DATA.webhosting = {
       note: { ar: 'قوي جدًا لمتاجر WooCommerce؛ من عائلة Liquid Web.', en: 'Very strong for WooCommerce stores; part of the Liquid Web family.', es: 'Muy potente para tiendas WooCommerce; parte de la familia Liquid Web.', fr: 'Très solide pour les boutiques WooCommerce ; fait partie de la famille Liquid Web.', de: 'Sehr stark für WooCommerce-Shops; Teil der Liquid-Web-Familie.' },
       source: 'https://www.nexcess.net/pricing/',
     },
+    {
+      plan: 'paid',
+      name: 'FastComet',
+      url: 'https://www.fastcomet.com',
+      free: { ar: 'مفيش خطة مجانية؛ ضمان استرجاع ٣٠ يوم', en: 'No free plan; a 30-day money-back guarantee', es: 'Sin plan gratis; garantía de reembolso de 30 días', fr: 'Pas d’offre gratuite ; garantie de remboursement de 30 jours', de: 'Kein Gratis-Tarif; 30-tägige Geld-zurück-Garantie' },
+      paid: { ar: 'من ١٫٤٩ دولار/شهر كسعر تمهيدي؛ التجديد ٩٫٩٥ دولار/شهر', en: 'From $1.49/mo as an intro price; renewal is $9.95/mo', es: 'Desde $1.49/mes como precio de lanzamiento; la renovación es $9.95/mes', fr: 'Dès 1,49 $/mois en prix de lancement ; le renouvellement est à 9,95 $/mois', de: 'Ab 1,49 $/Monat als Einführungspreis; Verlängerung kostet 9,95 $/Monat' },
+      warn: { ar: 'السعر التمهيدي لأول فترة بس؛ التجديد أغلى بكتير.', en: 'The intro price covers the first term only; renewal costs much more.', es: 'El precio de lanzamiento cubre solo el primer período; la renovación cuesta mucho más.', fr: 'Le prix de lancement ne couvre que la première période ; le renouvellement coûte bien plus.', de: 'Der Einführungspreis gilt nur für die erste Laufzeit; die Verlängerung kostet deutlich mehr.' },
+      note: { ar: 'استضافة مشتركة سريعة بسيرفرات LiteSpeed ونقل مواقع مجاني ودعم قوي.', en: 'Fast shared hosting on LiteSpeed servers with free site transfers and strong support.', es: 'Hosting compartido rápido en servidores LiteSpeed con migración gratis y buen soporte.', fr: 'Hébergement mutualisé rapide sur serveurs LiteSpeed avec migration gratuite et bon support.', de: 'Schnelles Shared Hosting auf LiteSpeed-Servern mit kostenlosem Umzug und starkem Support.' },
+      source: 'https://www.fastcomet.com/pricing',
+    },
   ],
 };
