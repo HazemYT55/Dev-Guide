@@ -138,5 +138,23 @@ window.DG_DATA.databases = {
       note: { ar: 'تخزين JSON بسيط بـ API؛ كويس للنماذج الأولية والإعدادات.', en: 'Simple JSON storage with an API; good for prototypes and config.', es: 'Almacenamiento JSON simple con API; bueno para prototipos y configuración.', fr: 'Stockage JSON simple avec API ; pratique pour prototypes et configuration.', de: 'Einfacher JSON-Speicher mit API; gut für Prototypen und Konfiguration.' },
       source: 'https://jsonbin.io/pricing',
     },
+    {
+      plan: 'oss',
+      name: 'Meilisearch',
+      url: 'https://www.meilisearch.com',
+      free: { ar: 'المحرك مفتوح المصدر ومجاني على سيرفرك', en: 'The engine is open source and free to self-host', es: 'El motor es open source y gratis en tu servidor', fr: 'Le moteur est open source et gratuit en auto-hébergement', de: 'Die Engine ist Open Source und im Selbsthosting kostenlos' },
+      paid: { ar: 'السحابة من ٢٠ دولار/شهر مع تجربة ١٤ يوم', en: 'Cloud from $20/mo with a 14-day free trial', es: 'Cloud desde $20/mes con prueba de 14 días', fr: 'Cloud dès 20 $/mois avec essai de 14 jours', de: 'Cloud ab 20 $/Monat mit 14-tägigem Test' },
+      note: { ar: 'محرك بحث فوري سهل التركيب؛ مستضاف أو على سيرفرك.', en: 'Instant search engine, easy to run; hosted or self-hosted.', es: 'Motor de búsqueda instantánea y fácil; hospedado o en tu servidor.', fr: 'Moteur de recherche instantané, facile à installer ; hébergé ou auto-hébergé.', de: 'Sofortige Suchmaschine, leicht zu betreiben; gehostet oder selbst gehostet.' },
+      source: 'https://www.meilisearch.com/pricing',
+    },
+    {
+      plan: 'free',
+      name: 'Algolia',
+      url: 'https://www.algolia.com',
+      free: { ar: 'خطة Grow بتبدأ مجانًا: ١٠ آلاف طلب بحث/شهر و١٠٠ ألف سجل مشمولين', en: 'Grow plan starts free: 10K search requests/mo and 100K records included', es: 'Plan Grow empieza gratis: 10K búsquedas/mes y 100K registros incluidos', fr: 'L’offre Grow démarre gratuitement : 10 000 requêtes/mois et 100 000 enregistrements inclus', de: 'Grow-Tarif startet kostenlos: 10.000 Suchanfragen/Monat und 100.000 Datensätze inklusive' },
+      paid: { ar: 'بعد المشمول: ١٫٧٥ دولار لكل ١٠٠٠ طلب و٠٫٤٠ دولار لكل ١٠٠٠ سجل؛ Grow Plus بيضيف ميزات AI', en: 'Beyond the included quota: $1.75 per 1K requests and $0.40 per 1K records; Grow Plus adds AI features', es: 'Más allá de lo incluido: $1,75 por 1K solicitudes y $0,40 por 1K registros; Grow Plus añade funciones de IA', fr: 'Au-delà du quota inclus : 1,75 $ par 1 000 requêtes et 0,40 $ par 1 000 enregistrements ; Grow Plus ajoute des fonctions IA', de: 'Über das Kontingent hinaus: 1,75 $ pro 1.000 Anfragen und 0,40 $ pro 1.000 Datensätze; Grow Plus ergänzt KI-Funktionen' },
+      note: { ar: 'بحث مستضاف سريع للمواقع والتطبيقات؛ الدفع حسب الاستخدام.', en: 'Fast hosted search for sites and apps; pay-as-you-go pricing.', es: 'Búsqueda hospedada rápida para sitios y apps; pago por uso.', fr: 'Recherche hébergée rapide pour sites et apps ; paiement à l’usage.', de: 'Schnelle gehostete Suche für Sites und Apps; Abrechnung nach Nutzung.' },
+      source: 'https://www.algolia.com/pricing',
+    },
   ],
 };
