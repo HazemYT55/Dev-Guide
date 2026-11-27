@@ -10,7 +10,7 @@
 // because stale data can still carry matching counts. Update MANIFEST
 // counts on every release.
 (function () {
-  var V = '2026-11-27.31';
+  var V = '2026-11-27.32';
   var files = ["hosting", "domains", "databases", "email", "auth", "serverless", "monitoring", "analytics", "forms", "courses", "tools", "design", "dns-ssl", "payments", "ai", "fonts", "baas", "messaging", "cms", "webhosting"];
   var MANIFEST = {"ai":16,"analytics":18,"auth":14,"baas":11,"cms":16,"courses":18,"databases":20,"design":16,"dns-ssl":10,"domains":16,"email":12,"fonts":13,"forms":16,"hosting":10,"messaging":15,"monitoring":21,"payments":11,"serverless":12,"tools":22,"webhosting":30};
   files.forEach(function (f) {
