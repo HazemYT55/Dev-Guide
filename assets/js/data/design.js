@@ -120,5 +120,14 @@ window.DG_DATA.design = {
       note: { ar: 'مصمم مواقع مرئي باستضافة مدمجة؛ مناسب للصفحات التعريفية والمواقع الشخصية.', en: 'A visual site builder with built-in hosting; good for landing pages and personal sites.', es: 'Un constructor visual de sitios con alojamiento integrado; bueno para landing pages y sitios personales.', fr: 'Un constructeur visuel de sites avec hébergement intégré ; idéal pour landing pages et sites personnels.', de: 'Ein visueller Website-Baukasten mit integriertem Hosting; gut für Landingpages und persönliche Seiten.' },
       source: 'https://www.framer.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Webflow',
+      url: 'https://webflow.com',
+      free: { ar: 'دومين webflow.io مجاني وصفحتين ثابتين و١ جيجا بيانات و٥٠ إرسال فورم', en: 'Free webflow.io domain, 2 static pages, 1GB bandwidth, 50 form submissions', es: 'Dominio webflow.io gratis, 2 páginas estáticas, 1GB de ancho de banda, 50 envíos de formulario', fr: 'Domaine webflow.io gratuit, 2 pages statiques, 1 Go de bande passante, 50 envois de formulaire', de: 'Kostenlose webflow.io-Domain, 2 statische Seiten, 1GB Bandbreite, 50 Formularübermittlungen' },
+      paid: { ar: 'Basic بـ١٥ دولار/شهر بالسنوي؛ Premium بنظام CMS بـ٢٥ دولار/شهر بالسنوي', en: 'Basic $15/mo billed yearly; Premium with CMS $25/mo billed yearly', es: 'Basic $15/mes facturado anual; Premium con CMS $25/mes facturado anual', fr: 'Basic 15 $/mois facturé annuellement ; Premium avec CMS 25 $/mois facturé annuellement', de: 'Basic 15 $/Monat jährlich abgerechnet; Premium mit CMS 25 $/Monat jährlich abgerechnet' },
+      note: { ar: 'بناء مواقع بصري من غير كود؛ المجاني كافي للتعلم والتجربة.', en: 'Visual no-code site builder; the free plan is enough to learn and experiment.', es: 'Constructor visual de sitios sin código; el plan gratis basta para aprender y experimentar.', fr: 'Constructeur visuel de sites sans code ; le plan gratuit suffit pour apprendre et expérimenter.', de: 'Visueller No-Code-Site-Builder; der Gratis-Tarif reicht zum Lernen und Experimentieren.' },
+      source: 'https://webflow.com/pricing',
+    },
   ],
 };
