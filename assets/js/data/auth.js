@@ -109,5 +109,14 @@ window.DG_DATA.auth = {
       note: { ar: 'جاهزية مؤسسات: SSO وSAML وSCIM؛ بيئات التجربة staging مجانية.', en: 'Enterprise-ready SSO, SAML and SCIM; staging environments are free.', es: 'SSO, SAML y SCIM listos para empresa; los entornos de staging son gratis.', fr: 'SSO, SAML et SCIM prêts pour l’entreprise ; environnements de staging gratuits.', de: 'Enterprise-taugliches SSO, SAML und SCIM; Staging-Umgebungen sind kostenlos.' },
       source: 'https://workos.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Hanko',
+      url: 'https://www.hanko.io',
+      free: { ar: 'مجاني: ١٠ آلاف مستخدم نشط شهريًا من غير بطاقة', en: 'Free: 10,000 monthly active users, no credit card', es: 'Gratis: 10.000 usuarios activos mensuales, sin tarjeta', fr: 'Gratuit : 10 000 utilisateurs actifs mensuels, sans carte', de: 'Kostenlos: 10.000 monatlich aktive Nutzer, ohne Karte' },
+      paid: { ar: 'Pro بـ٢٩ دولار/شهر + ٠٫٠١ دولار لكل MAU فوق الـ١٠ آلاف؛ SAML SSO بـ٤٩ دولار/شهر لكل اتصال', en: 'Pro $29/mo + $0.01 per MAU above 10K; SAML SSO $49/mo per connection', es: 'Pro $29/mes + $0,01 por MAU por encima de 10K; SAML SSO $49/mes por conexión', fr: 'Pro 29 $/mois + 0,01 $ par MAU au-delà de 10 000 ; SAML SSO 49 $/mois par connexion', de: 'Pro 29 $/Monat + 0,01 $ pro MAU über 10.000; SAML SSO 49 $/Monat pro Verbindung' },
+      note: { ar: 'مصادقة passkeys-first؛ الشركات الناشئة بتقدر تاخد مليون MAU مجانًا ببرنامج خاص.', en: 'Passkeys-first auth; startups can apply for 1M free MAUs.', es: 'Autenticación passkeys-first; las startups pueden solicitar 1M de MAU gratis.', fr: 'Auth passkeys-first ; les startups peuvent demander 1 M de MAU gratuits.', de: 'Passkeys-first-Auth; Startups können 1 Mio. kostenlose MAUs beantragen.' },
+      source: 'https://www.hanko.io/pricing',
+    },
   ],
 };
