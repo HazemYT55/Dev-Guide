@@ -6,7 +6,7 @@ on:
   push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows you to run the workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -38,6 +38,34 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
+      # Workaround for https://github.com/actions/deploy-pages/issues/451:
+      # deploy-pages looks up the artifact once, and it may not be listed
+      # immediately after upload. Retry only the deploy, never the upload
+      # (a second upload makes the lookup fail with multiple artifacts).
       - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+      - name: Wait before retrying deploy
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 5
+      - name: Deploy to GitHub Pages (retry 1)
+        id: deployment_retry_1
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+      - name: Wait before retrying deploy
+        if: steps.deployment_retry_1.outcome == 'failure'
+        run: sleep 20
+      - name: Deploy to GitHub Pages (retry 2)
+        id: deployment_retry_2
+        if: steps.deployment_retry_1.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+      - name: Wait before retrying deploy
+        if: steps.deployment_retry_2.outcome == 'failure'
+        run: sleep 60
+      - name: Deploy to GitHub Pages (retry 3)
+        id: deployment_retry_3
+        if: steps.deployment_retry_2.outcome == 'failure'
         uses: actions/deploy-pages@v5
