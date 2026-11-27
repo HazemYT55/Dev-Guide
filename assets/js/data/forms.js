@@ -119,5 +119,14 @@ window.DG_DATA.forms = {
       note: { ar: 'باك إند جاهز للفورمات، اتغير اسمه من Getform لـ Forminit؛ والأرشيف غير محدود حتى في المجاني.', en: 'Ready-made form backend, renamed from Getform to Forminit; unlimited submission archive even on free.', es: 'Backend de formularios listo, renombrado de Getform a Forminit; archivo de envíos ilimitado incluso gratis.', fr: 'Backend de formulaires prêt à l’emploi, renommé de Getform en Forminit ; archive illimitée même en gratuit.', de: 'Fertiges Formular-Backend, von Getform in Forminit umbenannt; unbegrenztes Archiv auch im Gratis-Tarif.' },
       source: 'https://getform.io/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Formbold',
+      url: 'https://formbold.com',
+      free: { ar: 'مجاني للأبد: ٢٥٠ رسالة فورم في الشهر', en: 'Free forever: 250 form submissions a month', es: 'Gratis para siempre: 250 envíos de formulario al mes', fr: 'Gratuit pour toujours : 250 soumissions de formulaire par mois', de: 'Dauerhaft gratis: 250 Formularübermittlungen pro Monat' },
+      paid: { ar: 'من ٦ دولار/شهر بالسنوي: ٣ آلاف رسالة في الشهر ورفع ملفات', en: 'From $6/mo billed yearly: 3,000 submissions a month and file uploads', es: 'Desde $6/mes anual: 3 mil envíos al mes y subida de archivos', fr: 'Dès 6 $/mois en annuel : 3 000 soumissions par mois et envoi de fichiers', de: 'Ab 6 $/Monat jährlich: 3.000 Übermittlungen pro Monat und Datei-Uploads' },
+      note: { ar: 'باك إند فورمات بسيط بـ API: وصّل أي فورم HTML من غير سيرفر.', en: 'Simple API form backend: connect any HTML form without a server.', es: 'Backend de formularios simple por API: conecta cualquier formulario HTML sin servidor.', fr: 'Backend de formulaires simple par API : connectez tout formulaire HTML sans serveur.', de: 'Einfaches API-Formular-Backend: jedes HTML-Formular ohne Server anbinden.' },
+      source: 'https://formbold.com/pricing',
+    },
   ],
 };
