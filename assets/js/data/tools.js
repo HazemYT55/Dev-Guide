@@ -12,6 +12,7 @@ window.DG_DATA.tools = {
   },
   entries: [
     {
+      plan: 'oss',
       name: 'VS Code',
       url: 'https://code.visualstudio.com',
       free: { ar: 'محرر مجاني ومفتوح المصدر بكل المميزات', en: 'Free and open-source editor with full features', es: 'Editor gratuito y de código abierto con todas las funciones', fr: 'Éditeur gratuit et open source avec toutes les fonctions', de: 'Kostenloser Open-Source-Editor mit allen Funktionen' },
@@ -20,6 +21,7 @@ window.DG_DATA.tools = {
       source: 'https://code.visualstudio.com/',
     },
     {
+      plan: 'free',
       name: 'CodePen',
       url: 'https://codepen.io',
       free: { ar: 'خطة مجانية للمشاريع والأكواد العامة', en: 'Free plan for public pens and projects', es: 'Plan gratis para pens y proyectos públicos', fr: 'Offre gratuite pour les pens et projets publics', de: 'Gratis-Tarif für öffentliche Pens und Projekte' },
@@ -28,6 +30,7 @@ window.DG_DATA.tools = {
       source: 'https://codepen.io/pro',
     },
     {
+      plan: 'trial',
       name: 'Replit',
       url: 'https://replit.com',
       free: { ar: 'مفيش خطة مجانية دائمة على صفحة الأسعار الحالية', en: 'No permanent free plan on the current pricing page', es: 'Sin plan gratis permanente en la página de precios actual', fr: 'Pas d’offre gratuite permanente sur la page tarifaire actuelle', de: 'Kein dauerhafter Gratis-Tarif auf der aktuellen Preisseite' },
@@ -37,6 +40,7 @@ window.DG_DATA.tools = {
       source: 'https://docs.replit.com/billing/plans/starter-plan',
     },
     {
+      plan: 'oss',
       name: 'JetBrains IDEs',
       url: 'https://www.jetbrains.com/idea/',
       free: { ar: 'نسخ Community مجانية ومفتوحة المصدر (زي IntelliJ Community وPyCharm Community)', en: 'Community editions free and open source (like IntelliJ Community and PyCharm Community)', es: 'Ediciones Community gratis y de código abierto (como IntelliJ Community y PyCharm Community)', fr: 'Éditions Community gratuites et open source (comme IntelliJ Community et PyCharm Community)', de: 'Community-Editionen kostenlos und Open Source (wie IntelliJ Community und PyCharm Community)' },
@@ -45,6 +49,7 @@ window.DG_DATA.tools = {
       source: 'https://www.jetbrains.com/idea/buy/',
     },
     {
+      plan: 'free',
       name: 'GitHub',
       url: 'https://github.com',
       free: { ar: 'ريبوهات عامة وخاصة غير محدودة و٢٬٠٠٠ دقيقة Actions شهريًا مجانًا', en: 'Unlimited public and private repos plus 2,000 Actions minutes/mo free', es: 'Repositorios públicos y privados ilimitados más 2.000 minutos de Actions/mes gratis', fr: 'Dépôts publics et privés illimités plus 2 000 minutes Actions/mois gratuites', de: 'Unbegrenzte öffentliche und private Repos plus 2.000 Actions-Minuten/Monat kostenlos' },
@@ -53,6 +58,7 @@ window.DG_DATA.tools = {
       source: 'https://github.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Postman',
       url: 'https://www.postman.com',
       free: { ar: 'عميل API كامل مجاني: HTTP وGraphQL وgRPC وWebSocket مع collections وmock servers', en: 'A full API client free: HTTP, GraphQL, gRPC and WebSocket with collections and mock servers', es: 'Cliente de API completo y gratis: HTTP, GraphQL, gRPC y WebSocket con colecciones y mock servers', fr: 'Client API complet et gratuit : HTTP, GraphQL, gRPC et WebSocket avec collections et mock servers', de: 'Vollständiger API-Client kostenlos: HTTP, GraphQL, gRPC und WebSocket mit Collections und Mock-Servern' },
@@ -60,6 +66,7 @@ window.DG_DATA.tools = {
       source: 'https://www.postman.com/pricing/',
     },
     {
+      plan: 'oss',
       name: 'Hoppscotch',
       url: 'https://hoppscotch.com',
       free: { ar: 'عميل API مفتوح المصدر ومجاني، خفيف وسريع في المتصفح', en: 'A free open-source API client, lightweight and fast in the browser', es: 'Cliente de API de código abierto y gratis, ligero y rápido en el navegador', fr: 'Client API open source et gratuit, léger et rapide dans le navigateur', de: 'Kostenloser Open-Source-API-Client, leichtgewichtig und schnell im Browser' },
@@ -68,6 +75,7 @@ window.DG_DATA.tools = {
       source: 'https://hoppscotch.com/',
     },
     {
+      plan: 'free',
       name: 'Insomnia',
       url: 'https://insomnia.rest',
       free: { ar: 'خطة Essentials بـ ٠ دولار: مشاريع غير محدودة لحد ٣ مستخدمين مع Git Sync', en: 'Essentials at $0: unlimited projects for up to 3 users with Git Sync', es: 'Essentials a $0: proyectos ilimitados hasta 3 usuarios con Git Sync', fr: 'Essentials à 0 $ : projets illimités jusqu’à 3 utilisateurs avec Git Sync', de: 'Essentials für 0 $: unbegrenzte Projekte für bis zu 3 Nutzer mit Git Sync' },
@@ -75,6 +83,7 @@ window.DG_DATA.tools = {
       source: 'https://insomnia.rest/pricing',
     },
     {
+      plan: 'free',
       name: 'GitLab',
       url: 'https://about.gitlab.com',
       free: { ar: 'مجاني لحد ٥ مستخدمين لكل مجموعة، ٤٠٠ دقيقة CI/CD شهريًا و١٠ جيجا تخزين لكل مشروع', en: 'Free for up to 5 users per group, 400 CI/CD minutes/mo and 10 GiB storage per project', es: 'Gratis hasta 5 usuarios por grupo, 400 minutos de CI/CD/mes y 10 GiB de almacenamiento por proyecto', fr: 'Gratuit jusqu’à 5 utilisateurs par groupe, 400 minutes CI/CD/mois et 10 Gio de stockage par projet', de: 'Kostenlos für bis zu 5 Nutzer pro Gruppe, 400 CI/CD-Minuten/Monat und 10 GiB Speicher pro Projekt' },
@@ -83,6 +92,7 @@ window.DG_DATA.tools = {
       source: 'https://about.gitlab.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Docker',
       url: 'https://www.docker.com',
       free: { ar: 'الخطة المجانية تشمل Docker Desktop وEngine وHub مع ١٠٠ سحبة Hub في الساعة وريبو خاص واحد', en: 'The free plan includes Docker Desktop, Engine and Hub with 100 Hub pulls/hr and 1 private repo', es: 'El plan gratis incluye Docker Desktop, Engine y Hub con 100 descargas de Hub/hora y 1 repositorio privado', fr: 'L’offre gratuite inclut Docker Desktop, Engine et Hub avec 100 pulls Hub/heure et 1 dépôt privé', de: 'Der Gratis-Tarif umfasst Docker Desktop, Engine und Hub mit 100 Hub-Pulls/Std. und 1 privatem Repo' },
