@@ -10,27 +10,6 @@ window.DG_DATA.forms = {
     fr: 'Recevez les messages d’un formulaire sur votre site statique sans créer de backend.',
     de: 'Empfange Nachrichten aus einem Formular auf deiner statischen Seite, ohne ein Backend zu bauen.',
   },
-window.DG_DATA.forms = {
-  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>',
-  path: 'forms.html',
-  title: { ar: 'فورم التواصل', en: 'Contact forms', es: 'Formularios de contacto', fr: 'Formulaires de contact', de: 'Kontaktformulare' },
-  blurb: {
-    ar: 'استقبل رسائل من فورم في موقعك الثابت من غير ما تبني باك إند.',
-    en: 'Receive messages from a form on your static site without building a backend.',
-    es: 'Recibe mensajes de un formulario en tu sitio estático sin construir un backend.',
-    fr: 'Recevez les messages d’un formulaire sur votre site statique sans créer de backend.',
-    de: 'Empfange Nachrichten aus einem Formular auf deiner statischen Seite, ohne ein Backend zu bauen.',
-window.DG_DATA.forms = {
-  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>',
-  path: 'forms.html',
-  title: { ar: 'فورم التواصل', en: 'Contact forms', es: 'Formularios de contacto', fr: 'Formulaires de contact', de: 'Kontaktformulare' },
-  blurb: {
-    ar: 'استقبل رسائل من فورم في موقعك الثابت من غير ما تبني باك إند.',
-    en: 'Receive messages from a form on your static site without building a backend.',
-    es: 'Recibe mensajes de un formulario en tu sitio estático sin construir un backend.',
-    fr: 'Recevez les messages d’un formulaire sur votre site statique sans créer de backend.',
-    de: 'Empfange Nachrichten aus einem Formular auf deiner statischen Seite, ohne ein Backend zu bauen.',
-  },
   entries: [
     {
       plan: 'free',
