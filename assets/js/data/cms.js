@@ -6,6 +6,13 @@ window.DG_DATA.cms = {
   blurb: {
     ar: 'أنظمة إدارة محتوى بتوصّل المحتوى بـ API لأي موقع أو تطبيق: خطط مجانية بحدود واضحة وأسعار مدفوعة موثّقة.',
     en: 'Content management systems that deliver content by API to any site or app: free plans with clear limits and verified paid prices.',
+window.DG_DATA.cms = {
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>',
+  path: 'cms.html',
+  title: { ar: 'أنظمة إدارة المحتوى (Headless CMS)', en: 'Headless CMS', es: 'CMS headless', fr: 'CMS headless', de: 'Headless CMS' },
+  blurb: {
+    ar: 'أنظمة إدارة محتوى بتوصّل المحتوى بـ API لأي موقع أو تطبيق: خطط مجانية بحدود واضحة وأسعار مدفوعة موثّقة.',
+    en: 'Content management systems that deliver content by API to any site or app: free plans with clear limits and verified paid prices.',
     es: 'Sistemas de gestión de contenido que entregan contenido por API a cualquier web o app: planes gratis con límites claros y precios de pago verificados.',
     fr: 'Des CMS qui livrent le contenu par API à tout site ou app : offres gratuites avec limites claires et prix payants vérifiés.',
     de: 'Content-Management-Systeme, die Inhalte per API an jede Website oder App liefern: Gratis-Tarife mit klaren Limits und geprüfte Preise.',
@@ -100,6 +107,15 @@ window.DG_DATA.cms = {
       paid: { ar: 'مجاني بالكامل؛ التكلفة الوحيدة هي استضافة الموقع نفسه', en: 'Completely free; the only cost is hosting the site itself', es: 'Completamente gratis; el único coste es alojar el sitio en sí', fr: 'Entièrement gratuit ; le seul coût est l’hébergement du site lui-même', de: 'Komplett kostenlos; einzige Kosten sind das Hosting der Website selbst' },
       note: { ar: 'CMS للمواقع الساكنة (زي Hugo وNext) بيضيف لوحة تحرير فوق Git.', en: 'A CMS for static sites (like Hugo and Next) that adds an editing UI on top of Git.', es: 'Un CMS para sitios estáticos (como Hugo y Next) que añade una interfaz de edición sobre Git.', fr: 'Un CMS pour sites statiques (comme Hugo et Next) qui ajoute une interface d’édition sur Git.', de: 'Ein CMS für statische Sites (wie Hugo und Next), das eine Bearbeitungsoberfläche über Git legt.' },
       source: 'https://decapcms.org/',
+    },
+    {
+      plan: 'free',
+      name: 'ButterCMS',
+      url: 'https://buttercms.com',
+      free: { ar: 'خطة مجانية: ٥٠ ألف طلب API و١٠٠ جيجا نقل بيانات و٥ صفحات و٥٠ تدوينة و٥٠ مجموعة و٥٠٠ ملف', en: 'Free plan: 50K API calls, 100 GB bandwidth, 5 pages, 50 blog posts, 50 collections, 500 assets', es: 'Plan gratis: 50 mil llamadas API, 100 GB de ancho de banda, 5 páginas, 50 entradas de blog, 50 colecciones, 500 archivos', fr: 'Offre gratuite : 50 000 appels API, 100 Go de bande passante, 5 pages, 50 articles, 50 collections, 500 fichiers', de: 'Gratis-Tarif: 50.000 API-Aufrufe, 100 GB Bandbreite, 5 Seiten, 50 Blogposts, 50 Kollektionen, 500 Dateien' },
+      paid: { ar: 'من ٧١ دولار/شهر (Basic): ١٠٠ ألف طلب و٢٠ صفحة؛ وكل خطة فيها تجربة ١٤ يوم', en: 'From $71/mo (Basic): 100K calls and 20 pages; every plan includes a 14-day trial', es: 'Desde $71/mes (Basic): 100 mil llamadas y 20 páginas; cada plan incluye una prueba de 14 días', fr: 'Dès 71 $/mois (Basic) : 100 000 appels et 20 pages ; chaque offre inclut un essai de 14 jours', de: 'Ab 71 $/Monat (Basic): 100.000 Aufrufe und 20 Seiten; jeder Tarif enthält eine 14-tägige Testphase' },
+      note: { ar: 'هيدلس CMS سريع للمدونات والصفحات التسويقية؛ المجاني مناسب للمشاريع الصغيرة.', en: 'Fast headless CMS for blogs and marketing pages; the free tier fits small projects.', es: 'CMS headless rápido para blogs y páginas de marketing; el nivel gratis sirve para proyectos pequeños.', fr: 'CMS headless rapide pour blogs et pages marketing ; l’offre gratuite convient aux petits projets.', de: 'Schnelles Headless-CMS für Blogs und Marketingseiten; der Gratis-Tarif reicht für kleine Projekte.' },
+      source: 'https://buttercms.com/pricing/',
     },
   ],
 };
