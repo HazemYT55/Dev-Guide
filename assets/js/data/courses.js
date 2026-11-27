@@ -128,5 +128,23 @@ window.DG_DATA.courses = {
       note: { ar: 'منصة تعليم تقني ضخمة للأفراد والفرق؛ الأسعار المعلنة بتكون بالدفع السنوي.', en: 'A large tech-learning platform for individuals and teams; advertised prices are for annual billing.', es: 'Una gran plataforma de aprendizaje tecnológico para personas y equipos; los precios anunciados son con facturación anual.', fr: 'Une grande plateforme d’apprentissage tech pour particuliers et équipes ; les prix affichés sont en facturation annuelle.', de: 'Eine große Tech-Lernplattform für Einzelpersonen und Teams; die beworbenen Preise gelten bei jährlicher Abrechnung.' },
       source: 'https://www.pluralsight.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Boot.dev',
+      url: 'https://www.boot.dev',
+      free: { ar: 'وضع مجاني للقراءة فقط: أول فصول كل كورس بتفاعلية كاملة وبعدها قراءة بس', en: 'Read-only free mode: the first chapters of each course fully interactive, then read-only', es: 'Modo gratis de solo lectura: los primeros capítulos de cada curso interactivos, luego solo lectura', fr: 'Mode gratuit en lecture seule : les premiers chapitres de chaque cours interactifs, puis lecture seule', de: 'Kostenloser Nur-Lese-Modus: die ersten Kapitel jedes Kurses interaktiv, danach nur lesen' },
+      paid: { ar: 'العضوية السنوية ٣٣ دولار/شهر بالسنوي', en: 'Membership $33/mo billed yearly', es: 'Membresía $33/mes facturado anual', fr: 'Abonnement 33 $/mois facturé annuellement', de: 'Mitgliedschaft 33 $/Monat jährlich abgerechnet' },
+      note: { ar: 'تعلم backend تفاعلي (Python وGo وSQL) بأسلوب ألعاب.', en: 'Gamified interactive backend learning (Python, Go, SQL).', es: 'Aprendizaje backend interactivo y gamificado (Python, Go, SQL).', fr: 'Apprentissage backend interactif et ludifié (Python, Go, SQL).', de: 'Gamifiziertes interaktives Backend-Lernen (Python, Go, SQL).' },
+      source: 'https://www.boot.dev/pricing',
+    },
+    {
+      plan: 'free',
+      name: 'Codedex',
+      url: 'https://www.codedex.io',
+      free: { ar: 'خطة مجانية للأبد', en: 'Free forever plan', es: 'Plan gratis para siempre', fr: 'Offre gratuite pour toujours', de: 'Gratis-Tarif für immer' },
+      paid: { ar: 'الخطة المدفوعة بـ٩٫٩٩ دولار/شهر', en: 'Paid plan at $9.99/mo', es: 'Plan de pago a $9,99/mes', fr: 'Offre payante à 9,99 $/mois', de: 'Bezahlter Tarif für 9,99 $/Monat' },
+      note: { ar: 'تعلم برمجة للمبتدئين بأسلوب لعبة مغامرات.', en: 'Beginner coding lessons in an adventure-game style.', es: 'Lecciones de código para principiantes con estilo de juego de aventuras.', fr: 'Leçons de code pour débutants dans un style de jeu d’aventure.', de: 'Coding-Lektionen für Anfänger im Abenteuerspiel-Stil.' },
+      source: 'https://www.codedex.io/pricing',
+    },
   ],
 };
