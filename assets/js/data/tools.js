@@ -200,5 +200,14 @@ window.DG_DATA.tools = {
       note: { ar: 'CDN سريع ورخيص مع ١١٩ نقطة حضور؛ كل الميزات متاحة من أول دولار.', en: 'Fast, cheap CDN with 119 PoPs; all features included from the first dollar.', es: 'CDN rápido y barato con 119 PoPs; todas las funciones incluidas desde el primer dólar.', fr: 'CDN rapide et abordable avec 119 PoPs ; toutes les fonctions dès le premier dollar.', de: 'Schnelles, günstiges CDN mit 119 PoPs; alle Funktionen ab dem ersten Dollar inklusive.' },
       source: 'https://bunny.net/pricing/',
     },
+    {
+      plan: 'free',
+      name: 'Ploi',
+      url: 'https://ploi.io',
+      free: { ar: 'مجاني: سيرفر واحد وموقع واحد و٥ عمليات نشر في الشهر وشهادات SSL مجانية', en: 'Free: 1 server, 1 site, 5 deployments a month and free SSL certificates', es: 'Gratis: 1 servidor, 1 sitio, 5 despliegues al mes y certificados SSL gratis', fr: 'Gratuit : 1 serveur, 1 site, 5 déploiements par mois et certificats SSL gratuits', de: 'Gratis: 1 Server, 1 Website, 5 Deployments pro Monat und kostenlose SSL-Zertifikate' },
+      paid: { ar: 'من ٨ يورو أو ١٠ دولار/شهر (Basic): ٥ سيرفرات ومواقع ونشر غير محدود', en: 'From EUR8 or $10/mo (Basic): 5 servers and unlimited sites and deployments', es: 'Desde 8 EUR o $10/mes (Basic): 5 servidores y sitios y despliegues ilimitados', fr: 'Dès 8 EUR ou 10 $/mois (Basic) : 5 serveurs, sites et déploiements illimités', de: 'Ab 8 EUR oder 10 $/Monat (Basic): 5 Server, unbegrenzte Websites und Deployments' },
+      note: { ar: 'لوحة إدارة سيرفرات بتجهّز وتنشر مواقع PHP وLaravel وNode على أي VPS؛ تجربة Pro خمس أيام.', en: 'Server management panel that provisions and deploys PHP, Laravel and Node sites on any VPS; a 5-day Pro trial.', es: 'Panel de gestión de servidores que aprovisiona y despliega sitios PHP, Laravel y Node en cualquier VPS; prueba Pro de 5 días.', fr: 'Panneau de gestion de serveurs qui provisionne et déploie des sites PHP, Laravel et Node sur tout VPS ; essai Pro de 5 jours.', de: 'Server-Verwaltungspanel zum Provisionieren und Deployen von PHP-, Laravel- und Node-Sites auf jedem VPS; 5-tägige Pro-Testphase.' },
+      source: 'https://ploi.io/pricing',
+    },
   ],
 };
