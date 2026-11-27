@@ -121,5 +121,14 @@ window.DG_DATA.analytics = {
       note: { ar: 'تحليلات بسيطة وخفيفة بتحترم الخصوصية من غير كوكيز؛ السعر بيزيد حسب عدد المشاهدات.', en: 'Simple, lightweight privacy-first analytics with no cookies; the price scales with pageviews.', es: 'Analítica simple y ligera centrada en la privacidad, sin cookies; el precio escala con las páginas vistas.', fr: 'Analytique simple et légère, axée vie privée, sans cookies ; le prix évolue avec les pages vues.', de: 'Einfache, leichte, datenschutzfreundliche Analysen ohne Cookies; der Preis skaliert mit den Seitenaufrufen.' },
       source: 'https://usefathom.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Mixpanel',
+      url: 'https://mixpanel.com',
+      free: { ar: 'مجاني للأبد: مليون حدث/شهر و١٠ آلاف session replay ومقاعد غير محدودة', en: 'Free forever: 1M events/mo, 10K session replays, unlimited seats', es: 'Gratis para siempre: 1M de eventos/mes, 10K session replays, asientos ilimitados', fr: 'Gratuit pour toujours : 1 M d’événements/mois, 10 000 session replays, sièges illimités', de: 'Immer kostenlos: 1 Mio. Events/Monat, 10.000 Session Replays, unbegrenzte Sitze' },
+      paid: { ar: 'Growth بيبدأ من ٠ دولار/شهر وبيتسعّر حسب الحجم (حوالي ١٠٠ دولار/شهر عند ١٫٥ مليون حدث)؛ Enterprise مخصص', en: 'Growth starts at $0/mo and scales by volume (about $100/mo at 1.5M events/mo); Enterprise custom', es: 'Growth empieza en $0/mes y escala por volumen (unos $100/mes con 1,5M de eventos/mes); Enterprise personalizado', fr: 'Growth démarre à 0 $/mois et évolue selon le volume (environ 100 $/mois pour 1,5 M d’événements/mois) ; Enterprise sur mesure', de: 'Growth beginnt bei 0 $/Monat und skaliert nach Volumen (ca. 100 $/Monat bei 1,5 Mio. Events/Monat); Enterprise individuell' },
+      note: { ar: 'أناليتكس منتجات قوي؛ الشركات الناشئة المؤهلة بتاخد أول سنة مجانًا.', en: 'Powerful product analytics; eligible startups get the first year free.', es: 'Analítica de producto potente; startups elegibles tienen el primer año gratis.', fr: 'Analytique produit puissante ; les startups éligibles ont la première année gratuite.', de: 'Leistungsstarke Produktanalyse; förderfähige Startups erhalten das erste Jahr kostenlos.' },
+      source: 'https://mixpanel.com/pricing',
+    },
   ],
 };
