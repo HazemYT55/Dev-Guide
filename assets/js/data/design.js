@@ -12,6 +12,7 @@ window.DG_DATA.design = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'Figma',
       url: 'https://www.figma.com',
       free: { ar: 'خطة Starter بصفر دولار بوصول محدود لمنتجات Figma؛ تكفي للتعلم ومشاريع صغيرة', en: 'Starter plan $0 with limited access to Figma products; enough to learn and design small projects', es: 'Plan Starter a $0 con acceso limitado a los productos Figma; basta para aprender y proyectos pequeños', fr: 'Offre Starter à 0 $ avec accès limité aux produits Figma ; suffisant pour apprendre et de petits projets', de: 'Starter-Tarif für 0 $ mit begrenztem Zugang zu Figma-Produkten; reicht zum Lernen und für kleine Projekte' },
@@ -20,6 +21,7 @@ window.DG_DATA.design = {
       source: 'https://www.figma.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Penpot',
       url: 'https://penpot.app',
       free: { ar: 'خطة Professional بصفر دولار/مستخدم/شهر وبكل المميزات؛ وكمان مجاني لو هوستيته بنفسك', en: 'Professional plan $0/user/month, fully featured; also free to self-host', es: 'Plan Professional a $0/usuario/mes, con todas las funciones; también gratis autoalojado', fr: 'Offre Professional à 0 $/utilisateur/mois, complète ; aussi gratuite en auto-hébergement', de: 'Professional-Tarif für 0 $/Nutzer/Monat mit allen Funktionen; auch kostenlos selbst gehostet' },
@@ -28,6 +30,7 @@ window.DG_DATA.design = {
       source: 'https://penpot.app/pricing',
     },
     {
+      plan: 'free',
       name: 'Excalidraw',
       url: 'https://excalidraw.com',
       free: { ar: 'محرر السبورة مجاني للأبد ومفتوح المصدر', en: 'The whiteboard editor is free forever and open source', es: 'La pizarra es gratis para siempre y de código abierto', fr: 'Le tableau blanc est gratuit pour toujours et open source', de: 'Das Whiteboard ist für immer kostenlos und Open Source' },
@@ -36,6 +39,7 @@ window.DG_DATA.design = {
       source: 'https://plus.excalidraw.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Google Fonts',
       url: 'https://fonts.google.com',
       free: { ar: 'المكتبة كلها مجانية، حتى للمشاريع التجارية', en: 'The whole library is free, even for commercial projects', es: 'Toda la biblioteca es gratis, incluso para proyectos comerciales', fr: 'Toute la bibliothèque est gratuite, même pour des projets commerciaux', de: 'Die gesamte Bibliothek ist kostenlos, auch für kommerzielle Projekte' },
@@ -44,6 +48,7 @@ window.DG_DATA.design = {
       source: 'https://fonts.google.com/',
     },
     {
+      plan: 'free',
       name: 'Photopea',
       url: 'https://www.photopea.com',
       free: { ar: 'محرر صور كامل مجاني في المتصفح، بيدعم PSD وملفات RAW، وكل حاجة بتشتغل على جهازك من غير رفع', en: 'A full photo editor free in the browser, with PSD and RAW support, running locally on your device with no uploads', es: 'Editor de fotos completo y gratis en el navegador, con soporte PSD y RAW, ejecutándose localmente sin subidas', fr: 'Éditeur photo complet et gratuit dans le navigateur, compatible PSD et RAW, exécuté localement sans téléversement', de: 'Vollständiger Fotoreditor kostenlos im Browser, mit PSD- und RAW-Support, läuft lokal ohne Uploads' },
@@ -52,6 +57,7 @@ window.DG_DATA.design = {
       source: 'https://www.photopea.com/',
     },
     {
+      plan: 'free',
       name: 'Lunacy',
       url: 'https://icons8.com/lunacy',
       free: { ar: 'برنامج تصميم مجاني للويندوز وماك ولينكس مع أيقونات ورسومات وصور جاهزة جواه', en: 'Free design software for Windows, Mac and Linux with built-in icons, illustrations and photos', es: 'Software de diseño gratis para Windows, Mac y Linux con iconos, ilustraciones y fotos integrados', fr: 'Logiciel de design gratuit pour Windows, Mac et Linux avec icônes, illustrations et photos intégrées', de: 'Kostenlose Design-Software für Windows, Mac und Linux mit eingebauten Icons, Illustrationen und Fotos' },
@@ -60,6 +66,7 @@ window.DG_DATA.design = {
       source: 'https://icons8.com/lunacy',
     },
     {
+      plan: 'free',
       name: 'Heroicons',
       url: 'https://heroicons.com',
       free: { ar: 'أيقونات SVG بترخيص MIT من فريق Tailwind CSS، مع مكتبات React وVue', en: 'SVG icons under the MIT license from the Tailwind CSS team, with React and Vue libraries', es: 'Iconos SVG con licencia MIT del equipo de Tailwind CSS, con librerías para React y Vue', fr: 'Icônes SVG sous licence MIT de l’équipe Tailwind CSS, avec bibliothèques React et Vue', de: 'SVG-Icons unter MIT-Lizenz vom Tailwind-CSS-Team, mit React- und Vue-Bibliotheken' },
@@ -67,6 +74,7 @@ window.DG_DATA.design = {
       source: 'https://heroicons.com/',
     },
     {
+      plan: 'free',
       name: 'unDraw',
       url: 'https://undraw.co',
       free: { ar: 'رسومات توضيحية SVG مجانية للاستخدام التجاري والشخصي من غير نسبة للمؤلف', en: 'SVG illustrations free for commercial and personal use with no attribution required', es: 'Ilustraciones SVG gratis para uso comercial y personal sin atribución', fr: 'Illustrations SVG gratuites pour usage commercial et personnel, sans attribution', de: 'SVG-Illustrationen kostenlos für kommerzielle und private Nutzung, ohne Namensnennung' },
@@ -75,6 +83,7 @@ window.DG_DATA.design = {
       source: 'https://undraw.co/license',
     },
     {
+      plan: 'free',
       name: 'SVG Repo',
       url: 'https://www.svgrepo.com',
       free: { ar: 'أكتر من ٥٠٠ ألف أيقونة ورسم SVG برخص مفتوحة، مجاني دايمًا ومفيش محتوى Premium', en: 'Over 500,000 open-licensed SVG icons and vectors, always free with no premium content', es: 'Más de 500.000 iconos y vectores SVG con licencia abierta, siempre gratis y sin contenido premium', fr: 'Plus de 500 000 icônes et vecteurs SVG sous licence ouverte, toujours gratuits, sans contenu premium', de: 'Über 500.000 offen lizenzierte SVG-Icons und Vektoren, immer kostenlos und ohne Premium-Inhalte' },
@@ -83,6 +92,7 @@ window.DG_DATA.design = {
       source: 'https://www.svgrepo.com/',
     },
     {
+      plan: 'free',
       name: 'Fontsource',
       url: 'https://fontsource.org',
       free: { ar: 'خطوط مجانية ومفتوحة المصدر تقدر تستضيفها بنفسك عبر حزم npm', en: 'Free open-source fonts you can self-host via npm packages', es: 'Fuentes gratis y de código abierto que puedes autoalojar con paquetes npm', fr: 'Polices gratuites et open source que vous pouvez auto-héberger via des paquets npm', de: 'Kostenlose Open-Source-Schriftarten zum Selbsthosten über npm-Pakete' },
