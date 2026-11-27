@@ -164,5 +164,14 @@ window.DG_DATA.monitoring = {
       note: { ar: 'مونيتورينج للوظايف المجدولة (cron jobs) والهارت بيت والأب تايم في مكان واحد.', en: 'Cron job, heartbeat and uptime monitoring in one place.', es: 'Monitoreo de cron jobs, heartbeats y uptime en un solo lugar.', fr: 'Monitoring des cron jobs, heartbeats et de l’uptime au même endroit.', de: 'Cron-Job-, Heartbeat- und Uptime-Monitoring an einem Ort.' },
       source: 'https://cronitor.io/pricing',
     },
+    {
+      plan: 'free',
+      name: 'AppSignal',
+      url: 'https://www.appsignal.com',
+      free: { ar: 'مجاني: ٣٠ ألف طلب في الشهر؛ مناسب للمشاريع الجانبية', en: 'Free: 30K requests a month; made for startups and side projects', es: 'Gratis: 30 mil peticiones al mes; pensado para startups y proyectos personales', fr: 'Gratuit : 30 000 requêtes par mois ; pensé pour les startups et side projects', de: 'Gratis: 30.000 Anfragen pro Monat; gedacht für Startups und Side Projects' },
+      paid: { ar: 'من ٢٥ دولار/شهر (٢٥٠ ألف طلب) وبالتدريج حسب الاستخدام', en: 'From $25/mo (250K requests), scaling with usage', es: 'Desde $25/mes (250 mil peticiones), escalando con el uso', fr: 'Dès 25 $/mois (250 000 requêtes), évolutif selon l’usage', de: 'Ab 25 $/Monat (250.000 Anfragen), nutzungsabhängig skalierend' },
+      note: { ar: 'APM ومونيتورينج أخطاء لتطبيقات Ruby وElixir وNode وPython؛ اللوجز ١ جيجا مجانًا.', en: 'APM and error monitoring for Ruby, Elixir, Node and Python apps; 1 GB of logs free.', es: 'APM y monitoreo de errores para apps Ruby, Elixir, Node y Python; 1 GB de logs gratis.', fr: 'APM et monitoring d’erreurs pour les apps Ruby, Elixir, Node et Python ; 1 Go de logs gratuit.', de: 'APM und Fehler-Monitoring für Ruby-, Elixir-, Node- und Python-Apps; 1 GB Logs gratis.' },
+      source: 'https://www.appsignal.com/pricing',
+    },
   ],
 };
