@@ -103,5 +103,14 @@ window.DG_DATA.payments = {
       note: { ar: 'بوابة خليجية مقرها السعودية؛ بتدعم مدى وApple Pay وبتخدم دول الخليج.', en: 'A Gulf gateway based in Saudi Arabia; supports mada and Apple Pay across the GCC.', es: 'Una pasarela del Golfo con sede en Arabia Saudí; compatible con mada y Apple Pay en el GCC.', fr: 'Une passerelle du Golfe basée en Arabie saoudite ; supporte mada et Apple Pay dans le CCG.', de: 'Ein Golf-Gateway mit Sitz in Saudi-Arabien; unterstützt mada und Apple Pay im GCC.' },
       source: 'https://blog.tap.company/new-mada-fees-saudi/',
     },
+    {
+      plan: 'free',
+      name: 'RevenueCat',
+      url: 'https://www.revenuecat.com',
+      free: { ar: 'مجاني لحد ٢٥٠٠ دولار إيراد شهري متتبع (MTR)', en: 'Free up to $2.5K monthly tracked revenue (MTR)', es: 'Gratis hasta $2.5K de ingresos mensuales rastreados (MTR)', fr: 'Gratuit jusqu’à 2 500 $ de revenus mensuels suivis (MTR)', de: 'Kostenlos bis 2.500 $ monatlich verfolgter Umsatz (MTR)' },
+      paid: { ar: 'بعد الـ٢٥٠٠ دولار MTR بتدفع ١٪ بس (مثال: ٢٥ دولار عند ٢٥٠٠)؛ Enterprise بالتفاوض', en: 'Above $2.5K MTR you pay just 1% (e.g. $25 at $2.5K); Enterprise negotiated', es: 'Por encima de $2.5K de MTR pagas solo 1% (ej. $25 con $2.5K); Enterprise negociado', fr: 'Au-delà de 2 500 $ de MTR, 1 % seulement (ex. 25 $ à 2 500 $) ; Enterprise négocié', de: 'Über 2.500 $ MTR zahlst du nur 1 % (z. B. 25 $ bei 2.500 $); Enterprise verhandelt' },
+      note: { ar: 'إدارة اشتراكات التطبيقات (App Store وGoogle Play وStripe) من SDK واحدة.', en: 'App subscription management (App Store, Google Play, Stripe) from one SDK.', es: 'Gestión de suscripciones de apps (App Store, Google Play, Stripe) desde un SDK.', fr: 'Gestion des abonnements d’apps (App Store, Google Play, Stripe) via un seul SDK.', de: 'Verwaltung von App-Abos (App Store, Google Play, Stripe) über ein SDK.' },
+      source: 'https://www.revenuecat.com/pricing/',
+    },
   ],
 };
