@@ -112,16 +112,6 @@ window.DG_DATA.analytics = {
       source: 'https://chartmogul.com/pricing/',
     },
     {
-      plan: 'trial',
-      name: 'Fathom Analytics',
-      url: 'https://usefathom.com',
-      free: { ar: 'تجربة مجانية ٧ أيام', en: '7-day free trial', es: 'Prueba gratis de 7 días', fr: 'Essai gratuit de 7 jours', de: '7 Tage kostenlos testen' },
-      paid: { ar: 'من ١٥ دولار/شهر لحد ١٠٠ ألف مشاهدة صفحات شهريًا؛ كل الخطط فيها كل المزايا', en: 'From $15/mo for up to 100K monthly pageviews; every plan includes every feature', es: 'Desde $15/mes hasta 100 mil páginas vistas al mes; todos los planes incluyen todas las funciones', fr: 'Dès 15 $/mois jusqu’à 100 000 pages vues mensuelles ; chaque offre inclut toutes les fonctionnalités', de: 'Ab 15 $/Monat für bis zu 100.000 Seitenaufrufe monatlich; jeder Tarif enthält alle Funktionen' },
-      warn: { ar: 'مفيش خطة مجانية دائمة؛ التجربة ٧ أيام بس.', en: 'No permanent free plan; the trial is 7 days only.', es: 'Sin plan gratis permanente; la prueba es de solo 7 días.', fr: 'Pas d’offre gratuite permanente ; l’essai ne dure que 7 jours.', de: 'Kein dauerhafter Gratis-Tarif; die Testphase dauert nur 7 Tage.' },
-      note: { ar: 'تحليلات بسيطة وخفيفة بتحترم الخصوصية من غير كوكيز؛ السعر بيزيد حسب عدد المشاهدات.', en: 'Simple, lightweight privacy-first analytics with no cookies; the price scales with pageviews.', es: 'Analítica simple y ligera centrada en la privacidad, sin cookies; el precio escala con las páginas vistas.', fr: 'Analytique simple et légère, axée vie privée, sans cookies ; le prix évolue avec les pages vues.', de: 'Einfache, leichte, datenschutzfreundliche Analysen ohne Cookies; der Preis skaliert mit den Seitenaufrufen.' },
-      source: 'https://usefathom.com/pricing',
-    },
-    {
       plan: 'free',
       name: 'Mixpanel',
       url: 'https://mixpanel.com',
