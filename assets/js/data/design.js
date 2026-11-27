@@ -110,5 +110,15 @@ window.DG_DATA.design = {
       note: { ar: 'محرر تصميم واجهات أصلي للماك؛ ترخيص الماك بيشتغل أوفلاين ومِلكك للأبد.', en: 'A native Mac interface-design editor; the Mac license works offline and is yours to keep.', es: 'Editor nativo de diseño de interfaces para Mac; la licencia Mac funciona sin conexión y es tuya para siempre.', fr: 'Éditeur de design d’interfaces natif pour Mac ; la licence Mac fonctionne hors ligne et vous appartient.', de: 'Native Mac-App für Interface-Design; die Mac-Lizenz funktioniert offline und gehört dir dauerhaft.' },
       source: 'https://www.sketch.com/pricing/',
     },
+    {
+      plan: 'free',
+      name: 'Framer',
+      url: 'https://www.framer.com',
+      free: { ar: 'خطة مجانية بـ ٠ دولار: دومين Framer مجاني وصفحات تصميم و٥ جيجابايت بيانات', en: 'Free plan at $0: free Framer domain, design pages and 5 GB bandwidth', es: 'Plan gratis de $0: dominio Framer gratis, páginas de diseño y 5 GB de ancho de banda', fr: 'Offre gratuite à 0 $ : domaine Framer gratuit, pages de design et 5 Go de bande passante', de: 'Gratis-Tarif für 0 $: kostenlose Framer-Domain, Design-Seiten und 5 GB Bandbreite' },
+      paid: { ar: 'Basic من ١٠ دولار/شهر وPro من ٣٠ دولار/شهر بدومين مخصص مجاني', en: 'Basic from $10/mo and Pro from $30/mo with a free custom domain', es: 'Basic desde $10/mes y Pro desde $30/mes con dominio personalizado gratis', fr: 'Basic dès 10 $/mois et Pro dès 30 $/mois avec domaine personnalisé gratuit', de: 'Basic ab 10 $/Monat und Pro ab 30 $/Monat mit kostenloser eigener Domain' },
+      warn: { ar: 'الخطة المجانية بتظهر على دومين Framer فرعي؛ الدومين المخصص محتاج خطة مدفوعة.', en: 'The free plan publishes on a Framer subdomain; a custom domain needs a paid plan.', es: 'El plan gratis publica en un subdominio de Framer; un dominio propio requiere plan de pago.', fr: 'L’offre gratuite publie sur un sous-domaine Framer ; un domaine personnalisé exige une offre payante.', de: 'Der Gratis-Tarif veröffentlicht auf einer Framer-Subdomain; eine eigene Domain erfordert einen bezahlten Tarif.' },
+      note: { ar: 'مصمم مواقع مرئي باستضافة مدمجة؛ مناسب للصفحات التعريفية والمواقع الشخصية.', en: 'A visual site builder with built-in hosting; good for landing pages and personal sites.', es: 'Un constructor visual de sitios con alojamiento integrado; bueno para landing pages y sitios personales.', fr: 'Un constructeur visuel de sites avec hébergement intégré ; idéal pour landing pages et sites personnels.', de: 'Ein visueller Website-Baukasten mit integriertem Hosting; gut für Landingpages und persönliche Seiten.' },
+      source: 'https://www.framer.com/pricing',
+    },
   ],
 };
