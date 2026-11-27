@@ -136,6 +136,24 @@ window.DG_DATA.forms = {
       paid: { ar: 'باقات بتدفع مرة واحدة من ٢٥ دولار: ٥٠ ألف رسالة من غير اشتراك شهري', en: 'One-time bundles from $25: 50K submissions with no monthly subscription', es: 'Paquetes de pago único desde $25: 50 mil envíos sin suscripción mensual', fr: 'Packs en paiement unique dès 25 $ : 50 000 soumissions sans abonnement', de: 'Einmalpakete ab 25 $: 50.000 Übermittlungen ohne Monatsabo' },
       note: { ar: 'باك إند فورمات برصيد رسايل مابينتهيش؛ بتدفع مرة واحدة وتستهلك على مهلك.', en: 'Form backend with submission credits that never expire: pay once, use at your pace.', es: 'Backend de formularios con créditos de envíos que no caducan: paga una vez y úsalos a tu ritmo.', fr: 'Backend de formulaires avec des crédits de soumissions qui n’expirent jamais : payez une fois, utilisez à votre rythme.', de: 'Formular-Backend mit Übermittlungsguthaben ohne Ablaufdatum: einmal zahlen, in eigenem Tempo nutzen.' },
       source: 'https://formspark.io/pricing',
+    },    {
+      plan: 'oss',
+      name: 'HeyForm',
+      url: 'https://heyform.net',
+      free: { ar: 'مفتوح المصدر: استضافة ذاتية مجانية بفورمات وردود غير محدودة', en: 'Open source: free self-hosting with unlimited forms and responses', es: 'Código abierto: autoalojamiento gratis con formularios y respuestas ilimitadas', fr: 'Open source : auto-hébergement gratuit avec formulaires et réponses illimités', de: 'Open Source: kostenloses Self-Hosting mit unbegrenzten Formularen und Antworten' },
+      paid: { ar: 'الاستضافة السحابية المُدارة من ١٥ دولار/شهر', en: 'Managed cloud hosting from $15/mo', es: 'Alojamiento cloud gestionado desde $15/mes', fr: 'Hébergement cloud géré dès 15 $/mois', de: 'Managed Cloud ab 15 $/Monat' },
+      note: { ar: 'بديل مفتوح المصدر لـ Typeform للشركات الصغيرة.', en: 'An open-source Typeform alternative built for small businesses.', es: 'Una alternativa de código abierto a Typeform para pequeñas empresas.', fr: 'Une alternative open source à Typeform pensée pour les petites entreprises.', de: 'Eine Open-Source-Alternative zu Typeform für kleine Unternehmen.' },
+      source: 'https://heyform.net/pricing',
     },
+    {
+      plan: 'oss',
+      name: 'OpnForm',
+      url: 'https://opnform.com',
+      free: { ar: 'مفتوح المصدر، والخطة المجانية السحابية فيها ردود غير محدودة', en: 'Open source, and the free cloud plan includes unlimited responses', es: 'Código abierto, y el plan cloud gratis incluye respuestas ilimitadas', fr: 'Open source, et l’offre cloud gratuite inclut des réponses illimitées', de: 'Open Source, und der kostenlose Cloud-Tarif enthält unbegrenzte Antworten' },
+      paid: { ar: 'خطط Pro السحابية من ٢٥ دولار/شهر', en: 'Pro cloud plans from $25/mo', es: 'Planes Pro cloud desde $25/mes', fr: 'Offres Pro cloud dès 25 $/mois', de: 'Pro-Cloud-Tarife ab 25 $/Monat' },
+      note: { ar: 'باني فورمات مجاني بردود غير محدودة حتى في السحابة — نادر جدًا.', en: 'A free form builder with unlimited responses even on the cloud plan — very rare.', es: 'Un creador de formularios gratis con respuestas ilimitadas incluso en la nube: muy raro.', fr: 'Un créateur de formulaires gratuit avec réponses illimitées même en cloud — très rare.', de: 'Ein kostenloser Formular-Baukasten mit unbegrenzten Antworten sogar in der Cloud — sehr selten.' },
+      source: 'https://opnform.com/pricing',
+    },
+
   ],
 };
