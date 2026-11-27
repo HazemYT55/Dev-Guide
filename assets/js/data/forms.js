@@ -10,6 +10,17 @@ window.DG_DATA.forms = {
     fr: 'Recevez les messages d’un formulaire sur votre site statique sans créer de backend.',
     de: 'Empfange Nachrichten aus einem Formular auf deiner statischen Seite, ohne ein Backend zu bauen.',
   },
+window.DG_DATA.forms = {
+  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>',
+  path: 'forms.html',
+  title: { ar: 'فورم التواصل', en: 'Contact forms', es: 'Formularios de contacto', fr: 'Formulaires de contact', de: 'Kontaktformulare' },
+  blurb: {
+    ar: 'استقبل رسائل من فورم في موقعك الثابت من غير ما تبني باك إند.',
+    en: 'Receive messages from a form on your static site without building a backend.',
+    es: 'Recibe mensajes de un formulario en tu sitio estático sin construir un backend.',
+    fr: 'Recevez les messages d’un formulaire sur votre site statique sans créer de backend.',
+    de: 'Empfange Nachrichten aus einem Formular auf deiner statischen Seite, ohne ein Backend zu bauen.',
+  },
   entries: [
     {
       plan: 'free',
@@ -109,6 +120,15 @@ window.DG_DATA.forms = {
       paid: { ar: 'من ٩ دولار/شهر (٢٠٠٠ طلب شهريًا)', en: 'From $9/mo (2,000 monthly requests)', es: 'Desde $9/mes (2.000 solicitudes mensuales)', fr: 'Dès 9 $/mois (2 000 requêtes mensuelles)', de: 'Ab 9 $/Monat (2.000 Anfragen pro Monat)' },
       note: { ar: 'ابعت إيميل من جافاسكريبت في المتصفح من غير باك إند؛ بيتوصل بخدمات الإيميل العادية.', en: 'Send email from browser JavaScript with no backend; connects to regular email services.', es: 'Envía correo desde JavaScript en el navegador sin backend; se conecta a servicios de correo normales.', fr: 'Envoyez des e-mails depuis le navigateur en JavaScript sans backend ; se connecte aux services e-mail classiques.', de: 'E-Mails direkt aus dem Browser per JavaScript ohne Backend senden; verbindet sich mit üblichen E-Mail-Diensten.' },
       source: 'https://www.emailjs.com/pricing',
+    },
+    {
+      plan: 'free',
+      name: 'Forminit',
+      url: 'https://getform.io',
+      free: { ar: 'مجاني: ١٠٠ رسالة فورم في الشهر لفورم واحدة، من غير بطاقة', en: 'Free: 100 form submissions a month on 1 form, no card needed', es: 'Gratis: 100 envíos de formulario al mes en 1 formulario, sin tarjeta', fr: 'Gratuit : 100 soumissions de formulaire par mois sur 1 formulaire, sans carte', de: 'Gratis: 100 Formularübermittlungen pro Monat auf 1 Formular, ohne Karte' },
+      paid: { ar: 'من ١٩ دولار/شهر: ٥ آلاف رسالة و٥ فورمات', en: 'From $19/mo: 5K submissions and 5 forms', es: 'Desde $19/mes: 5 mil envíos y 5 formularios', fr: 'Dès 19 $/mois : 5 000 soumissions et 5 formulaires', de: 'Ab 19 $/Monat: 5.000 Übermittlungen und 5 Formulare' },
+      note: { ar: 'باك إند جاهز للفورمات، اتغير اسمه من Getform لـ Forminit؛ والأرشيف غير محدود حتى في المجاني.', en: 'Ready-made form backend, renamed from Getform to Forminit; unlimited submission archive even on free.', es: 'Backend de formularios listo, renombrado de Getform a Forminit; archivo de envíos ilimitado incluso gratis.', fr: 'Backend de formulaires prêt à l’emploi, renommé de Getform en Forminit ; archive illimitée même en gratuit.', de: 'Fertiges Formular-Backend, von Getform in Forminit umbenannt; unbegrenztes Archiv auch im Gratis-Tarif.' },
+      source: 'https://getform.io/pricing',
     },
   ],
 };
