@@ -4,14 +4,15 @@ window.DG_DATA.databases = {
   path: 'databases.html',
   title: { ar: 'قواعد البيانات', en: 'Databases', es: 'Bases de datos', fr: 'Bases de données', de: 'Datenbanken' },
   blurb: {
-    ar: 'Postgres وNoSQL مستضافة، كلها بخطط مجانية حقيقية تكفي للتعلم والمشاريع الصغيرة.',
-    en: 'Hosted Postgres and NoSQL, all with real free tiers big enough for learning and small projects.',
-    es: 'Postgres y NoSQL alojados, todos con planes gratuitos reales suficientes para aprender y proyectos pequeños.',
-    fr: 'Postgres et NoSQL hébergés, tous avec de vraies offres gratuites suffisantes pour apprendre et pour de petits projets.',
-    de: 'Gehostetes Postgres und NoSQL, alle mit echten Gratis-Tarifen, die zum Lernen und für kleine Projekte reichen.',
+    ar: 'Postgres وNoSQL مستضافة. الخطط المجانية الدائمة متعلّم عليها، واللي مجانيتها تجربة مؤقتة عليها تحذير واضح.',
+    en: 'Hosted Postgres and NoSQL. Permanent free tiers are marked; anything trial-only carries a clear warning.',
+    es: 'Postgres y NoSQL alojados. Los planes gratis permanentes están marcados; los que son solo de prueba llevan un aviso claro.',
+    fr: 'Postgres et NoSQL hébergés. Les offres gratuites permanentes sont indiquées ; les options limitées à un essai portent un avertissement clair.',
+    de: 'Gehostetes Postgres und NoSQL. Dauerhafte Gratis-Tarife sind markiert; reine Testphase-Optionen tragen einen klaren Hinweis.',
   },
   entries: [
     {
+      plan: 'free',
       name: 'Supabase',
       url: 'https://supabase.com',
       free: { ar: 'Postgres بحجم ٥٠٠ ميجا + تسجيل دخول لحد ٥٠٬٠٠٠ مستخدم شهريًا؛ المشروع بيتوقف بعد أسبوع من عدم الاستخدام', en: '500 MB Postgres plus auth for 50,000 monthly users; free projects pause after one week of inactivity', es: 'Postgres de 500 MB más auth para 50.000 usuarios mensuales; los proyectos gratis se pausan tras una semana sin uso', fr: 'Postgres de 500 Mo plus auth pour 50 000 utilisateurs mensuels ; les projets gratuits se mettent en pause après une semaine d’inactivité', de: '500 MB Postgres plus Auth für 50.000 monatliche Nutzer; Gratis-Projekte pausieren nach einer Woche Inaktivität' },
@@ -20,6 +21,7 @@ window.DG_DATA.databases = {
       source: 'https://supabase.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Neon',
       url: 'https://neon.com',
       free: { ar: 'Postgres سيرفرليس: ١ جيجا تخزين و١٠٠ ساعة CU شهريًا ولحد ١٠٠ مشروع، وبيهبط للصفر وقت الخمول', en: 'Serverless Postgres: 1 GB storage, 100 CU-hours/mo, up to 100 projects, scales to zero when idle', es: 'Postgres serverless: 1 GB de almacenamiento, 100 CU-horas/mes, hasta 100 proyectos, escala a cero en reposo', fr: 'Postgres serverless : 1 Go de stockage, 100 CU-heures/mois, jusqu’à 100 projets, mise à zéro au repos', de: 'Serverless-Postgres: 1 GB Speicher, 100 CU-Stunden/Monat, bis zu 100 Projekte, skaliert im Leerlauf auf null' },
@@ -27,6 +29,7 @@ window.DG_DATA.databases = {
       source: 'https://neon.com/pricing',
     },
     {
+      plan: 'free',
       name: 'MongoDB Atlas',
       url: 'https://www.mongodb.com/atlas',
       free: { ar: 'M0 مجاني للأبد: ٥١٢ ميجا تخزين', en: 'M0 free forever: 512 MB storage', es: 'M0 gratis para siempre: 512 MB de almacenamiento', fr: 'M0 gratuit à vie : 512 Mo de stockage', de: 'M0 dauerhaft kostenlos: 512 MB Speicher' },
@@ -35,6 +38,7 @@ window.DG_DATA.databases = {
       source: 'https://www.mongodb.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Turso',
       url: 'https://turso.tech',
       free: { ar: '١٠٠ قاعدة بيانات، ٥٠٠ مليون صف مقروء و١٠ مليون صف مكتوب شهريًا', en: '100 databases, 500M rows read and 10M rows written per month', es: '100 bases de datos, 500M filas leídas y 10M escritas al mes', fr: '100 bases, 500 M de lignes lues et 10 M écrites par mois', de: '100 Datenbanken, 500 Mio. gelesene und 10 Mio. geschriebene Zeilen pro Monat' },
@@ -43,6 +47,7 @@ window.DG_DATA.databases = {
       source: 'https://turso.tech/pricing',
     },
     {
+      plan: 'free',
       name: 'Firebase Firestore',
       url: 'https://firebase.google.com/products/firestore',
       free: { ar: '١ جيجا تخزين + ٥٠ ألف قراءة و٢٠ ألف كتابة يوميًا من غير بطاقة', en: '1 GiB stored plus 50K reads and 20K writes per day, no card needed', es: '1 GiB almacenado más 50K lecturas y 20K escrituras al día, sin tarjeta', fr: '1 Gio stocké plus 50 000 lectures et 20 000 écritures par jour, sans carte', de: '1 GiB Speicher plus 50.000 Lese- und 20.000 Schreibvorgänge pro Tag, ohne Karte' },
@@ -51,6 +56,7 @@ window.DG_DATA.databases = {
       source: 'https://firebase.google.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Upstash',
       url: 'https://upstash.com',
       free: { ar: 'خطة مجانية بـ ٢٥٠ ميجا تخزين و١٠ جيجا باندويدث لـ Redis وKafka وQStash', en: 'Free plan with 250 MB storage and 10 GB bandwidth for Redis, Kafka and QStash', es: 'Plan gratis con 250 MB de almacenamiento y 10 GB de ancho de banda para Redis, Kafka y QStash', fr: 'Offre gratuite avec 250 Mo de stockage et 10 Go de bande passante pour Redis, Kafka et QStash', de: 'Gratis-Tarif mit 250 MB Speicher und 10 GB Bandbreite für Redis, Kafka und QStash' },
@@ -59,6 +65,7 @@ window.DG_DATA.databases = {
       source: 'https://upstash.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Convex',
       url: 'https://www.convex.dev',
       free: { ar: 'مجاني للمشاريع الشخصية والنماذج الأولية (حتى ٦ مطورين) مع دفع حسب الاستخدام', en: 'Free for personal projects and prototypes (up to 6 developers), pay as you go', es: 'Gratis para proyectos personales y prototipos (hasta 6 desarrolladores), pago por uso', fr: 'Gratuit pour projets personnels et prototypes (jusqu’à 6 développeurs), paiement à l’usage', de: 'Kostenlos für persönliche Projekte und Prototypen (bis 6 Entwickler), nutzungsbasiert' },
@@ -67,6 +74,7 @@ window.DG_DATA.databases = {
       source: 'https://www.convex.dev/pricing',
     },
     {
+      plan: 'free',
       name: 'Cloudflare D1',
       url: 'https://developers.cloudflare.com/d1/',
       free: { ar: '٥ مليون صف مقروء + ١٠٠ ألف صف مكتوب يوميًا و٥ جيجا تخزين مجانًا', en: '5M rows read + 100K rows written per day and 5 GB storage free', es: '5M de filas leídas + 100.000 escritas al día y 5 GB de almacenamiento gratis', fr: '5 M de lignes lues + 100 000 écrites par jour et 5 Go de stockage gratuits', de: '5 Mio. gelesene + 100.000 geschriebene Zeilen pro Tag und 5 GB Speicher kostenlos' },
@@ -75,6 +83,7 @@ window.DG_DATA.databases = {
       source: 'https://developers.cloudflare.com/d1/platform/pricing/',
     },
     {
+      plan: 'oss',
       name: 'Xata',
       url: 'https://xata.io',
       free: { ar: 'ممكن تشغّله بنفسك مجانًا على السيرفر بتاعك (self-host)', en: 'Free to self-host on your own infrastructure', es: 'Gratis para autoalojar en tu propia infraestructura', fr: 'Gratuit en auto-hébergement sur votre propre infrastructure', de: 'Kostenlos zum Selbsthosten auf eigener Infrastruktur' },
@@ -83,6 +92,7 @@ window.DG_DATA.databases = {
       source: 'https://xata.io/pricing',
     },
     {
+      plan: 'trial',
       name: 'CockroachDB',
       url: 'https://www.cockroachlabs.com',
       free: { ar: 'مفيش خطة مجانية دائمة؛ تجربة ٣٠ يوم برصيد ٤٠٠ دولار', en: 'No permanent free plan; a 30-day trial with $400 credit', es: 'Sin plan gratis permanente; prueba de 30 días con $400 de crédito', fr: 'Pas d’offre gratuite permanente ; essai de 30 jours avec 400 $ de crédit', de: 'Kein dauerhafter Gratis-Tarif; 30-tägige Testphase mit 400 $ Guthaben' },
