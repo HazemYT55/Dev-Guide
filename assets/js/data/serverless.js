@@ -12,6 +12,7 @@ window.DG_DATA.serverless = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'Cloudflare Workers',
       url: 'https://workers.cloudflare.com',
       free: { ar: '١٠٠٬٠٠٠ طلب في اليوم مجانًا، وطلبات الملفات الثابتة غير محدودة', en: '100,000 requests per day free, and static asset requests are unlimited', es: '100.000 solicitudes al día gratis, y las de archivos estáticos son ilimitadas', fr: '100 000 requêtes par jour gratuites, et les requêtes de fichiers statiques sont illimitées', de: '100.000 Anfragen pro Tag kostenlos, Anfragen für statische Dateien unbegrenzt' },
@@ -20,6 +21,7 @@ window.DG_DATA.serverless = {
       source: 'https://developers.cloudflare.com/workers/platform/pricing/',
     },
     {
+      plan: 'free',
       name: 'AWS Lambda',
       url: 'https://aws.amazon.com/lambda/',
       free: { ar: 'مليون طلب + ٤٠٠٬٠٠٠ جيجا-ثانية كل شهر، مجاني دايمًا', en: '1M requests plus 400,000 GB-seconds every month, always free', es: '1M de solicitudes más 400.000 GB-segundos cada mes, siempre gratis', fr: '1 M de requêtes plus 400 000 Go-secondes chaque mois, toujours gratuit', de: '1 Mio. Anfragen plus 400.000 GB-Sekunden jeden Monat, dauerhaft kostenlos' },
@@ -28,6 +30,7 @@ window.DG_DATA.serverless = {
       source: 'https://aws.amazon.com/lambda/pricing/',
     },
     {
+      plan: 'free',
       name: 'Vercel Functions',
       url: 'https://vercel.com',
       free: { ar: 'موجودة ضمن خطة Hobby المجانية (في حدود الـ ٥ جيجا باندويدث)', en: 'Included in the free Hobby plan (within its 5 GB bandwidth)', es: 'Incluidas en el plan Hobby gratis (dentro de sus 5 GB de ancho de banda)', fr: 'Incluses dans l’offre Hobby gratuite (dans ses 5 Go de bande passante)', de: 'Im kostenlosen Hobby-Tarif enthalten (innerhalb seiner 5 GB Bandbreite)' },
@@ -36,6 +39,7 @@ window.DG_DATA.serverless = {
       source: 'https://vercel.com/docs/limits',
     },
     {
+      plan: 'free',
       name: 'Deno Deploy',
       url: 'https://deno.com/deploy',
       free: { ar: 'مليون طلب شهريًا + ٢٠ جيجا نقل بيانات صادر و٥ دومينات مخصصة، مجانًا', en: '1M requests/mo, 20 GiB egress and 5 custom domains, free', es: '1M de solicitudes/mes, 20 GiB de salida y 5 dominios propios, gratis', fr: '1 M de requêtes/mois, 20 Gio de sortie et 5 domaines personnalisés, gratuit', de: '1 Mio. Anfragen/Monat, 20 GiB ausgehender Traffic und 5 eigene Domains, kostenlos' },
@@ -44,6 +48,7 @@ window.DG_DATA.serverless = {
       source: 'https://deno.com/deploy/pricing',
     },
     {
+      plan: 'free',
       name: 'Netlify Functions',
       url: 'https://www.netlify.com/products/functions/',
       free: { ar: 'ضمن خطة Netlify المجانية (٣٠٠ كريدت شهريًا)', en: 'Included in Netlify Free ($0, 300 credits/mo)', es: 'Incluidas en Netlify Free ($0, 300 créditos/mes)', fr: 'Incluses dans Netlify Free (0 $, 300 crédits/mois)', de: 'Im kostenlosen Netlify-Tarif enthalten (300 Credits/Monat)' },
@@ -52,6 +57,7 @@ window.DG_DATA.serverless = {
       source: 'https://www.netlify.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Google Cloud Run functions',
       url: 'https://cloud.google.com/functions',
       free: { ar: '٢ مليون طلب + ٣٦٠٬٠٠٠ جيجابايت-ثانية ذاكرة مجانًا كل شهر', en: '2M requests plus 360,000 GiB-seconds of memory free each month', es: '2M de solicitudes más 360.000 GiB-segundos de memoria gratis al mes', fr: '2 M de requêtes plus 360 000 Gio-secondes de mémoire gratuites chaque mois', de: '2 Mio. Anfragen plus 360.000 GiB-Sekunden Arbeitsspeicher pro Monat kostenlos' },
@@ -60,6 +66,7 @@ window.DG_DATA.serverless = {
       source: 'https://cloud.google.com/functions/pricing',
     },
     {
+      plan: 'free',
       name: 'Azure Functions',
       url: 'https://azure.microsoft.com/products/functions/',
       free: { ar: 'مليون تنفيذ + ٤٠٠٬٠٠٠ جيجا-ثانية منحة مجانية كل شهر في خطة Consumption', en: '1M executions plus 400,000 GB-s free grant monthly on the Consumption plan', es: '1M de ejecuciones más 400.000 GB-s de concesión gratis al mes en el plan Consumption', fr: '1 M d’exécutions plus 400 000 Go-s offerts chaque mois sur le plan Consommation', de: '1 Mio. Ausführungen plus 400.000 GB-s kostenloses Kontingent pro Monat im Consumption-Tarif' },
@@ -68,6 +75,7 @@ window.DG_DATA.serverless = {
       source: 'https://azure.microsoft.com/en-us/pricing/details/functions/',
     },
     {
+      plan: 'free',
       name: 'DigitalOcean Functions',
       url: 'https://www.digitalocean.com/products/functions',
       free: { ar: '٩٠٬٠٠٠ جيجابايت-ثانية مجانًا كل شهر، ومن غير رسوم على عدد الاستدعاءات', en: '90,000 GiB-seconds free each month, with no per-invocation charge', es: '90.000 GiB-segundos gratis al mes, sin cargo por invocación', fr: '90 000 Gio-secondes gratuites chaque mois, sans frais par invocation', de: '90.000 GiB-Sekunden pro Monat kostenlos, ohne Gebühr pro Aufruf' },
@@ -75,6 +83,7 @@ window.DG_DATA.serverless = {
       source: 'https://www.digitalocean.com/pricing',
     },
     {
+      plan: 'free',
       name: 'OpenFaaS',
       url: 'https://www.openfaas.com',
       free: { ar: 'نسخة Community Edition مجانية للاستخدام الشخصي والتجريب', en: 'Community Edition is free for personal and hobby use', es: 'La Community Edition es gratis para uso personal y de hobby', fr: 'La Community Edition est gratuite pour un usage personnel et de loisir', de: 'Die Community Edition ist für persönliche und Hobby-Nutzung kostenlos' },
@@ -84,6 +93,7 @@ window.DG_DATA.serverless = {
       source: 'https://www.openfaas.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Supabase Edge Functions',
       url: 'https://supabase.com/edge-functions',
       free: { ar: '٥٠٠٬٠٠٠ استدعاء شهريًا ضمن الخطة المجانية', en: '500,000 invocations per month on the free plan', es: '500.000 invocaciones al mes en el plan gratis', fr: '500 000 invocations par mois sur l’offre gratuite', de: '500.000 Aufrufe pro Monat im Gratis-Tarif' },
