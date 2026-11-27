@@ -100,5 +100,14 @@ window.DG_DATA.auth = {
       warn: { ar: 'الدخول الفيدرالي عبر SAML/OIDC مجاني لـ ٥٠ مستخدم نشط بس في الشهر.', en: 'Federated sign-in via SAML/OIDC is free for only 50 MAUs per month.', es: 'El login federado vía SAML/OIDC es gratis solo para 50 MAU al mes.', fr: 'La connexion fédérée via SAML/OIDC n’est gratuite que pour 50 MAU par mois.', de: 'Föderierter Login über SAML/OIDC ist nur für 50 MAUs pro Monat kostenlos.' },
       source: 'https://aws.amazon.com/cognito/pricing/',
     },
+    {
+      plan: 'free',
+      name: 'WorkOS',
+      url: 'https://workos.com',
+      free: { ar: 'AuthKit مجاني لأول مليون مستخدم نشط شهريًا (MAU)', en: 'AuthKit free for the first 1M monthly active users (MAUs)', es: 'AuthKit gratis para el primer 1M de usuarios activos mensuales (MAU)', fr: 'AuthKit gratuit pour le premier million d’utilisateurs actifs mensuels (MAU)', de: 'AuthKit kostenlos für die ersten 1 Mio. monatlich aktive Nutzer (MAUs)' },
+      paid: { ar: 'كل مليون MAU إضافي بـ٢٥٠٠ دولار/شهر؛ SSO بيتسعّر لكل اتصال؛ خطة Scale بـ١٠٠٠ دولار/شهر', en: 'Each additional 1M MAUs $2,500/mo; SSO priced per connection; Scale plan $1,000/mo', es: 'Cada 1M de MAU adicional $2.500/mes; SSO por conexión; plan Scale $1.000/mes', fr: 'Chaque million de MAU supplémentaire 2 500 $/mois ; SSO facturé par connexion ; offre Scale 1 000 $/mois', de: 'Jede weitere 1 Mio. MAUs 2.500 $/Monat; SSO pro Verbindung; Scale-Tarif 1.000 $/Monat' },
+      note: { ar: 'جاهزية مؤسسات: SSO وSAML وSCIM؛ بيئات التجربة staging مجانية.', en: 'Enterprise-ready SSO, SAML and SCIM; staging environments are free.', es: 'SSO, SAML y SCIM listos para empresa; los entornos de staging son gratis.', fr: 'SSO, SAML et SCIM prêts pour l’entreprise ; environnements de staging gratuits.', de: 'Enterprise-taugliches SSO, SAML und SCIM; Staging-Umgebungen sind kostenlos.' },
+      source: 'https://workos.com/pricing',
+    },
   ],
 };
