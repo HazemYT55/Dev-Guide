@@ -159,5 +159,15 @@ window.DG_DATA.ai = {
       note: { ar: 'استضافة inference سريعة ورخيصة لنماذج مفتوحة زي Llama وQwen وDeepSeek.', en: 'Fast, low-cost inference hosting for open models like Llama, Qwen and DeepSeek.', es: 'Hosting de inferencia rápido y barato para modelos abiertos como Llama, Qwen y DeepSeek.', fr: 'Hébergement d’inférence rapide et économique pour les modèles ouverts comme Llama, Qwen et DeepSeek.', de: 'Schnelles, günstiges Inference-Hosting für offene Modelle wie Llama, Qwen und DeepSeek.' },
       source: 'https://deepinfra.com/pricing',
     },
+    {
+      plan: 'paid',
+      name: 'Replicate',
+      url: 'https://replicate.com',
+      free: { ar: 'مفيش خطة مجانية معلنة؛ بتدفع حسب الاستخدام بس', en: 'No free plan published; you only pay for what you use', es: 'Sin plan gratis publicado; solo pagas por lo que usas', fr: 'Pas d’offre gratuite publiée ; vous payez uniquement ce que vous utilisez', de: 'Kein Gratis-Tarif veröffentlicht; du zahlst nur für die Nutzung' },
+      paid: { ar: 'معظم الموديلات بالثانية حسب الهاردوير، وبعضها بالمدخلات والمخرجات (مثال: flux-1.1-pro بـ $0.04 للصورة)', en: 'Most models billed per second by hardware, some by input/output (e.g. flux-1.1-pro at $0.04 per output image)', es: 'La mayoría de los modelos se facturan por segundo según el hardware, otros por entrada/salida (ej. flux-1.1-pro a $0,04 por imagen)', fr: 'La plupart des modèles sont facturés à la seconde selon le matériel, d’autres à l’entrée/sortie (ex. flux-1.1-pro à 0,04 $ par image)', de: 'Die meisten Modelle werden pro Sekunde nach Hardware abgerechnet, manche nach Ein-/Ausgabe (z. B. flux-1.1-pro für 0,04 $ pro Bild)' },
+      warn: { ar: 'مفيش خطة مجانية: بتدفع من أول استخدام.', en: 'No free plan: you pay from the first call.', es: 'Sin plan gratis: pagas desde la primera llamada.', fr: 'Pas d’offre gratuite : vous payez dès le premier appel.', de: 'Kein Gratis-Tarif: ab dem ersten Aufruf kostenpflichtig.' },
+      note: { ar: 'شغل آلاف الموديلات مفتوحة المصدر بـ API واحدة من غير إدارة سيرفرات.', en: 'Run thousands of open-source models behind one API without managing servers.', es: 'Ejecuta miles de modelos open source tras una sola API sin gestionar servidores.', fr: 'Exécutez des milliers de modèles open source derrière une seule API sans gérer de serveurs.', de: 'Tausende Open-Source-Modelle über eine API nutzen, ohne Server zu verwalten.' },
+      source: 'https://replicate.com/pricing',
+    },
   ],
 };

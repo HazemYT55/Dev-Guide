@@ -175,5 +175,14 @@ window.DG_DATA.analytics = {
       note: { ar: 'مفتوح المصدر بالكامل (AGPL-v3) وبيركز على الزوار الفريدين بس من غير تعقيد.', en: 'Fully open source (AGPL-v3) and focused on unique visitors without the clutter.', es: 'Totalmente open source (AGPL-v3) y centrado en visitantes únicos sin ruido.', fr: 'Entièrement open source (AGPL-v3) et centré sur les visiteurs uniques, sans superflu.', de: 'Vollständig Open Source (AGPL-v3) und auf Unique Visitors fokussiert, ohne Ballast.' },
       source: 'https://counter.dev/',
     },
+    {
+      plan: 'free',
+      name: 'Vercel Web Analytics',
+      url: 'https://vercel.com/analytics',
+      free: { ar: 'خطة Hobby بتشمل ٥٠٬٠٠٠ حدث في الشهر وبتتجدد كل دورة فوترة؛ الجمع بيقف عند الحد لحد الدورة الجاية', en: 'Hobby includes 50,000 events/month, renewed every billing cycle; collection pauses at the limit until the next cycle', es: 'Hobby incluye 50.000 eventos/mes, renovados en cada ciclo de facturación; la recolección pausa al llegar al límite hasta el siguiente ciclo', fr: 'Hobby inclut 50 000 événements/mois, renouvelés à chaque cycle de facturation ; la collecte se met en pause à la limite jusqu’au cycle suivant', de: 'Hobby umfasst 50.000 Events/Monat, erneuert in jedem Abrechnungszeitraum; die Erfassung pausiert am Limit bis zum nächsten Zeitraum' },
+      paid: { ar: 'Pro: ‏$0.03 لكل ١٠٠٠ حدث حسب الاستخدام؛ Web Analytics Plus بيضيف فترة تقارير أطول وخصائص أكتر للأحداث', en: 'Pro: $0.03 per 1K events, usage-based; Web Analytics Plus adds a longer reporting window and more event properties', es: 'Pro: $0,03 por 1.000 eventos, según uso; Web Analytics Plus añade una ventana de reporte más larga y más propiedades de eventos', fr: 'Pro : 0,03 $ par 1 000 événements, à l’usage ; Web Analytics Plus ajoute une fenêtre de rapport plus longue et plus de propriétés d’événements', de: 'Pro: 0,03 $ pro 1.000 Events, nutzungsbasiert; Web Analytics Plus bietet längeres Reporting und mehr Event-Eigenschaften' },
+      note: { ar: 'تحليلات مدمجة في منصة الاستضافة نفسها؛ مشاريع غير محدودة على كل الخطط.', en: 'Analytics built into the hosting platform itself; unlimited projects on every plan.', es: 'Analítica integrada en la propia plataforma de hosting; proyectos ilimitados en todos los planes.', fr: 'Analytique intégrée à la plateforme d’hébergement elle-même ; projets illimités sur toutes les offres.', de: 'Direkt in die Hosting-Plattform eingebaute Analytics; unbegrenzte Projekte in allen Tarifen.' },
+      source: 'https://vercel.com/docs/analytics/limits-and-pricing',
+    },
   ],
 };
