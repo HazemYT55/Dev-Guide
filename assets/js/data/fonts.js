@@ -102,5 +102,14 @@ window.DG_DATA.fonts = {
       paid: { ar: 'شراء تراخيص لكل خط على حدة، والأسعار بتختلف حسب الخط ونوع الترخيص', en: 'Per-font license purchases; prices vary by font and license type', es: 'Compra de licencias por fuente; los precios varían según fuente y tipo de licencia', fr: 'Achat de licences par police ; les prix varient selon la police et le type de licence', de: 'Lizenzkauf pro Font; Preise variieren nach Font und Lizenztyp' },
       source: 'https://www.myfonts.com',
     },
+    {
+      plan: 'free',
+      name: 'UNCUT.wtf',
+      url: 'https://uncut.wtf',
+      free: { ar: 'كتالوج خطوط مجاني: ١٦٣ خط معاصر للاستخدام التجاري', en: 'Free typeface catalogue: 163 contemporary typefaces, free for commercial use', es: 'Catálogo de tipografías gratis: 163 tipografías contemporáneas, libres para uso comercial', fr: 'Catalogue de polices gratuit : 163 polices contemporaines, libres pour usage commercial', de: 'Gratis-Schriftkatalog: 163 zeitgenössische Schriften, frei für kommerzielle Nutzung' },
+      paid: { ar: 'مفيش خطط مدفوعة؛ كل الخطوط مجانية', en: 'No paid plans; every typeface is free', es: 'Sin planes de pago; todas las tipografías son gratis', fr: 'Pas d’offre payante ; toutes les polices sont gratuites', de: 'Keine kostenpflichtigen Tarife; alle Schriften sind gratis' },
+      note: { ar: 'خطوط عرض معاصرة وجريئة مناسبة للعناوين والهويات.', en: 'Bold contemporary display typefaces for headlines and identities.', es: 'Tipografías display contemporáneas y llamativas para titulares e identidades.', fr: 'Polices display contemporaines et audacieuses pour titres et identités.', de: 'Markante zeitgenössische Display-Schriften für Headlines und Identitäten.' },
+      source: 'https://uncut.wtf/',
+    },
   ],
 };

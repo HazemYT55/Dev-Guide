@@ -155,5 +155,14 @@ window.DG_DATA.monitoring = {
       note: { ar: 'مونيتورينج وصفحات حالة وإدارة حوادث؛ ١٨ منطقة فحص حتى في الخطة المجانية.', en: 'Monitoring, status pages and incident management; 18 check regions even on the free plan.', es: 'Monitoreo, páginas de estado y gestión de incidentes; 18 regiones de chequeo incluso gratis.', fr: 'Monitoring, pages de statut et gestion d’incidents ; 18 régions de contrôle même en gratuit.', de: 'Monitoring, Statusseiten und Vorfallmanagement; 18 Prüfregionen schon im Gratis-Tarif.' },
       source: 'https://hyperping.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Cronitor',
+      url: 'https://cronitor.io',
+      free: { ar: 'مجاني للأبد: ٥ مونيتورز وجوبز و١٠٠ ألف حدث تحليلات؛ مثالي للمشاريع الجانبية', en: 'Free forever: 5 monitors and jobs plus 100K analytics events; made for side projects and homelabs', es: 'Gratis para siempre: 5 monitores y jobs más 100 mil eventos de analítica; pensado para proyectos personales', fr: 'Gratuit pour toujours : 5 moniteurs et jobs plus 100 000 événements d’analytique ; pensé pour les side projects', de: 'Dauerhaft gratis: 5 Monitore und Jobs plus 100.000 Analytics-Events; gedacht für Side Projects und Homelabs' },
+      paid: { ar: 'Business حسب الاستخدام: ٢ دولار/شهر لكل مونيتور + ٥ دولار/شهر لكل مستخدم، بعد تجربة ١٤ يوم', en: 'Business is usage-based: $2/mo per monitor + $5/mo per user, after a 14-day trial', es: 'Business por uso: $2/mes por monitor + $5/mes por usuario, tras una prueba de 14 días', fr: 'Business à l’usage : 2 $/mois par moniteur + 5 $/mois par utilisateur, après un essai de 14 jours', de: 'Business nach Nutzung: 2 $/Monat pro Monitor + 5 $/Monat pro Nutzer, nach 14-tägiger Testphase' },
+      note: { ar: 'مونيتورينج للوظايف المجدولة (cron jobs) والهارت بيت والأب تايم في مكان واحد.', en: 'Cron job, heartbeat and uptime monitoring in one place.', es: 'Monitoreo de cron jobs, heartbeats y uptime en un solo lugar.', fr: 'Monitoring des cron jobs, heartbeats et de l’uptime au même endroit.', de: 'Cron-Job-, Heartbeat- und Uptime-Monitoring an einem Ort.' },
+      source: 'https://cronitor.io/pricing',
+    },
   ],
 };
