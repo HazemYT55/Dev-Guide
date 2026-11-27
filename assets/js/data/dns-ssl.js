@@ -12,6 +12,7 @@ window.DG_DATA['dns-ssl'] = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'Cloudflare DNS',
       url: 'https://www.cloudflare.com/application-services/products/dns/',
       free: { ar: 'DNS مجاني في كل الخطط، ومعاه API كامل مجاني', en: 'Authoritative DNS free on every plan, with a full free API', es: 'DNS autoritativo gratis en todos los planes, con API completa gratis', fr: 'DNS faisant autorité gratuit sur toutes les offres, avec une API complète gratuite', de: 'Autoritatives DNS in jedem Tarif kostenlos, mit kompletter Gratis-API' },
@@ -20,6 +21,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://www.cloudflare.com/application-services/products/dns/',
     },
     {
+      plan: 'free',
       name: 'deSEC',
       url: 'https://desec.io',
       free: { ar: 'استضافة DNS مجانية للكل، مفتوحة المصدر وممولة بالتبرعات', en: 'DNS hosting free for everyone, open-source based and donation-funded', es: 'Alojamiento DNS gratis para todos, basado en código abierto y financiado por donaciones', fr: 'Hébergement DNS gratuit pour tous, basé sur l’open source et financé par des dons', de: 'DNS-Hosting für alle kostenlos, auf Open-Source-Basis und spendenfinanziert' },
@@ -36,6 +38,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://letsencrypt.org/',
     },
     {
+      plan: 'free',
       name: 'ZeroSSL',
       url: 'https://zerossl.com',
       free: { ar: 'الخطة المجانية: ٣ شهادات مدة كل واحدة ٩٠ يوم', en: 'Free plan: 3 certificates of 90 days each', es: 'Plan gratis: 3 certificados de 90 días cada uno', fr: 'Offre gratuite : 3 certificats de 90 jours chacun', de: 'Gratis-Tarif: 3 Zertifikate à 90 Tage' },
@@ -44,6 +47,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://zerossl.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Hurricane Electric Free DNS',
       url: 'https://dns.he.net',
       free: { ar: 'DNS استضافة مجانية بالكامل: forward وreverse DNS من غير حدود مدفوعة', en: 'Completely free DNS hosting: forward and reverse DNS with no paid tiers', es: 'Alojamiento DNS totalmente gratis: DNS directo e inverso sin niveles de pago', fr: 'Hébergement DNS entièrement gratuit : DNS direct et inverse sans palier payant', de: 'Komplett kostenloses DNS-Hosting: Forward- und Reverse-DNS ohne kostenpflichtige Stufen' },
@@ -52,6 +56,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://dns.he.net/',
     },
     {
+      plan: 'paid',
       name: 'DNSimple',
       url: 'https://dnsimple.com',
       free: { ar: 'مفيش خطة مجانية دائمة؛ الدفع حسب الاستخدام', en: 'No permanent free plan; pay-as-you-go pricing', es: 'Sin plan gratis permanente; precios de pago por uso', fr: 'Pas d’offre gratuite permanente ; tarification à l’usage', de: 'Kein dauerhafter Gratis-Tarif; Abrechnung nach Nutzung' },
@@ -60,6 +65,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://dnsimple.com/pricing',
     },
     {
+      plan: 'paid',
       name: 'Amazon Route 53',
       url: 'https://aws.amazon.com/route53/',
       free: { ar: 'مفيش طبقة مجانية للـDNS؛ الدفع حسب الاستخدام من أول قرش', en: 'No free tier for DNS; pay-as-you-go from the first cent', es: 'Sin nivel gratis para DNS; pago por uso desde el primer centavo', fr: 'Pas de palier gratuit pour le DNS ; paiement à l’usage dès le premier centime', de: 'Kein Gratis-Kontingent für DNS; nutzungsbasierte Abrechnung ab dem ersten Cent' },
@@ -68,6 +74,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://aws.amazon.com/route53/pricing/',
     },
     {
+      plan: 'free',
       name: 'DigitalOcean DNS',
       url: 'https://www.digitalocean.com/products/networking',
       free: { ar: 'إدارة DNS كاملة مجانية مع حساب DigitalOcean، من غير رسوم إضافية', en: 'Full DNS management free with a DigitalOcean account, at no extra charge', es: 'Gestión DNS completa gratis con una cuenta de DigitalOcean, sin cargo extra', fr: 'Gestion DNS complète gratuite avec un compte DigitalOcean, sans frais supplémentaires', de: 'Volle DNS-Verwaltung kostenlos mit einem DigitalOcean-Konto, ohne Aufpreis' },
@@ -76,6 +83,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://docs.digitalocean.com/products/networking/dns/',
     },
     {
+      plan: 'free',
       name: 'Buypass Go SSL',
       url: 'https://www.buypass.com/ssl/products/acme',
       free: { ar: 'شهادات TLS/SSL مجانية عبر ACME (زي Let’s Encrypt) بمدة ١٨٠ يوم', en: 'Free TLS/SSL certificates over ACME (like Let’s Encrypt) with 180-day validity', es: 'Certificados TLS/SSL gratis vía ACME (como Let’s Encrypt) con validez de 180 días', fr: 'Certificats TLS/SSL gratuits via ACME (comme Let’s Encrypt) avec 180 jours de validité', de: 'Kostenlose TLS/SSL-Zertifikate über ACME (wie Let’s Encrypt) mit 180 Tagen Gültigkeit' },
@@ -84,6 +92,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://www.buypass.com/ssl/products/acme',
     },
     {
+      plan: 'paid',
       name: 'SSL.com',
       url: 'https://www.ssl.com',
       free: { ar: 'مفيش شهادات مجانية؛ للشهادات المجانية شوف Let’s Encrypt أو ZeroSSL أو Buypass', en: 'No free certificates; for free certs see Let’s Encrypt, ZeroSSL or Buypass', es: 'Sin certificados gratis; para certificados gratuitos mira Let’s Encrypt, ZeroSSL o Buypass', fr: 'Pas de certificats gratuits ; pour des certificats gratuits, voir Let’s Encrypt, ZeroSSL ou Buypass', de: 'Keine Gratis-Zertifikate; für kostenlose Zertifikate siehe Let’s Encrypt, ZeroSSL oder Buypass' },
