@@ -40,7 +40,7 @@ window.DG_DATA.tools = {
       source: 'https://docs.replit.com/billing/plans/starter-plan',
     },
     {
-      plan: 'oss',
+      plan: 'free',
       name: 'JetBrains IDEs',
       url: 'https://www.jetbrains.com/idea/',
       free: { ar: 'نسخ Community مجانية ومفتوحة المصدر (زي IntelliJ Community وPyCharm Community)', en: 'Community editions free and open source (like IntelliJ Community and PyCharm Community)', es: 'Ediciones Community gratis y de código abierto (como IntelliJ Community y PyCharm Community)', fr: 'Éditions Community gratuites et open source (comme IntelliJ Community et PyCharm Community)', de: 'Community-Editionen kostenlos und Open Source (wie IntelliJ Community und PyCharm Community)' },
@@ -210,12 +210,12 @@ window.DG_DATA.tools = {
       source: 'https://ploi.io/pricing',
     },
     {
-      plan: 'trial',
+      plan: 'free',
       name: 'ngrok',
       url: 'https://ngrok.com',
       free: { ar: 'الخطة المجانية بصفر دولار: ٣ إندبوينتس و١ جيجا نقل بيانات و٢٠ ألف طلب، مع رصيد استخدام ٥ دولار لمرة واحدة', en: 'Free plan at $0: 3 endpoints, 1 GB transfer and 20K requests, with a $5 one-time usage credit', es: 'Plan gratis a $0: 3 endpoints, 1 GB de transferencia y 20 mil solicitudes, con $5 de uso incluido de una sola vez', fr: 'Offre gratuite à 0 $ : 3 endpoints, 1 Go de transfert et 20 000 requêtes, avec 5 $ d’usage inclus en une seule fois', de: 'Gratis-Tarif für 0 $: 3 Endpunkte, 1 GB Traffic und 20.000 Anfragen, mit einmalig 5 $ Nutzungsguthaben' },
       paid: { ar: 'Hobbyist بـ١٠ دولار/شهر باستخدام شامل ١٠ دولار شهريًا', en: 'Hobbyist at $10/mo with $10 of monthly included usage', es: 'Hobbyist a $10/mes con $10 de uso mensual incluido', fr: 'Hobbyist à 10 $/mois avec 10 $ d’usage mensuel inclus', de: 'Hobbyist für 10 $/Monat mit 10 $ monatlichem Nutzungskontingent' },
-      warn: { ar: 'في الخطة المجانية الاستخدام بيقف لما رصيد الـ٥ دولار (لمرة واحدة) يخلص.', en: 'On the free plan, usage stops once the one-time $5 credit is consumed.', es: 'En el plan gratis, el uso se detiene al agotar el crédito único de $5.', fr: 'En offre gratuite, l’usage s’arrête une fois le crédit unique de 5 $ épuisé.', de: 'Im Gratis-Tarif stoppt die Nutzung, sobald das einmalige 5-$-Guthaben aufgebraucht ist.' },
+      warn: { ar: 'الخطة المجانية بتشمل رصيد استخدام ٥ دولار لمرة واحدة، والموقع بيقول: مفيش استخدام إضافي بعد الرصيد؛ اللي بيحصل عند نفاده بالظبط مش موضح رسميًا.', en: 'The free plan includes a one-time $5 usage credit and the site states no additional usage beyond credit; the exact consequence at exhaustion is not officially spelled out.', es: 'El plan gratis incluye $5 de uso de una sola vez y el sitio indica que no hay uso adicional más allá del crédito; la consecuencia exacta al agotarlo no está detallada oficialmente.', fr: 'L’offre gratuite inclut 5 $ d’usage en une seule fois et le site indique aucun usage supplémentaire au-delà du crédit ; la conséquence exacte à l’épuisement n’est pas précisée officiellement.', de: 'Der Gratis-Tarif enthält einmalig 5 $ Nutzungsguthaben, und die Seite sagt keine Nutzung über das Guthaben hinaus; die genaue Folge beim Aufbrauchen ist offiziell nicht erläutert.' },
       note: { ar: 'لينكات عامة فورية للسيرفر المحلي بتاعك: تانلز وتجربة ويب هوكس وديموهات.', en: 'Instant public URLs for your local server: tunnels, webhook testing and demos.', es: 'URLs públicas instantáneas para tu servidor local: túneles, pruebas de webhooks y demos.', fr: 'Des URL publiques instantanées pour votre serveur local : tunnels, tests de webhooks et démos.', de: 'Sofortige öffentliche URLs für deinen lokalen Server: Tunnels, Webhook-Tests und Demos.' },
       source: 'https://ngrok.com/pricing',
     },
