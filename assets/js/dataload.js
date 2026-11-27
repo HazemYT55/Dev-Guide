@@ -8,9 +8,9 @@
 // reloads itself once after a short wait, so a visitor never keeps a
 // half-old, half-new directory. Update MANIFEST counts on every release.
 (function () {
-  var V = '2026-11-27.16';
+  var V = '2026-11-27.17';
   var files = ["hosting", "domains", "databases", "email", "auth", "serverless", "monitoring", "analytics", "forms", "courses", "tools", "design", "dns-ssl", "payments", "ai", "fonts", "baas", "messaging", "cms", "webhosting"];
-  var MANIFEST = {"ai":14,"analytics":16,"auth":12,"baas":11,"cms":10,"courses":13,"databases":20,"design":13,"dns-ssl":10,"domains":16,"email":11,"fonts":11,"forms":11,"hosting":10,"messaging":13,"monitoring":11,"payments":11,"serverless":12,"tools":21,"webhosting":11};
+  var MANIFEST = {"ai":14,"analytics":16,"auth":12,"baas":11,"cms":10,"courses":15,"databases":20,"design":13,"dns-ssl":10,"domains":16,"email":11,"fonts":11,"forms":11,"hosting":10,"messaging":13,"monitoring":14,"payments":11,"serverless":12,"tools":21,"webhosting":11};
   files.forEach(function (f) {
     document.write('<script src="assets/js/data/' + f + '.js?v=' + V + '"><\/script>');
   });
