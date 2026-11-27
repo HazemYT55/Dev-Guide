@@ -90,12 +90,13 @@
       '<span class="updated">' + esc(ui.updated) + '</span></section>' +
       '<input class="search" id="dg-search" type="search" placeholder="' + esc(ui.searchPlaceholder) + '" aria-label="' + esc(ui.searchPlaceholder) + '">';
     c.entries.forEach(function (e) {
-      html += '<article class="entry"><div class="entry-head"><h3>' + esc(e.name) + '</h3>' +
-        '<a href="' + esc(e.url) + '" target="_blank" rel="noopener">' + esc(ui.visit) + ' ↗</a></div><dl class="kv">' +
-        '<dt>' + esc(ui.freeLabel) + '</dt><dd>' + esc(t(e.free)) + '</dd>' +
-        '<dt>' + esc(ui.paidLabel) + '</dt><dd>' + esc(t(e.paid)) + '</dd></dl>';
+      html += '<article class="entry"><div class="entry-head"><h3><a href="' + esc(e.url) + '" target="_blank" rel="noopener">' + esc(e.name) + ' ↗</a></h3></div>' +
+        '<p class="rowline"><span class="tag tag-free">' + esc(ui.freeLabel) + '</span> ' + esc(t(e.free)) + '</p>' +
+        '<p class="rowline"><span class="tag tag-paid">' + esc(ui.paidLabel) + '</span> ' + esc(t(e.paid)) + '</p>';
+      if (e.warn) html += '<p class="warnline">' + esc(t(e.warn)) + '</p>';
+      html += '<details class="more"><summary>' + esc(ui.detailsLabel) + '</summary>';
       if (e.note) html += '<div class="note">' + esc(t(e.note)) + '</div>';
-      html += '<div class="src">' + esc(ui.source) + ': <a href="' + esc(e.source) + '" target="_blank" rel="noopener">' + esc(e.source) + '</a></div></article>';
+      html += '<div class="src">' + esc(ui.source) + ': <a href="' + esc(e.source) + '" target="_blank" rel="noopener">' + esc(e.source) + '</a></div></details></article>';
     });
     root.innerHTML = html;
     document.title = t(c.title) + ' · Dev-Guide';
