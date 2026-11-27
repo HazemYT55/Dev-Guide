@@ -12,6 +12,7 @@ window.DG_DATA.domains = {
   },
   entries: [
     {
+      plan: 'paid',
       name: 'Cloudflare Registrar',
       url: 'https://www.cloudflare.com/products/registrar/',
       free: { ar: 'مفيش مجاني — الدومينات ليها تكلفة دايمًا', en: 'No free tier — domains always cost money', es: 'Sin plan gratis — los dominios siempre cuestan', fr: 'Pas d’offre gratuite — les domaines coûtent toujours', de: 'Kein Gratis-Tarif — Domains kosten immer Geld' },
@@ -20,6 +21,7 @@ window.DG_DATA.domains = {
       source: 'https://developers.cloudflare.com/registrar/',
     },
     {
+      plan: 'paid',
       name: 'Porkbun',
       url: 'https://porkbun.com',
       free: { ar: 'مفيش مجاني — الدومينات ليها تكلفة دايمًا', en: 'No free tier — domains always cost money', es: 'Sin plan gratis — los dominios siempre cuestan', fr: 'Pas d’offre gratuite — les domaines coûtent toujours', de: 'Kein Gratis-Tarif — Domains kosten immer Geld' },
@@ -28,6 +30,7 @@ window.DG_DATA.domains = {
       source: 'https://porkbun.com/about',
     },
     {
+      plan: 'paid',
       name: 'Namecheap',
       url: 'https://www.namecheap.com',
       free: { ar: 'مفيش مجاني — الدومينات ليها تكلفة دايمًا', en: 'No free tier — domains always cost money', es: 'Sin plan gratis — los dominios siempre cuestan', fr: 'Pas d’offre gratuite — les domaines coûtent toujours', de: 'Kein Gratis-Tarif — Domains kosten immer Geld' },
@@ -36,6 +39,7 @@ window.DG_DATA.domains = {
       source: 'https://www.namecheap.com/domains/registration/gtld/com/',
     },
     {
+      plan: 'paid',
       name: 'NameSilo',
       url: 'https://www.namesilo.com',
       free: { ar: 'مفيش مجاني، لكن WHOIS privacy وإدارة DNS وإعادة التوجيه مجانية مع كل دومين', en: 'No free domains, but WHOIS privacy, DNS management and forwarding are free with every domain', es: 'Sin dominios gratis, pero privacidad WHOIS, DNS y redirección son gratis con cada dominio', fr: 'Pas de domaines gratuits, mais confidentialité WHOIS, DNS et redirection sont gratuits avec chaque domaine', de: 'Keine Gratis-Domains, aber WHOIS-Privacy, DNS-Verwaltung und Weiterleitung sind bei jeder Domain kostenlos' },
@@ -44,6 +48,7 @@ window.DG_DATA.domains = {
       source: 'https://www.namesilo.com/pricing',
     },
     {
+      plan: 'paid',
       name: 'Dynadot',
       url: 'https://www.dynadot.com',
       free: { ar: 'WHOIS privacy وبيلدر موقع وإيميل مجاني مع كل دومين', en: 'Free WHOIS privacy, website builder and custom email with every domain', es: 'Privacidad WHOIS, creador de sitios y correo gratis con cada dominio', fr: 'Confidentialité WHOIS, créateur de site et email gratuits avec chaque domaine', de: 'Kostenlose WHOIS-Privacy, Website-Builder und E-Mail zu jeder Domain' },
@@ -52,6 +57,7 @@ window.DG_DATA.domains = {
       source: 'https://www.dynadot.com/domain/pricing',
     },
     {
+      plan: 'paid',
       name: 'Gandi',
       url: 'https://www.gandi.net',
       free: { ar: 'مفيش مجاني — الدومينات ليها تكلفة دايمًا', en: 'No free tier, domains always cost money', es: 'Sin plan gratis, los dominios siempre cuestan', fr: 'Pas d’offre gratuite, les domaines coûtent toujours', de: 'Kein Gratis-Tarif, Domains kosten immer Geld' },
@@ -60,6 +66,7 @@ window.DG_DATA.domains = {
       source: 'https://www.gandi.net/en-US/domain',
     },
     {
+      plan: 'paid',
       name: 'IONOS',
       url: 'https://www.ionos.com',
       free: { ar: 'مفيش مجاني؛ فيه عروض أول سنة رخيصة جدًا على امتدادات كتير', en: 'No free tier; very cheap first-year promos on many TLDs', es: 'Sin plan gratis; promociones de primer año muy baratas en muchos TLD', fr: 'Pas d’offre gratuite ; promos de première année très basses sur de nombreuses extensions', de: 'Kein Gratis-Tarif; sehr günstige Erstjahres-Angebote bei vielen TLDs' },
@@ -68,6 +75,7 @@ window.DG_DATA.domains = {
       source: 'https://www.ionos.com/domains/domain-names',
     },
     {
+      plan: 'paid',
       name: 'OVHcloud',
       url: 'https://www.ovhcloud.com',
       free: { ar: 'مفيش مجاني — الدومينات ليها تكلفة دايمًا', en: 'No free tier, domains always cost money', es: 'Sin plan gratis, los dominios siempre cuestan', fr: 'Pas d’offre gratuite, les domaines coûtent toujours', de: 'Kein Gratis-Tarif, Domains kosten immer Geld' },
@@ -76,6 +84,7 @@ window.DG_DATA.domains = {
       source: 'https://www.ovhcloud.com/en/domains/',
     },
     {
+      plan: 'paid',
       name: 'Spaceship',
       url: 'https://www.spaceship.com',
       free: { ar: 'مفيش مجاني — الدومينات ليها تكلفة دايمًا', en: 'No free tier, domains always cost money', es: 'Sin plan gratis, los dominios siempre cuestan', fr: 'Pas d’offre gratuite, les domaines coûtent toujours', de: 'Kein Gratis-Tarif, Domains kosten immer Geld' },
@@ -84,6 +93,7 @@ window.DG_DATA.domains = {
       source: 'https://www.spaceship.com/domains/',
     },
     {
+      plan: 'paid',
       name: 'GoDaddy',
       url: 'https://www.godaddy.com',
       free: { ar: 'مفيش مجاني؛ بس بيضيف مميزات مجانية مع الدومين زي WHOIS privacy', en: 'No free tier, but extras like WHOIS privacy come free with a domain', es: 'Sin plan gratis, pero extras como la privacidad WHOIS vienen gratis con el dominio', fr: 'Pas d’offre gratuite, mais des extras comme la confidentialité WHOIS sont inclus', de: 'Kein Gratis-Tarif, aber Extras wie WHOIS-Privacy sind bei der Domain dabei' },
