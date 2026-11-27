@@ -58,15 +58,6 @@ window.DG_DATA['dns-ssl'] = {
     },
     {
       plan: 'paid',
-      name: 'DNSimple',
-      url: 'https://dnsimple.com',
-      free: { ar: 'مفيش خطة مجانية دائمة؛ الدفع حسب الاستخدام', en: 'No permanent free plan; pay-as-you-go pricing', es: 'Sin plan gratis permanente; precios de pago por uso', fr: 'Pas d’offre gratuite permanente ; tarification à l’usage', de: 'Kein dauerhafter Gratis-Tarif; Abrechnung nach Nutzung' },
-      paid: { ar: 'نص دولار/شهر لكل zone + ٠٫٥٠ دولار لكل مليون استعلام بعد المجاني المشمول', en: '$0.50/zone per month plus $0.50-0.80 per million queries beyond the included amount', es: '$0,50/zona al mes más $0,50-0,80 por millón de consultas tras lo incluido', fr: '0,50 $/zone par mois plus 0,50-0,80 $ par million de requêtes au-delà de l’inclus', de: '0,50 $/Zone pro Monat plus 0,50-0,80 $ pro Million Abfragen über dem Kontingent' },
-      note: { ar: 'DNS للمطورين بـAPI قوي ودعم ALIAS؛ مناسب للمشاريع الجادة.', en: 'Developer DNS with a strong API and ALIAS support; fits serious projects.', es: 'DNS para desarrolladores con API fuerte y soporte ALIAS; para proyectos serios.', fr: 'DNS pour développeurs avec une API solide et le support ALIAS ; pour projets sérieux.', de: 'Entwickler-DNS mit starker API und ALIAS-Support; für ernsthafte Projekte.' },
-      source: 'https://dnsimple.com/pricing',
-    },
-    {
-      plan: 'paid',
       name: 'Amazon Route 53',
       url: 'https://aws.amazon.com/route53/',
       free: { ar: 'مفيش طبقة مجانية للـDNS؛ الدفع حسب الاستخدام من أول قرش', en: 'No free tier for DNS; pay-as-you-go from the first cent', es: 'Sin nivel gratis para DNS; pago por uso desde el primer centavo', fr: 'Pas de palier gratuit pour le DNS ; paiement à l’usage dès le premier centime', de: 'Kein Gratis-Kontingent für DNS; nutzungsbasierte Abrechnung ab dem ersten Cent' },
@@ -100,6 +91,15 @@ window.DG_DATA['dns-ssl'] = {
       paid: { ar: 'شهادة DV لدومين واحد من ٣٦٫٧٥ دولار/سنة؛ وwildcard وSAN بأسعار أعلى', en: 'Single-domain DV from $36.75/yr; wildcard and SAN certificates cost more', es: 'DV de un dominio desde $36,75/año; wildcard y SAN cuestan más', fr: 'DV mono-domaine dès 36,75 $/an ; wildcard et SAN plus chers', de: 'Single-Domain DV ab 36,75 $/Jahr; Wildcard- und SAN-Zertifikate teurer' },
       note: { ar: 'لما تحتاج شهادات OV/EV أو دعم مدفوع؛ أغلب المواقع ماتحتاجش تدفع في الشهادات أصلًا.', en: 'For when you need OV/EV certificates or paid support; most sites never need to pay for certs.', es: 'Para cuando necesitas certificados OV/EV o soporte de pago; la mayoría de los sitios nunca pagan por certificados.', fr: 'Pour les certificats OV/EV ou le support payant ; la plupart des sites n’ont jamais besoin de payer.', de: 'Für OV/EV-Zertifikate oder bezahlten Support; die meisten Seiten müssen nie für Zertifikate zahlen.' },
       source: 'https://www.ssl.com/certificates',
+    },    {
+      plan: 'free',
+      name: 'DNSimple',
+      url: 'https://dnsimple.com',
+      free: { ar: 'خطة Solo مجانية لمستخدم واحد؛ ٠٫٥٠ دولار/شهر لكل zone و٥٠ ألف استعلام مشمولة', en: 'Free Solo plan for 1 user; $0.50/mo per hosted zone with 50k queries included', es: 'Plan Solo gratis para 1 usuario; $0,50/mes por zona alojada con 50.000 consultas incluidas', fr: 'Offre Solo gratuite pour 1 utilisateur ; 0,50 $/mois par zone hébergée avec 50 000 requêtes incluses', de: 'Kostenloser Solo-Tarif für 1 Nutzer; 0,50 $/Monat pro gehosteter Zone mit 50.000 Abfragen inklusive' },
+      paid: { ar: 'Solo Pro بـ ١٩ دولار/شهر بشهادات wildcard وإعادة توجيه HTTPS وسجلات أكتر', en: 'Solo Pro at $19/mo adds wildcard certificates, HTTPS redirects and more records', es: 'Solo Pro por $19/mes añade certificados wildcard, redirecciones HTTPS y más registros', fr: 'Solo Pro à 19 $/mois ajoute les certificats wildcard, les redirections HTTPS et plus d’enregistrements', de: 'Solo Pro für 19 $/Monat bietet Wildcard-Zertifikate, HTTPS-Redirects und mehr Einträge' },
+      note: { ar: 'إدارة DNS ودومينات مؤتمتة بـ API قوي؛ معمولة للمطورين.', en: 'Automated DNS and domain management with a strong API; built for developers.', es: 'Gestión automatizada de DNS y dominios con una API potente; hecha para desarrolladores.', fr: 'Gestion automatisée du DNS et des domaines avec une API solide ; pensée pour les développeurs.', de: 'Automatisierte DNS- und Domain-Verwaltung mit starker API; für Entwickler gebaut.' },
+      source: 'https://dnsimple.com/pricing',
     },
+
   ],
 };
