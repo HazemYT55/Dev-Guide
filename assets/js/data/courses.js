@@ -146,5 +146,23 @@ window.DG_DATA.courses = {
       note: { ar: 'تعلم برمجة للمبتدئين بأسلوب لعبة مغامرات.', en: 'Beginner coding lessons in an adventure-game style.', es: 'Lecciones de código para principiantes con estilo de juego de aventuras.', fr: 'Leçons de code pour débutants dans un style de jeu d’aventure.', de: 'Coding-Lektionen für Anfänger im Abenteuerspiel-Stil.' },
       source: 'https://www.codedex.io/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Exercism',
+      url: 'https://exercism.org',
+      free: { ar: 'مجاني بالكامل: ٨٥ مسار لغة برمجة بتمارين وإرشاد', en: 'Completely free: 85 language tracks with exercises and mentoring', es: 'Totalmente gratis: 85 rutas de lenguajes con ejercicios y mentoría', fr: 'Entièrement gratuit : 85 parcours de langages avec exercices et mentorat', de: 'Komplett kostenlos: 85 Sprach-Tracks mit Übungen und Mentoring' },
+      paid: { ar: 'مفيش خطط مدفوعة؛ المشروع غير ربحي وبيقوم على التبرعات', en: 'No paid plans; the not-for-profit runs on donations', es: 'Sin planes de pago; la organización sin fines de lucro vive de donaciones', fr: 'Pas d’offres payantes ; l’association à but non lucratif vit de dons', de: 'Keine kostenpflichtigen Tarife; die gemeinnützige Organisation lebt von Spenden' },
+      note: { ar: 'اتمرن بحل تدريبات وخد ملاحظات على كود حقيقي من متطوعين.', en: 'Practice by solving exercises and get feedback on real code from volunteers.', es: 'Practica resolviendo ejercicios y recibe feedback sobre código real de voluntarios.', fr: 'Pratiquez en résolvant des exercices et recevez des retours sur du vrai code par des bénévoles.', de: 'Übe durch das Lösen von Aufgaben und erhalte Feedback zu echtem Code von Freiwilligen.' },
+      source: 'https://exercism.org/',
+    },
+    {
+      plan: 'paid',
+      name: 'Laracasts',
+      url: 'https://laracasts.com',
+      free: { ar: 'فيه سلاسل مجانية متفرقة؛ المكتبة الكاملة مدفوعة', en: 'Some scattered free series; the full catalog is paid', es: 'Algunas series gratis sueltas; el catálogo completo es de pago', fr: 'Quelques séries gratuites éparses ; le catalogue complet est payant', de: 'Einige vereinzelte Gratis-Serien; der volle Katalog ist kostenpflichtig' },
+      paid: { ar: 'Solo بـ٢٥ دولار/شهر، أو ٨ دولار/شهر بالدفع السنوي (-٥٠٪)؛ وفيه خيار مدى الحياة', en: 'Solo at $25/mo, or $8/mo billed yearly (-50%); a lifetime option exists', es: 'Solo a $25/mes, u $8/mes con pago anual (-50%); hay opción de por vida', fr: 'Solo à 25 $/mois, ou 8 $/mois en annuel (-50 %) ; une option à vie existe', de: 'Solo für 25 $/Monat oder 8 $/Monat bei jährlicher Zahlung (-50 %); es gibt eine Lifetime-Option' },
+      note: { ar: 'المرجع الأول لسكرين كاستس Laravel وPHP وتطوير الويب الحديث من Jeffrey Way.', en: 'The reference for Laravel, PHP and modern web-dev screencasts by Jeffrey Way.', es: 'La referencia en screencasts de Laravel, PHP y desarrollo web moderno, por Jeffrey Way.', fr: 'La référence des screencasts Laravel, PHP et dev web moderne, par Jeffrey Way.', de: 'Die Referenz für Laravel-, PHP- und moderne Web-Dev-Screencasts von Jeffrey Way.' },
+      source: 'https://laracasts.com/',
+    },
   ],
 };
