@@ -106,6 +106,15 @@ window.DG_DATA.email = {
       paid: { ar: 'Growth بـ٤٩ دولار/شهر: من ٥٠٠٠ جهة اتصال وإرسال غير محدود من غير شعار', en: 'Growth $49/mo: from 5,000 contacts, unlimited sends, no branding', es: 'Growth $49/mes: desde 5.000 contactos, envíos ilimitados, sin marca', fr: 'Growth 49 $/mois : à partir de 5 000 contacts, envois illimités, sans marque', de: 'Growth 49 $/Monat: ab 5.000 Kontakten, unbegrenzte Sends, ohne Branding' },
       note: { ar: 'سعر واحد لكل أنواع الإيميلات: تسويقي ومنتج ومعاملاتي.', en: 'One price covers marketing, product and transactional email.', es: 'Un solo precio cubre email de marketing, producto y transaccional.', fr: 'Un seul prix couvre les e-mails marketing, produit et transactionnels.', de: 'Ein Preis deckt Marketing-, Produkt- und Transaktions-E-Mails ab.' },
       source: 'https://loops.so/pricing',
+    },    {
+      plan: 'free',
+      name: 'EmailOctopus',
+      url: 'https://emailoctopus.com',
+      free: { ar: 'مجانًا لحد ٢٥٠٠ مشترك و١٠ آلاف إيميل في الشهر', en: 'Free up to 2,500 subscribers and 10,000 emails per month', es: 'Gratis hasta 2.500 suscriptores y 10.000 correos al mes', fr: 'Gratuit jusqu’à 2 500 abonnés et 10 000 e-mails par mois', de: 'Kostenlos bis 2.500 Abonnenten und 10.000 E-Mails pro Monat' },
+      paid: { ar: 'الخطط المدفوعة من ٩ دولار/شهر', en: 'Paid plans from $9/mo', es: 'Planes de pago desde $9/mes', fr: 'Offres payantes dès 9 $/mois', de: 'Kostenpflichtige Tarife ab 9 $/Monat' },
+      note: { ar: 'تسويق بالإيميل بسيط ورخيص؛ أرخص بكتير من Mailchimp للنشرات.', en: 'Simple, cheap email marketing; much cheaper than Mailchimp for newsletters.', es: 'Email marketing simple y barato; mucho más económico que Mailchimp para newsletters.', fr: 'E-mail marketing simple et abordable ; bien moins cher que Mailchimp pour les newsletters.', de: 'Einfaches, günstiges E-Mail-Marketing; deutlich billiger als Mailchimp für Newsletter.' },
+      source: 'https://emailoctopus.com/pricing',
     },
+
   ],
 };
