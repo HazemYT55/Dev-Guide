@@ -12,6 +12,7 @@ window.DG_DATA.auth = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'Clerk',
       url: 'https://clerk.com',
       free: { ar: '٥٠٬٠٠٠ مستخدم نشط شهريًا (MRU) من غير بطاقة', en: '50,000 monthly retained users (MRU), no card required', es: '50.000 usuarios retenidos mensuales (MRU), sin tarjeta', fr: '50 000 utilisateurs retenus mensuels (MRU), sans carte', de: '50.000 monatlich zurückkehrende Nutzer (MRU), ohne Karte' },
@@ -20,6 +21,7 @@ window.DG_DATA.auth = {
       source: 'https://clerk.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Auth0',
       url: 'https://auth0.com',
       free: { ar: 'لحد ٢٥٬٠٠٠ مستخدم نشط شهريًا', en: 'Up to 25,000 monthly active users', es: 'Hasta 25.000 usuarios activos mensuales', fr: 'Jusqu’à 25 000 utilisateurs actifs mensuels', de: 'Bis zu 25.000 monatlich aktive Nutzer' },
@@ -28,6 +30,7 @@ window.DG_DATA.auth = {
       source: 'https://www.auth0.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Supabase Auth',
       url: 'https://supabase.com/auth',
       free: { ar: '٥٠٬٠٠٠ مستخدم نشط شهريًا على الخطة المجانية', en: '50,000 monthly active users on the free plan', es: '50.000 usuarios activos mensuales en el plan gratis', fr: '50 000 utilisateurs actifs mensuels avec l’offre gratuite', de: '50.000 monatlich aktive Nutzer im Gratis-Tarif' },
@@ -36,6 +39,7 @@ window.DG_DATA.auth = {
       source: 'https://supabase.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Firebase Auth',
       url: 'https://firebase.google.com/products/auth',
       free: { ar: '٥٠ ألف مستخدم نشط شهريًا (خطة Spark) من غير بطاقة', en: '50K monthly active users on the Spark plan, no card needed', es: '50K usuarios activos mensuales en el plan Spark, sin tarjeta', fr: '50 000 utilisateurs actifs mensuels avec l’offre Spark, sans carte', de: '50.000 monatlich aktive Nutzer im Spark-Tarif, ohne Karte' },
@@ -44,6 +48,7 @@ window.DG_DATA.auth = {
       source: 'https://firebase.google.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Stytch',
       url: 'https://stytch.com',
       free: { ar: '١٠٬٠٠٠ مستخدم نشط شهريًا + ٥ اتصالات SSO/SCIM ضمن المجاني', en: '10,000 MAUs plus 5 SSO/SCIM connections included free', es: '10.000 MAU más 5 conexiones SSO/SCIM incluidas gratis', fr: '10 000 MAU plus 5 connexions SSO/SCIM incluses gratuitement', de: '10.000 MAUs plus 5 SSO/SCIM-Verbindungen kostenlos enthalten' },
@@ -52,6 +57,7 @@ window.DG_DATA.auth = {
       source: 'https://stytch.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Descope',
       url: 'https://www.descope.com',
       free: { ar: '٧٬٥٠٠ مستخدم نشط شهريًا و١٠ tenants مجانًا', en: '7,500 MAUs and 10 tenants free', es: '7.500 MAU y 10 tenants gratis', fr: '7 500 MAU et 10 tenants gratuits', de: '7.500 MAUs und 10 Tenants kostenlos' },
@@ -60,6 +66,7 @@ window.DG_DATA.auth = {
       source: 'https://www.descope.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Kinde',
       url: 'https://kinde.com',
       free: { ar: '١٠٬٥٠٠ مستخدم نشط شهريًا مجانًا للأبد، من غير بطاقة ائتمان', en: '10,500 MAUs free forever, no credit card required', es: '10.500 MAU gratis para siempre, sin tarjeta', fr: '10 500 MAU gratuits pour toujours, sans carte bancaire', de: '10.500 MAUs dauerhaft kostenlos, ohne Kreditkarte' },
@@ -67,6 +74,7 @@ window.DG_DATA.auth = {
       source: 'https://kinde.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Logto',
       url: 'https://logto.io',
       free: { ar: 'لحد ٥٠٬٠٠٠ مستخدم نشط شهريًا و٥٠ ألف توكن مجانًا', en: 'Up to 50,000 MAUs and 50K tokens free', es: 'Hasta 50.000 MAU y 50.000 tokens gratis', fr: 'Jusqu’à 50 000 MAU et 50 000 jetons gratuits', de: 'Bis zu 50.000 MAUs und 50.000 Tokens kostenlos' },
@@ -75,6 +83,7 @@ window.DG_DATA.auth = {
       source: 'https://logto.io/pricing',
     },
     {
+      plan: 'oss',
       name: 'Keycloak',
       url: 'https://www.keycloak.org',
       free: { ar: 'مجاني ومفتوح المصدر بالكامل، بتستضيفه على سيرفرك', en: 'Fully free and open source, self-hosted on your server', es: 'Totalmente gratis y de código abierto, autoalojado en tu servidor', fr: 'Entièrement gratuit et open source, auto-hébergé sur votre serveur', de: 'Vollständig kostenlos und Open Source, selbst gehostet auf deinem Server' },
@@ -83,6 +92,7 @@ window.DG_DATA.auth = {
       source: 'https://www.keycloak.org/',
     },
     {
+      plan: 'free',
       name: 'AWS Cognito',
       url: 'https://aws.amazon.com/cognito/',
       free: { ar: '١٠٬٠٠٠ مستخدم نشط شهريًا مجانًا (تسجيل دخول مباشر أو اجتماعي)، وده مجاني دائم مش ١٢ شهر بس', en: '10,000 MAUs/mo free for direct or social sign-in, and the free tier does not expire after 12 months', es: '10.000 MAU/mes gratis para login directo o social, y el nivel gratis no caduca a los 12 meses', fr: '10 000 MAU/mois gratuits en connexion directe ou sociale, et le niveau gratuit n’expire pas après 12 mois', de: '10.000 MAUs/Monat kostenlos bei direktem oder Social-Login, und das Gratis-Kontingent läuft nicht nach 12 Monaten ab' },
