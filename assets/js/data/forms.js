@@ -128,5 +128,14 @@ window.DG_DATA.forms = {
       note: { ar: 'باك إند فورمات بسيط بـ API: وصّل أي فورم HTML من غير سيرفر.', en: 'Simple API form backend: connect any HTML form without a server.', es: 'Backend de formularios simple por API: conecta cualquier formulario HTML sin servidor.', fr: 'Backend de formulaires simple par API : connectez tout formulaire HTML sans serveur.', de: 'Einfaches API-Formular-Backend: jedes HTML-Formular ohne Server anbinden.' },
       source: 'https://formbold.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Formspark',
+      url: 'https://formspark.io',
+      free: { ar: 'مجاني: ٢٥٠ رسالة و١٠ فورمات و٥ أعضاء فريق', en: 'Free: 250 submissions, 10 forms and 5 team members', es: 'Gratis: 250 envíos, 10 formularios y 5 miembros de equipo', fr: 'Gratuit : 250 soumissions, 10 formulaires et 5 membres d’équipe', de: 'Gratis: 250 Übermittlungen, 10 Formulare und 5 Teammitglieder' },
+      paid: { ar: 'باقات بتدفع مرة واحدة من ٢٥ دولار: ٥٠ ألف رسالة من غير اشتراك شهري', en: 'One-time bundles from $25: 50K submissions with no monthly subscription', es: 'Paquetes de pago único desde $25: 50 mil envíos sin suscripción mensual', fr: 'Packs en paiement unique dès 25 $ : 50 000 soumissions sans abonnement', de: 'Einmalpakete ab 25 $: 50.000 Übermittlungen ohne Monatsabo' },
+      note: { ar: 'باك إند فورمات برصيد رسايل مابينتهيش؛ بتدفع مرة واحدة وتستهلك على مهلك.', en: 'Form backend with submission credits that never expire: pay once, use at your pace.', es: 'Backend de formularios con créditos de envíos que no caducan: paga una vez y úsalos a tu ritmo.', fr: 'Backend de formulaires avec des crédits de soumissions qui n’expirent jamais : payez une fois, utilisez à votre rythme.', de: 'Formular-Backend mit Übermittlungsguthaben ohne Ablaufdatum: einmal zahlen, in eigenem Tempo nutzen.' },
+      source: 'https://formspark.io/pricing',
+    },
   ],
 };
