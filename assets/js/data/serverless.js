@@ -100,5 +100,23 @@ window.DG_DATA.serverless = {
       paid: { ar: 'خطة Pro بـ ٢٥ دولار/شهر وتشمل ٢ مليون، وبعدها ٢ دولار لكل مليون', en: 'Pro at $25/mo includes 2M, then $2 per 1M', es: 'Pro a $25/mes incluye 2M, luego $2 por 1M', fr: 'Pro à 25 $/mois inclut 2 M, puis 2 $ par million', de: 'Pro für 25 $/Monat umfasst 2 Mio., danach 2 $ pro Mio.' },
       source: 'https://supabase.com/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Inngest',
+      url: 'https://www.inngest.com',
+      free: { ar: '٠ دولار/شهر من غير بطاقة: ٥٠ ألف تنفيذ شهريًا و٥٠٠ ألف حدث و٥ مقاعد', en: '$0/mo, no card: 50k monthly executions, 500k events ingested, and 5 seats', es: '$0/mes, sin tarjeta: 50.000 ejecuciones mensuales, 500.000 eventos y 5 asientos', fr: '0 $/mois, sans carte : 50 000 exécutions mensuelles, 500 000 événements et 5 sièges', de: '0 $/Monat, ohne Karte: 50.000 Ausführungen pro Monat, 500.000 Events und 5 Sitze' },
+      paid: { ar: 'Pro من ٩٩ دولار/شهر', en: 'Pro from $99/mo', es: 'Pro desde $99/mes', fr: 'Pro dès 99 $/mois', de: 'Pro ab 99 $/Monat' },
+      note: { ar: 'دوال durable وطوابير خلفية من غير ما تدير بنية تحتية.', en: 'Durable functions and background queues without managing infrastructure.', es: 'Funciones durables y colas en segundo plano sin gestionar infraestructura.', fr: 'Fonctions durables et files d’arrière-plan sans gérer d’infrastructure.', de: 'Dauerhafte Funktionen und Hintergrund-Warteschlangen ohne Infrastrukturverwaltung.' },
+      source: 'https://www.inngest.com/pricing',
+    },
+    {
+      plan: 'oss',
+      name: 'Windmill',
+      url: 'https://windmill.dev',
+      free: { ar: 'مفتوح المصدر: شغّله بنفسك بتنفيذات غير محدودة', en: 'Open source: self-host with unlimited executions', es: 'Código abierto: autoalójalo con ejecuciones ilimitadas', fr: 'Open source : auto-hébergement avec exécutions illimitées', de: 'Open Source: selbst hosten mit unbegrenzten Ausführungen' },
+      paid: { ar: 'السحابة من ٢٠ دولار/شهر لكل builder (١٠ دولار لغير الـ builders)', en: 'Cloud from $20/mo per builder ($10 for non-builders)', es: 'Nube desde $20/mes por builder ($10 por no builder)', fr: 'Cloud dès 20 $/mois par builder (10 $ pour les non-builders)', de: 'Cloud ab 20 $/Monat pro Builder (10 $ für Nicht-Builder)' },
+      note: { ar: 'حوّل سكربتات Python/TypeScript لـ workflows وأدوات داخلية بسرعة.', en: 'Turn Python/TypeScript scripts into workflows and internal tools quickly.', es: 'Convierte scripts de Python/TypeScript en flujos de trabajo y herramientas internas rápidamente.', fr: 'Transformez des scripts Python/TypeScript en workflows et outils internes rapidement.', de: 'Python-/TypeScript-Skripte schnell in Workflows und interne Tools verwandeln.' },
+      source: 'https://windmill.dev/pricing',
+    },
   ],
 };
