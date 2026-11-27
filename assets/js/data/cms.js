@@ -61,7 +61,7 @@ window.DG_DATA.cms = {
       name: 'Ghost',
       url: 'https://ghost.org',
       free: { ar: 'مفتوح المصدر (MIT): شغّله بنفسك مجانًا', en: 'Open source (MIT): self-host it free', es: 'Código abierto (MIT): autoalójalo gratis', fr: 'Open source (MIT) : auto-hébergement gratuit', de: 'Open Source (MIT): kostenlos selbst hosten' },
-      paid: { ar: 'استضافة Ghost(Pro) المُدارة بسعر بيتحدد حسب عدد الأعضاء، بالفوترة السنوية', en: 'Ghost(Pro) managed hosting priced by audience size, billed yearly', es: 'Alojamiento gestionado Ghost(Pro) con precio según la audiencia, facturado anualmente', fr: 'Hébergement géré Ghost(Pro) au prix selon l’audience, facturé annuellement', de: 'Ghost(Pro)-Hosting mit Preis nach Publikumsgröße, jährliche Abrechnung' },
+      paid: { ar: 'استضافة Ghost(Pro) المُدارة من ١٥ دولار/شهر بالفوترة السنوية (١٠٠٠ عضو)، والسعر بيزيد مع عدد الأعضاء', en: 'Ghost(Pro) managed hosting from $15/mo billed yearly (1,000 members); the price scales with audience size', es: 'Alojamiento gestionado Ghost(Pro) desde $15/mes facturado anualmente (1.000 miembros); el precio escala con la audiencia', fr: 'Hébergement géré Ghost(Pro) dès 15 $/mois facturé annuellement (1 000 membres) ; le prix évolue avec l’audience', de: 'Ghost(Pro)-Hosting ab 15 $/Monat bei jährlicher Abrechnung (1.000 Mitglieder); der Preis skaliert mit der Publikumsgröße' },
       note: { ar: 'منصة نشر ومدونات ونشرات بريدية؛ أسرع وأبسط من ووردبريس للمحتوى.', en: 'A publishing, blog and newsletter platform; faster and simpler than WordPress for content.', es: 'Plataforma de publicación, blogs y newsletters; más rápida y simple que WordPress para contenido.', fr: 'Plateforme de publication, blog et newsletter ; plus rapide et simple que WordPress pour le contenu.', de: 'Eine Publishing-, Blog- und Newsletter-Plattform; schneller und einfacher als WordPress für Inhalte.' },
       source: 'https://ghost.org/pricing/',
     },
@@ -146,6 +146,16 @@ window.DG_DATA.cms = {
       warn: { ar: 'مفيش خطة مجانية: تجربة ٢١ يوم بس.', en: 'No free plan: a 21-day trial only.', es: 'Sin plan gratis: solo una prueba de 21 días.', fr: 'Pas d’offre gratuite : un essai de 21 jours seulement.', de: 'Kein Gratis-Tarif: nur eine 21-tägige Testphase.' },
       note: { ar: 'CMS واستضافة للمواقع الثابتة (Hugo وJekyll وغيرها) بواجهة تعديل مرئية للمحررين.', en: 'CMS and hosting for static sites (Hugo, Jekyll and more) with a visual editor for content teams.', es: 'CMS y hosting para sitios estáticos (Hugo, Jekyll y más) con editor visual para equipos de contenido.', fr: 'CMS et hébergement pour sites statiques (Hugo, Jekyll et autres) avec éditeur visuel pour les équipes contenu.', de: 'CMS und Hosting für statische Sites (Hugo, Jekyll u.a.) mit visuellem Editor für Content-Teams.' },
       source: 'https://cloudcannon.com/pricing/',
+    },    {
+      plan: 'trial',
+      name: 'Kirby',
+      url: 'https://getkirby.com',
+      free: { ar: 'جرّبه مجانًا على جهازك لأي مدة؛ الدفع عند النشر بس', en: 'Try it free locally for as long as you like; you pay when you launch', es: 'Pruébalo gratis en local todo el tiempo que quieras; pagas al publicar', fr: 'Essayez-le gratuitement en local aussi longtemps que vous voulez ; vous payez au lancement', de: 'Lokal unbegrenzt kostenlos testen; du zahlst erst beim Launch' },
+      paid: { ar: 'رخصة Basic بـ ٦٥ دولار/موقع (للأفراد والفرق الصغيرة) أو Enterprise بـ ٣٨٩ دولار/موقع، + ضريبة القيمة المضافة', en: 'Basic license $65/site (individuals and small teams) or Enterprise $389/site, plus VAT', es: 'Licencia Basic $65/sitio (personas y equipos pequeños) o Enterprise $389/sitio, más IVA', fr: 'Licence Basic 65 $/site (indépendants et petites équipes) ou Enterprise 389 $/site, hors TVA', de: 'Basic-Lizenz 65 $/Website (Einzelpersonen und kleine Teams) oder Enterprise 389 $/Website, zzgl. MwSt.' },
+      warn: { ar: 'التجربة المجانية للتطوير المحلي بس؛ أي موقع منشور محتاج رخصة مدفوعة.', en: 'The free trial is for local development only; any live site needs a paid license.', es: 'La prueba gratis es solo para desarrollo local; cualquier sitio publicado necesita licencia de pago.', fr: 'L’essai gratuit vaut uniquement pour le développement local ; tout site en ligne nécessite une licence payante.', de: 'Der Gratis-Test gilt nur für die lokale Entwicklung; jede Live-Website braucht eine kostenpflichtige Lizenz.' },
+      note: { ar: 'CMS بملفات من غير قاعدة بيانات: خفيف وسريع للمواقع الصغيرة والمتوسطة.', en: 'A file-based CMS with no database: light and fast for small to mid-size sites.', es: 'Un CMS basado en archivos, sin base de datos: ligero y rápido para sitios pequeños y medianos.', fr: 'Un CMS basé sur des fichiers, sans base de données : léger et rapide pour les sites petits et moyens.', de: 'Ein dateibasiertes CMS ohne Datenbank: leicht und schnell für kleine bis mittlere Websites.' },
+      source: 'https://getkirby.com/buy',
     },
+
   ],
 };
