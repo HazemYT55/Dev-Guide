@@ -12,6 +12,7 @@ window.DG_DATA.monitoring = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'UptimeRobot',
       url: 'https://uptimerobot.com',
       free: { ar: '٥٠ مراقب بفحص كل ٥ دقايق', en: '50 monitors with 5-minute checks', es: '50 monitores con chequeos cada 5 minutos', fr: '50 moniteurs avec contrôles toutes les 5 minutes', de: '50 Monitore mit 5-Minuten-Prüfung' },
@@ -19,6 +20,7 @@ window.DG_DATA.monitoring = {
       source: 'https://uptimerobot.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Better Stack',
       url: 'https://betterstack.com',
       free: { ar: '١٠ مراقبين + صفحة حالة (status page) واحدة', en: '10 monitors plus one status page', es: '10 monitores más una página de estado', fr: '10 moniteurs plus une page de statut', de: '10 Monitore plus eine Statusseite' },
@@ -27,6 +29,7 @@ window.DG_DATA.monitoring = {
       source: 'https://betterstack.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Sentry',
       url: 'https://sentry.io',
       free: { ar: 'خطة Developer بصفر دولار: تتبع أخطاء لمستخدم واحد', en: 'Developer plan at $0: error monitoring for one user', es: 'Plan Developer a $0: monitoreo de errores para un usuario', fr: 'Offre Developer à 0 $ : suivi d’erreurs pour un utilisateur', de: 'Developer-Tarif für 0 $: Fehler-Monitoring für einen Nutzer' },
@@ -35,6 +38,7 @@ window.DG_DATA.monitoring = {
       source: 'https://sentry.io/pricing/',
     },
     {
+      plan: 'oss',
       name: 'Uptime Kuma',
       url: 'https://uptime.kuma.pet',
       free: { ar: 'مجاني ومفتوح المصدر بالكامل؛ بتستضيفه على سيرفرك وتراقب اللي تحب', en: 'Completely free and open source; self-host it and monitor whatever you want', es: 'Totalmente gratis y open source; alójalo tú y monitorea lo que quieras', fr: 'Entièrement gratuit et open source ; auto-hébergez-le et surveillez ce que vous voulez', de: 'Komplett kostenlos und Open Source; selbst hosten und überwachen, was du willst' },
@@ -43,6 +47,7 @@ window.DG_DATA.monitoring = {
       source: 'https://uptime.kuma.pet/',
     },
     {
+      plan: 'free',
       name: 'StatusCake',
       url: 'https://www.statuscake.com',
       free: { ar: 'بصفر دولار: ١٠ فحوصات uptime كل ٥ دقايق، وفحص سرعة صفحة واحد', en: 'At $0: 10 uptime tests at 5-minute intervals, plus one page-speed test', es: 'A $0: 10 pruebas de uptime cada 5 minutos, más una prueba de velocidad', fr: 'À 0 $ : 10 tests de disponibilité toutes les 5 minutes, plus un test de vitesse', de: 'Für 0 $: 10 Uptime-Tests im 5-Minuten-Takt plus ein Speed-Test' },
@@ -51,6 +56,7 @@ window.DG_DATA.monitoring = {
       source: 'https://www.statuscake.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'HetrixTools',
       url: 'https://hetrixtools.com',
       free: { ar: '١٥ فحص uptime و٣٢ فحص blacklist مجاني للأبد', en: '15 uptime monitors and 32 blacklist monitors, free forever', es: '15 monitores de uptime y 32 de blacklist, gratis para siempre', fr: '15 moniteurs de disponibilité et 32 de blacklist, gratuits pour toujours', de: '15 Uptime- und 32 Blacklist-Monitore, für immer kostenlos' },
@@ -59,6 +65,7 @@ window.DG_DATA.monitoring = {
       source: 'https://hetrixtools.com/',
     },
     {
+      plan: 'free',
       name: 'Pulsetic',
       url: 'https://pulsetic.com',
       free: { ar: 'نسخة مجانية بحدود؛ كافية لمراقبة موقع بسيط', en: 'A free version with limits; enough to watch a simple site', es: 'Versión gratis con límites; suficiente para vigilar un sitio simple', fr: 'Une version gratuite limitée ; suffisante pour surveiller un site simple', de: 'Eine begrenzte Gratis-Version; reicht für eine einfache Seite' },
@@ -67,6 +74,7 @@ window.DG_DATA.monitoring = {
       source: 'https://pulsetic.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Healthchecks.io',
       url: 'https://healthchecks.io',
       free: { ar: 'بصفر دولار (Hobbyist): مراقبة cron jobs بحدود سخية', en: 'At $0 (Hobbyist): cron job monitoring with generous limits', es: 'A $0 (Hobbyist): monitoreo de cron jobs con límites generosos', fr: 'À 0 $ (Hobbyist) : surveillance de cron jobs avec des limites généreuses', de: 'Für 0 $ (Hobbyist): Cron-Job-Überwachung mit großzügigen Limits' },
@@ -75,6 +83,7 @@ window.DG_DATA.monitoring = {
       source: 'https://healthchecks.io/pricing/',
     },
     {
+      plan: 'free',
       name: 'Checkly',
       url: 'https://www.checklyhq.com',
       free: { ar: 'خطة Hobby بصفر دولار: ١٠ فحوصات API ومتصفح', en: 'Hobby plan at $0: 10 API and browser checks', es: 'Plan Hobby a $0: 10 checks de API y navegador', fr: 'Offre Hobby à 0 $ : 10 checks API et navigateur', de: 'Hobby-Tarif für 0 $: 10 API- und Browser-Checks' },
@@ -83,6 +92,7 @@ window.DG_DATA.monitoring = {
       source: 'https://www.checklyhq.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Grafana Cloud',
       url: 'https://grafana.com',
       free: { ar: 'طبقة مجانية دائمة: metrics وlogs وtraces بحدود، بـ١٤ يوم احتفاظ', en: 'A permanent free tier: metrics, logs and traces with limits, 14-day retention', es: 'Nivel gratis permanente: métricas, logs y trazas con límites, retención de 14 días', fr: 'Palier gratuit permanent : métriques, logs et traces avec limites, rétention 14 jours', de: 'Dauerhafter Gratis-Tarif: Metriken, Logs und Traces mit Limits, 14 Tage Aufbewahrung' },
