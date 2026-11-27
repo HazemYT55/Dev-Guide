@@ -4,14 +4,15 @@ window.DG_DATA.hosting = {
   path: 'hosting.html',
   title: { ar: 'استضافة المواقع الثابتة', en: 'Static site hosting', es: 'Hosting de sitios estáticos', fr: 'Hébergement de sites statiques', de: 'Hosting für statische Websites' },
   blurb: {
-    ar: 'أين تنشر موقع HTML/CSS/JS بتاعك. كل اللي تحت ليه خطة مجانية ورابط مجاني.',
-    en: 'Where to publish your HTML/CSS/JS site. Everything below has a free plan and a free URL.',
-    es: 'Dónde publicar tu sitio HTML/CSS/JS. Todo lo de abajo tiene plan gratis y URL gratis.',
-    fr: 'Où publier votre site HTML/CSS/JS. Tout ce qui suit a une offre gratuite et une URL gratuite.',
-    de: 'Wo du deine HTML/CSS/JS-Seite veröffentlichst. Alles hier hat einen Gratis-Tarif und eine Gratis-URL.',
+    ar: 'أين تنشر موقعك. الخطط المجانية الدائمة والروابط المجانية متعلّم عليها، والأرصدة والتجارب متوضحة.',
+    en: 'Where to publish your site. Permanent free plans and free URLs are marked; credits and trials are labeled.',
+    es: 'Dónde publicar tu sitio. Los planes gratis permanentes y URLs gratis están marcados; créditos y pruebas, etiquetados.',
+    fr: 'Où publier votre site. Les offres gratuites permanentes et URLs gratuites sont indiquées ; crédits et essais signalés.',
+    de: 'Wo du deine Seite veröffentlichst. Dauerhafte Gratis-Tarife und Gratis-URLs sind markiert; Guthaben und Testphasen gekennzeichnet.',
   },
   entries: [
     {
+      plan: 'free',
       name: 'Cloudflare Pages',
       url: 'https://pages.cloudflare.com',
       free: { ar: 'مواقع غير محدودة، لحد ٢٠٬٠٠٠٠ ملف للموقع، رابط yourname.pages.dev، ورفع بالسحب والإفلات من غير Git', en: 'Unlimited sites, up to 20,000 files per site, free yourname.pages.dev URL, drag-and-drop upload without Git', es: 'Sitios ilimitados, hasta 20.000 archivos por sitio, URL yourname.pages.dev gratis, subida arrastrando sin Git', fr: 'Sites illimités, jusqu’à 20 000 fichiers par site, URL yourname.pages.dev gratuite, envoi par glisser-déposer sans Git', de: 'Unbegrenzt viele Sites, bis zu 20.000 Dateien pro Site, gratis yourname.pages.dev-URL, Drag-and-Drop-Upload ohne Git' },
@@ -20,6 +21,7 @@ window.DG_DATA.hosting = {
       source: 'https://developers.cloudflare.com/pages/platform/limits/',
     },
     {
+      plan: 'free',
       name: 'Netlify',
       url: 'https://www.netlify.com',
       free: { ar: 'صفر دولار مع ٣٠٠ كريدت استخدام شهريًا؛ نشر من Git أو CLI أو سحب وإفلات', en: '$0 with 300 usage credits per month; deploy from Git, CLI, or drag-and-drop', es: '$0 con 300 créditos de uso al mes; despliegue desde Git, CLI o arrastrar y soltar', fr: '0 $ avec 300 crédits d’usage par mois ; déploiement via Git, CLI ou glisser-déposer', de: '0 $ mit 300 Nutzungs-Credits pro Monat; Deploy per Git, CLI oder Drag-and-Drop' },
@@ -28,6 +30,7 @@ window.DG_DATA.hosting = {
       source: 'https://www.netlify.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Vercel',
       url: 'https://vercel.com',
       free: { ar: 'خطة Hobby بصفر دولار: ٥ جيجا باندويدث شهريًا، رابط project.vercel.app', en: 'Hobby plan at $0: 5 GB bandwidth per month, project.vercel.app URL', es: 'Plan Hobby a $0: 5 GB de ancho de banda al mes, URL project.vercel.app', fr: 'Offre Hobby à 0 $ : 5 Go de bande passante par mois, URL project.vercel.app', de: 'Hobby-Tarif für 0 $: 5 GB Bandbreite pro Monat, project.vercel.app-URL' },
@@ -36,6 +39,7 @@ window.DG_DATA.hosting = {
       source: 'https://vercel.com/docs/limits',
     },
     {
+      plan: 'free',
       name: 'GitHub Pages',
       url: 'https://pages.github.com',
       free: { ar: 'استضافة ثابتة مجانية للمستودعات العامة، رابط username.github.io', en: 'Free static hosting for public repositories, username.github.io URL', es: 'Hosting estático gratis para repositorios públicos, URL username.github.io', fr: 'Hébergement statique gratuit pour les dépôts publics, URL username.github.io', de: 'Kostenloses Static-Hosting für öffentliche Repos, username.github.io-URL' },
@@ -44,6 +48,7 @@ window.DG_DATA.hosting = {
       source: 'https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages',
     },
     {
+      plan: 'free',
       name: 'Render',
       url: 'https://render.com',
       free: { ar: 'مواقع ثابتة مجانية بشهادة TLS، رابط yoursite.onrender.com', en: 'Free static sites with managed TLS, yoursite.onrender.com URL', es: 'Sitios estáticos gratis con TLS gestionado, URL yoursite.onrender.com', fr: 'Sites statiques gratuits avec TLS géré, URL yoursite.onrender.com', de: 'Kostenlose statische Sites mit verwaltetem TLS, yoursite.onrender.com-URL' },
@@ -52,6 +57,7 @@ window.DG_DATA.hosting = {
       source: 'https://render.com/docs/static-sites',
     },
     {
+      plan: 'free',
       name: 'Surge',
       url: 'https://surge.sh',
       free: { ar: 'مشاريع غير محدودة بصفر دولار، رابط yourname.surge.sh، ودومين خاص مجاني', en: 'Unlimited projects at $0, yourname.surge.sh URL, custom domains free', es: 'Proyectos ilimitados a $0, URL yourname.surge.sh, dominios propios gratis', fr: 'Projets illimités à 0 $, URL yourname.surge.sh, domaines personnalisés gratuits', de: 'Unbegrenzte Projekte für 0 $, yourname.surge.sh-URL, eigene Domains kostenlos' },
@@ -60,6 +66,7 @@ window.DG_DATA.hosting = {
       source: 'https://surge.sh/pricing',
     },
     {
+      plan: 'free',
       name: 'Railway',
       url: 'https://railway.com',
       free: { ar: 'خطة Free بـ ٠ دولار مع رصيد استخدام ١ دولار كل شهر، من غير بطاقة', en: 'Free plan at $0 with $1 of monthly usage credits, no card required', es: 'Plan Free a $0 con $1 de crédito de uso mensual, sin tarjeta', fr: 'Offre Free à 0 $ avec 1 $ de crédit d’usage mensuel, sans carte', de: 'Free-Tarif für 0 $ mit 1 $ monatlichem Nutzungsguthaben, ohne Karte' },
@@ -68,6 +75,7 @@ window.DG_DATA.hosting = {
       source: 'https://railway.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Firebase Hosting',
       url: 'https://firebase.google.com/products/hosting',
       free: { ar: '١٠ جيجا تخزين و٣٦٠ ميجا نقل يومي ودومين مخصص مع SSL على خطة Spark المجانية', en: '10 GB storage, 360 MB/day transfer and custom domain with SSL on the free Spark plan', es: '10 GB de almacenamiento, 360 MB/día de transferencia y dominio propio con SSL en el plan gratis Spark', fr: '10 Go de stockage, 360 Mo/jour de transfert et domaine personnalisé avec SSL sur l’offre gratuite Spark', de: '10 GB Speicher, 360 MB/Tag Transfer und eigene Domain mit SSL im kostenlosen Spark-Tarif' },
@@ -76,6 +84,7 @@ window.DG_DATA.hosting = {
       source: 'https://firebase.google.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Oracle Cloud Free Tier',
       url: 'https://www.oracle.com/cloud/free/',
       free: { ar: 'خدمات Always Free من غير حد زمني، منها سيرفرات ARM (Ampere A1) وAMD', en: 'Always Free services with no time limit, including Arm (Ampere A1) and AMD compute VMs', es: 'Servicios Always Free sin límite de tiempo, incluidas VMs de cómputo Arm (Ampere A1) y AMD', fr: 'Services Always Free sans limite de temps, dont des VMs Arm (Ampere A1) et AMD', de: 'Always-Free-Dienste ohne Zeitlimit, darunter Arm- (Ampere A1) und AMD-Compute-VMs' },
@@ -84,6 +93,7 @@ window.DG_DATA.hosting = {
       source: 'https://www.oracle.com/cloud/free/',
     },
     {
+      plan: 'free',
       name: 'DigitalOcean App Platform',
       url: 'https://www.digitalocean.com/products/app-platform',
       free: { ar: 'ابني وانشر لحد ٣ مواقع ثابتة مجانًا', en: 'Build and deploy up to 3 static sites free', es: 'Crea y despliega hasta 3 sitios estáticos gratis', fr: 'Créez et déployez jusqu’à 3 sites statiques gratuitement', de: 'Erstelle und deploye bis zu 3 statische Websites kostenlos' },
