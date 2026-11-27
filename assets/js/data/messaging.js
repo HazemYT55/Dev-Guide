@@ -101,5 +101,23 @@ window.DG_DATA.messaging = {
       note: { ar: 'طوابير رسائل serverless عبر HTTP مع جدولة وإعادة محاولة.', en: 'Serverless message queues over HTTP with scheduling and retries.', es: 'Colas de mensajes serverless por HTTP con programación y reintentos.', fr: 'Files de messages serverless via HTTP avec planification et réessais.', de: 'Serverlose Nachrichten-Warteschlangen über HTTP mit Planung und Wiederholungen.' },
       source: 'https://upstash.com/pricing/qstash',
     },
+    {
+      plan: 'free',
+      name: 'Novu',
+      url: 'https://novu.co',
+      free: { ar: 'مجاني: ١٠ آلاف workflow run بالشهر', en: 'Free: 10,000 workflow runs per month', es: 'Gratis: 10.000 ejecuciones de workflow al mes', fr: 'Gratuit : 10 000 exécutions de workflow par mois', de: 'Kostenlos: 10.000 Workflow-Ausführungen pro Monat' },
+      paid: { ar: 'Pro بـ٣٠ دولار/شهر لـ٣٠ ألف+ تشغيل؛ خطة أكبر بـ٢٥٠ دولار/شهر', en: 'Pro $30/mo for 30,000+ runs; a larger tier at $250/mo', es: 'Pro $30/mes por 30.000+ ejecuciones; un nivel mayor a $250/mes', fr: 'Pro 30 $/mois pour 30 000+ exécutions ; palier supérieur à 250 $/mois', de: 'Pro 30 $/Monat für 30.000+ Ausführungen; größere Stufe für 250 $/Monat' },
+      note: { ar: 'طبقة إشعارات مفتوحة المصدر: إيميل وpush وSMS وin-app من API واحدة.', en: 'Open-source notification layer: email, push, SMS and in-app from one API.', es: 'Capa de notificaciones open source: email, push, SMS e in-app desde una API.', fr: 'Couche de notifications open source : e-mail, push, SMS et in-app via une seule API.', de: 'Open-Source-Benachrichtigungsschicht: E-Mail, Push, SMS und In-App über eine API.' },
+      source: 'https://novu.co/pricing/',
+    },
+    {
+      plan: 'free',
+      name: 'OneSignal',
+      url: 'https://onesignal.com',
+      free: { ar: 'مجاني: ١٠ آلاف إرسال إيميل/شهر وpush موبايل مجاني غير محدود', en: 'Free: 10,000 email sends/mo and free unlimited mobile push', es: 'Gratis: 10.000 envíos de email/mes y push móvil ilimitado gratis', fr: 'Gratuit : 10 000 envois d’e-mails/mois et push mobile illimité gratuit', de: 'Kostenlos: 10.000 E-Mail-Sends/Monat und unbegrenzter mobiler Push gratis' },
+      paid: { ar: 'Growth من ١٩ دولار/شهر: ٢٠ ألف إرسال إيميل مجانًا بعدها ١٫٥٠ دولار لكل ١٠٠٠', en: 'Growth from $19/mo: 20,000 free email sends, then $1.50 per 1,000', es: 'Growth desde $19/mes: 20.000 envíos de email gratis, luego $1,50 por 1.000', fr: 'Growth dès 19 $/mois : 20 000 envois d’e-mails inclus, puis 1,50 $ par 1 000', de: 'Growth ab 19 $/Monat: 20.000 E-Mail-Sends inklusive, danach 1,50 $ pro 1.000' },
+      note: { ar: 'إشعارات push ورسائل للموبايل والويب؛ شائع للتطبيقات.', en: 'Push and messaging for mobile and web; popular for apps.', es: 'Push y mensajería para móvil y web; popular para apps.', fr: 'Push et messagerie mobile et web ; populaire pour les apps.', de: 'Push und Messaging für Mobile und Web; beliebt für Apps.' },
+      source: 'https://onesignal.com/pricing',
+    },
   ],
 };
