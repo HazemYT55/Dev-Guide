@@ -14,21 +14,6 @@ window.DG_DATA.auth = {
     {
       plan: 'free',
       name: 'Clerk',
-window.DG_DATA.auth = {
-  icon: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>',
-  path: 'auth.html',
-  title: { ar: 'تسجيل الدخول والمستخدمين', en: 'Auth and users', es: 'Autenticación y usuarios', fr: 'Authentification et utilisateurs', de: 'Auth und Nutzer' },
-  blurb: {
-    ar: 'تسجيل دخول بالإيميل وبالسوشيال من غير ما تبنيه بنفسك. الحد المهم هنا هو عدد المستخدمين النشطين شهريًا (MAU).',
-    en: 'Email and social sign-in without building it yourself. The limit that matters is monthly active users (MAU).',
-    es: 'Inicio de sesión con email y redes sociales sin construirlo tú. El límite que importa son los usuarios activos mensuales (MAU).',
-    fr: 'Connexion par e-mail et réseaux sociaux sans la coder. La limite qui compte est le nombre d’utilisateurs actifs mensuels (MAU).',
-    de: 'E-Mail- und Social-Login ohne Eigenbau. Das Limit, das zählt, sind die monatlich aktiven Nutzer (MAU).',
-  },
-  entries: [
-    {
-      plan: 'free',
-      name: 'Clerk',
       url: 'https://clerk.com',
       free: { ar: '٥٠٬٠٠٠ مستخدم نشط شهريًا (MRU) من غير بطاقة', en: '50,000 monthly retained users (MRU), no card required', es: '50.000 usuarios retenidos mensuales (MRU), sin tarjeta', fr: '50 000 utilisateurs retenus mensuels (MRU), sans carte', de: '50.000 monatlich zurückkehrende Nutzer (MRU), ohne Karte' },
       paid: { ar: 'Pro من ٢٥ دولار/شهر', en: 'Pro from $25/mo', es: 'Pro desde $25/mes', fr: 'Pro dès 25 $/mois', de: 'Pro ab 25 $/Monat' },
