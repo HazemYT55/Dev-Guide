@@ -127,5 +127,14 @@ window.DG_DATA.auth = {
       note: { ar: 'بديل مفتوح المصدر لـ Auth0: تسجيل دخول بإيميل وسوشيال وبدون باسورد.', en: 'Open-source Auth0 alternative: email, social and passwordless login.', es: 'Alternativa open source a Auth0: login por email, social y sin contraseña.', fr: 'Alternative open source à Auth0 : connexion email, sociale et sans mot de passe.', de: 'Open-Source-Alternative zu Auth0: Login per E-Mail, Social und passwortlos.' },
       source: 'https://supertokens.com/pricing',
     },
+    {
+      plan: 'oss',
+      name: 'Ory',
+      url: 'https://www.ory.sh',
+      free: { ar: 'مفتوح المصدر للسيلف هوستنج؛ وخطة Developer على الكلاود مجانية', en: 'Open source for self-hosting; the managed Developer plan is free', es: 'Código abierto para autoalojar; el plan Developer gestionado es gratis', fr: 'Open source en auto-hébergement ; l’offre Developer gérée est gratuite', de: 'Open Source zum Selbsthosten; der verwaltete Developer-Tarif ist gratis' },
+      paid: { ar: 'كلاود Production من ٧٧٠ دولار/سنة؛ والفوترة حسب متوسط المستخدمين النشطين يوميًا', en: 'Production cloud from $770/year; billed by average daily active users', es: 'Nube Production desde $770/año; facturación por usuarios activos diarios promedio', fr: 'Cloud Production dès 770 $/an ; facturation par utilisateurs actifs quotidiens moyens', de: 'Production-Cloud ab 770 $/Jahr; Abrechnung nach durchschnittlich täglich aktiven Nutzern' },
+      note: { ar: 'منظومة هوية API-first: تسجيل دخول وOAuth2 وصلاحيات؛ Ory Hydra شغّالة عند OpenAI.', en: 'API-first identity stack: login, OAuth2 and permissions; Ory Hydra powers OpenAI-scale auth.', es: 'Stack de identidad API-first: login, OAuth2 y permisos; Ory Hydra impulsa la autenticación a escala OpenAI.', fr: 'Stack d’identité API-first : login, OAuth2 et permissions ; Ory Hydra fait tourner l’auth à l’échelle d’OpenAI.', de: 'API-first Identity-Stack: Login, OAuth2 und Berechtigungen; Ory Hydra betreibt Auth auf OpenAI-Skala.' },
+      source: 'https://www.ory.sh/pricing/',
+    },
   ],
 };
