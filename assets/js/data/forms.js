@@ -12,6 +12,7 @@ window.DG_DATA.forms = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'Tally',
       url: 'https://tally.so',
       free: { ar: 'فورمز وردود غير محدودة مجانًا (ضمن الاستخدام العادل)', en: 'Unlimited forms and submissions for free (within fair use)', es: 'Formularios y respuestas ilimitados gratis (con uso justo)', fr: 'Formulaires et réponses illimités gratuitement (usage raisonnable)', de: 'Unbegrenzte Formulare und Antworten kostenlos (im Rahmen fairer Nutzung)' },
@@ -20,6 +21,7 @@ window.DG_DATA.forms = {
       source: 'https://tally.so/pricing',
     },
     {
+      plan: 'free',
       name: 'Formspree',
       url: 'https://formspree.io',
       free: { ar: '٥٠ رسالة شهريًا على الخطة المجانية', en: '50 submissions per month on the free plan', es: '50 envíos al mes en el plan gratis', fr: '50 soumissions par mois avec l’offre gratuite', de: '50 Einsendungen pro Monat im Gratis-Tarif' },
@@ -28,6 +30,7 @@ window.DG_DATA.forms = {
       source: 'https://formspree.io/plans',
     },
     {
+      plan: 'free',
       name: 'Google Forms',
       url: 'https://forms.google.com',
       free: { ar: 'مجاني بالكامل مع أي حساب جوجل: نماذج وأسئلة وردود غير محدودة', en: 'Completely free with any Google account: unlimited forms, questions and responses', es: 'Totalmente gratis con cualquier cuenta de Google: formularios, preguntas y respuestas ilimitadas', fr: 'Entièrement gratuit avec un compte Google : formulaires, questions et réponses illimités', de: 'Komplett kostenlos mit jedem Google-Konto: unbegrenzte Formulare, Fragen und Antworten' },
@@ -36,6 +39,7 @@ window.DG_DATA.forms = {
       source: 'https://workspace.google.com/products/forms/',
     },
     {
+      plan: 'free',
       name: 'Jotform',
       url: 'https://www.jotform.com',
       free: { ar: 'خطة Starter بصفر دولار: ٥ نماذج و١٠٠ عملية إرسال في الشهر', en: 'Starter plan at $0: 5 forms and 100 monthly submissions', es: 'Plan Starter a $0: 5 formularios y 100 envíos al mes', fr: 'Offre Starter à 0 $ : 5 formulaires et 100 soumissions par mois', de: 'Starter-Tarif für 0 $: 5 Formulare und 100 Übermittlungen pro Monat' },
@@ -44,6 +48,7 @@ window.DG_DATA.forms = {
       source: 'https://www.jotform.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Typeform',
       url: 'https://www.typeform.com',
       free: { ar: 'فيه خطة مجانية بحدود صغيرة على عدد الردود الشهرية', en: 'A free plan exists with a small monthly response limit', es: 'Existe un plan gratis con un límite mensual de respuestas pequeño', fr: 'Une offre gratuite existe avec une petite limite mensuelle de réponses', de: 'Ein Gratis-Tarif existiert mit kleinem monatlichem Antwortlimit' },
@@ -52,6 +57,7 @@ window.DG_DATA.forms = {
       source: 'https://www.typeform.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Cognito Forms',
       url: 'https://www.cognitoforms.com',
       free: { ar: 'خطة Individual بصفر دولار: نماذج غير محدودة و١٠٠ إدخال في الشهر', en: 'Individual plan at $0: unlimited forms and 100 entries per month', es: 'Plan Individual a $0: formularios ilimitados y 100 entradas al mes', fr: 'Offre Individual à 0 $ : formulaires illimités et 100 entrées par mois', de: 'Individual-Tarif für 0 $: unbegrenzte Formulare und 100 Einträge pro Monat' },
@@ -60,6 +66,7 @@ window.DG_DATA.forms = {
       source: 'https://www.cognitoforms.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Fillout',
       url: 'https://fillout.com',
       free: { ar: 'بصفر دولار: نماذج وأسئلة غير محدودة، و١٠٠٠ إرسال في الشهر', en: 'At $0: unlimited forms and questions, 1,000 submissions per month', es: 'A $0: formularios y preguntas ilimitados, 1.000 envíos al mes', fr: 'À 0 $ : formulaires et questions illimités, 1 000 soumissions par mois', de: 'Für 0 $: unbegrenzte Formulare und Fragen, 1.000 Übermittlungen pro Monat' },
@@ -68,6 +75,7 @@ window.DG_DATA.forms = {
       source: 'https://fillout.com/pricing',
     },
     {
+      plan: 'free',
       name: 'FormSubmit',
       url: 'https://formsubmit.co',
       free: { ar: 'مجاني بالكامل من غير تسجيل: بتوصل نموذج HTML بإيميلك وخلاص', en: 'Completely free with no registration: point your HTML form at it and done', es: 'Totalmente gratis sin registro: apunta tu formulario HTML y listo', fr: 'Entièrement gratuit sans inscription : pointez votre formulaire HTML et c’est tout', de: 'Komplett kostenlos ohne Registrierung: HTML-Formular darauf zeigen lassen, fertig' },
@@ -76,6 +84,7 @@ window.DG_DATA.forms = {
       source: 'https://formsubmit.co/',
     },
     {
+      plan: 'free',
       name: 'Web3Forms',
       url: 'https://web3forms.com',
       free: { ar: 'بصفر دولار للأبد: ٢٥٠ إرسال في الشهر من غير backend', en: 'Free forever at $0: 250 monthly submissions, no backend needed', es: 'Gratis para siempre a $0: 250 envíos al mes, sin backend', fr: 'Gratuit pour toujours à 0 $ : 250 soumissions par mois, sans backend', de: 'Für immer kostenlos für 0 $: 250 Übermittlungen pro Monat, ohne Backend' },
@@ -84,6 +93,7 @@ window.DG_DATA.forms = {
       source: 'https://web3forms.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Basin',
       url: 'https://usebasin.com',
       free: { ar: 'خطة مجانية: endpoint واحد و٥٠ إرسال في الشهر', en: 'Free plan: one form endpoint and 50 submissions per month', es: 'Plan gratis: un endpoint de formulario y 50 envíos al mes', fr: 'Offre gratuite : un endpoint de formulaire et 50 soumissions par mois', de: 'Gratis-Tarif: ein Formular-Endpoint und 50 Übermittlungen pro Monat' },
