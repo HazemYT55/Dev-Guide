@@ -12,6 +12,7 @@ window.DG_DATA.email = {
   },
   entries: [
     {
+      plan: 'free',
       name: 'Resend',
       url: 'https://resend.com',
       free: { ar: '٣٬٠٠٠ إيميل شهريًا بحد أقصى ١٠٠ في اليوم', en: '3,000 emails per month, max 100 per day', es: '3.000 correos al mes, máximo 100 al día', fr: '3 000 e-mails par mois, 100 par jour maximum', de: '3.000 E-Mails pro Monat, maximal 100 pro Tag' },
@@ -20,6 +21,7 @@ window.DG_DATA.email = {
       source: 'https://resend.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Brevo',
       url: 'https://www.brevo.com',
       free: { ar: '٣٠٠ إيميل في اليوم، مجاني للأبد ومن غير بطاقة', en: '300 emails per day, free forever, no card', es: '300 correos al día, gratis para siempre, sin tarjeta', fr: '300 e-mails par jour, gratuit à vie, sans carte', de: '300 E-Mails pro Tag, dauerhaft kostenlos, ohne Karte' },
@@ -28,6 +30,7 @@ window.DG_DATA.email = {
       source: 'https://www.brevo.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'Postmark',
       url: 'https://postmarkapp.com',
       free: { ar: '١٠٠ إيميل شهريًا للأبد (خطة المطور)', en: '100 emails per month forever (developer plan)', es: '100 correos al mes para siempre (plan de desarrollo)', fr: '100 e-mails par mois à vie (offre développeur)', de: '100 E-Mails pro Monat dauerhaft (Entwickler-Tarif)' },
@@ -36,6 +39,7 @@ window.DG_DATA.email = {
       source: 'https://postmarkapp.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Mailgun',
       url: 'https://www.mailgun.com',
       free: { ar: '١٠٠ إيميل في اليوم على الخطة المجانية', en: '100 emails per day on the free plan', es: '100 correos al día en el plan gratis', fr: '100 e-mails par jour avec l’offre gratuite', de: '100 E-Mails pro Tag im Gratis-Tarif' },
@@ -43,6 +47,7 @@ window.DG_DATA.email = {
       source: 'https://www.mailgun.com/pricing',
     },
     {
+      plan: 'trial',
       name: 'Amazon SES',
       url: 'https://aws.amazon.com/ses/',
       free: { ar: 'مفيش خطة مجانية خاصة بالعملاء الجدد (من يوليو ٢٠٢٦)؛ لكن فيه ٢٠٠ دولار كريدت AWS لأول ٦ شهور', en: 'No SES-specific free tier for new accounts (since July 2026); new AWS customers get $200 in credits for 6 months', es: 'Sin nivel gratuito propio para cuentas nuevas (desde julio de 2026); los clientes nuevos de AWS reciben $200 en créditos por 6 meses', fr: 'Plus d’offre gratuite dédiée pour les nouveaux comptes (depuis juillet 2026) ; les nouveaux clients AWS reçoivent 200 $ de crédits sur 6 mois', de: 'Kein eigener Gratis-Tarif für neue Konten (seit Juli 2026); neue AWS-Kunden erhalten 200 $ Guthaben für 6 Monate' },
@@ -51,6 +56,7 @@ window.DG_DATA.email = {
       source: 'https://aws.amazon.com/ses/pricing/',
     },
     {
+      plan: 'trial',
       name: 'SendGrid',
       url: 'https://sendgrid.com',
       free: { ar: 'مفيش خطة مجانية دائمة (اتلغت ٢٠٢٥)؛ تجربة ٦٠ يوم بحد ١٠٠ إيميل/يوم', en: 'No permanent free plan (retired 2025); a 60-day trial at 100 emails/day', es: 'Sin plan gratis permanente (retirado en 2025); prueba de 60 días a 100 correos/día', fr: 'Plus d’offre gratuite permanente (retirée en 2025) ; essai de 60 jours à 100 e-mails/jour', de: 'Kein dauerhafter Gratis-Tarif (2025 abgeschafft); 60-Tage-Test mit 100 E-Mails/Tag' },
@@ -59,6 +65,7 @@ window.DG_DATA.email = {
       source: 'https://www.twilio.com/en-us/products/email-api/pricing',
     },
     {
+      plan: 'free',
       name: 'Mailjet',
       url: 'https://www.mailjet.com',
       free: { ar: '٦٬٠٠٠ إيميل شهريًا (بحد ٢٠٠ في اليوم) و١٬٠٠٠ جهة اتصال مجانًا', en: '6,000 emails/mo (max 200/day) and 1,000 contacts free', es: '6.000 correos/mes (máx. 200/día) y 1.000 contactos gratis', fr: '6 000 e-mails/mois (max 200/jour) et 1 000 contacts gratuits', de: '6.000 E-Mails/Monat (max. 200/Tag) und 1.000 Kontakte kostenlos' },
@@ -66,6 +73,7 @@ window.DG_DATA.email = {
       source: 'https://www.mailjet.com/pricing/',
     },
     {
+      plan: 'free',
       name: 'MailerSend',
       url: 'https://www.mailersend.com',
       free: { ar: '٥٠٠ إيميل شهريًا مجانًا مع API وSMTP', en: '500 emails/mo free with API and SMTP relay', es: '500 correos/mes gratis con API y relay SMTP', fr: '500 e-mails/mois gratuits avec API et relais SMTP', de: '500 E-Mails/Monat kostenlos mit API und SMTP-Relay' },
@@ -74,6 +82,7 @@ window.DG_DATA.email = {
       source: 'https://www.mailersend.com/pricing',
     },
     {
+      plan: 'free',
       name: 'Mailtrap',
       url: 'https://mailtrap.io',
       free: { ar: '٤٬٠٠٠ إيميل شهريًا (بحد ١٥٠ في اليوم) مجانًا', en: '4,000 emails/mo (max 150/day) free', es: '4.000 correos/mes (máx. 150/día) gratis', fr: '4 000 e-mails/mois (max 150/jour) gratuits', de: '4.000 E-Mails/Monat (max. 150/Tag) kostenlos' },
@@ -82,6 +91,7 @@ window.DG_DATA.email = {
       source: 'https://mailtrap.io/pricing/',
     },
     {
+      plan: 'free',
       name: 'SMTP2GO',
       url: 'https://www.smtp2go.com',
       free: { ar: '١٬٠٠٠ إيميل شهريًا مجانًا', en: '1,000 emails/mo free', es: '1.000 correos/mes gratis', fr: '1 000 e-mails/mois gratuits', de: '1.000 E-Mails/Monat kostenlos' },
