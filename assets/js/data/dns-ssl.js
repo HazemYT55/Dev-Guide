@@ -30,6 +30,7 @@ window.DG_DATA['dns-ssl'] = {
       source: 'https://desec.io/',
     },
     {
+      plan: 'free',
       name: "Let's Encrypt",
       url: 'https://letsencrypt.org',
       free: { ar: 'شهادات TLS/SSL مجانية وأوتوماتيك من مؤسسة غير ربحية', en: 'Free, automated TLS/SSL certificates from a nonprofit', es: 'Certificados TLS/SSL gratis y automatizados de una organización sin ánimo de lucro', fr: 'Certificats TLS/SSL gratuits et automatisés par une organisation à but non lucratif', de: 'Kostenlose, automatisierte TLS/SSL-Zertifikate von einer gemeinnützigen Organisation' },
