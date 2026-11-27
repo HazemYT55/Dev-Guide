@@ -92,5 +92,23 @@ window.DG_DATA.ai = {
       paid: { ar: 'اشتراك PRO بيديك رصيد شهري شامل، أو الدفع حسب الاستخدام لكل طلب', en: 'A PRO subscription includes monthly credits, or pay as you go per request', es: 'La suscripción PRO incluye créditos mensuales, o pago por uso por petición', fr: 'L’abonnement PRO inclut des crédits mensuels, ou paiement à l’usage par requête', de: 'Das PRO-Abo enthält monatliche Credits, alternativ nutzungsbasiert pro Anfrage' },
       source: 'https://huggingface.co/docs/inference-providers/pricing',
     },
+    {
+      plan: 'free',
+      name: 'Exa',
+      url: 'https://exa.ai',
+      free: { ar: '١٠ دولار رصيد مجاني كل شهر (حوالي ٢٥٠٠ بحث Lite) من غير بطاقة', en: '$10 free credits every month (about 2,500 Lite searches), no card required', es: '$10 de créditos gratis cada mes (unas 2.500 búsquedas Lite), sin tarjeta', fr: '10 $ de crédits gratuits chaque mois (environ 2 500 recherches Lite), sans carte', de: '10 $ Gratis-Guthaben pro Monat (ca. 2.500 Lite-Suchen), ohne Karte' },
+      paid: { ar: 'الدفع حسب الاستخدام من ٤ دولار لكل ١٠٠٠ طلب، وخطط أكبر للشركات الناشئة', en: 'Usage-based from $4 per 1k requests, with larger plans for startups', es: 'Pago por uso desde $4 por 1.000 solicitudes, con planes mayores para startups', fr: 'À l’usage dès 4 $ par 1 000 requêtes, avec des offres plus grandes pour startups', de: 'Nutzungsbasiert ab 4 $ pro 1.000 Anfragen, mit größeren Tarifen für Startups' },
+      note: { ar: 'API بحث مبني للـ AI: بيرجع نتائج ويب مهيكلة للوكلاء و RAG.', en: 'A search API built for AI: returns structured web results for agents and RAG.', es: 'API de búsqueda hecha para IA: devuelve resultados web estructurados para agentes y RAG.', fr: 'API de recherche conçue pour l’IA : renvoie des résultats web structurés pour agents et RAG.', de: 'Eine Such-API für KI: liefert strukturierte Webergebnisse für Agenten und RAG.' },
+      source: 'https://exa.ai/pricing',
+    },
+    {
+      plan: 'free',
+      name: 'ElevenLabs',
+      url: 'https://elevenlabs.io',
+      free: { ar: 'خطة مجانية ٠ دولار/شهر: تحويل نص لصوت وصوت لنص ومؤثرات صوتية و٣ مشاريع Studio', en: 'Free plan at $0/mo: text to speech, speech to text, sound effects, and 3 Studio projects', es: 'Plan gratis a $0/mes: texto a voz, voz a texto, efectos de sonido y 3 proyectos de Studio', fr: 'Offre gratuite à 0 $/mois : synthèse vocale, reconnaissance vocale, effets sonores et 3 projets Studio', de: 'Gratis-Tarif für 0 $/Monat: Text-zu-Sprache, Sprache-zu-Text, Soundeffekte und 3 Studio-Projekte' },
+      paid: { ar: 'Starter بـ ١ دولار أول شهر وبعدين ٦ دولار/شهر؛ Creator من ٢٢ دولار/شهر', en: 'Starter at $1 for the first month, then $6/mo; Creator from $22/mo', es: 'Starter a $1 el primer mes y luego $6/mes; Creator desde $22/mes', fr: 'Starter à 1 $ le premier mois puis 6 $/mois ; Creator dès 22 $/mois', de: 'Starter für 1 $ im ersten Monat, danach 6 $/Monat; Creator ab 22 $/Monat' },
+      note: { ar: 'أصوات AI واقعية جدًا؛ كويس للتعليق الصوتي والبودكاست.', en: 'Very realistic AI voices; good for voiceovers and podcasts.', es: 'Voces de IA muy realistas; buenas para locuciones y pódcasts.', fr: 'Voix IA très réalistes ; bien pour voix off et podcasts.', de: 'Sehr realistische KI-Stimmen; gut für Voiceovers und Podcasts.' },
+      source: 'https://elevenlabs.io/pricing',
+    },
   ],
 };
