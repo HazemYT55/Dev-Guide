@@ -128,6 +128,33 @@ window.DG_DATA.design = {
       paid: { ar: 'Basic بـ١٥ دولار/شهر بالسنوي؛ Premium بنظام CMS بـ٢٥ دولار/شهر بالسنوي', en: 'Basic $15/mo billed yearly; Premium with CMS $25/mo billed yearly', es: 'Basic $15/mes facturado anual; Premium con CMS $25/mes facturado anual', fr: 'Basic 15 $/mois facturé annuellement ; Premium avec CMS 25 $/mois facturé annuellement', de: 'Basic 15 $/Monat jährlich abgerechnet; Premium mit CMS 25 $/Monat jährlich abgerechnet' },
       note: { ar: 'بناء مواقع بصري من غير كود؛ المجاني كافي للتعلم والتجربة.', en: 'Visual no-code site builder; the free plan is enough to learn and experiment.', es: 'Constructor visual de sitios sin código; el plan gratis basta para aprender y experimentar.', fr: 'Constructeur visuel de sites sans code ; le plan gratuit suffit pour apprendre et expérimenter.', de: 'Visueller No-Code-Site-Builder; der Gratis-Tarif reicht zum Lernen und Experimentieren.' },
       source: 'https://webflow.com/pricing',
+    },    {
+      plan: 'oss',
+      name: 'Lucide',
+      url: 'https://lucide.dev',
+      free: { ar: '٢١٢٥ أيقونة برخصة ISC: مجانية لأي استخدام', en: '2,125 icons under the ISC license: free for any use', es: '2.125 iconos bajo licencia ISC: gratis para cualquier uso', fr: '2 125 icônes sous licence ISC : gratuites pour tout usage', de: '2.125 Icons unter der ISC-Lizenz: kostenlos für jede Nutzung' },
+      paid: { ar: 'مفيش نسخة مدفوعة', en: 'No paid tier', es: 'Sin nivel de pago', fr: 'Pas de niveau payant', de: 'Keine kostenpflichtige Stufe' },
+      note: { ar: 'خليفة Feather Icons المتطورة؛ حزم جاهزة لـ React وVue وSvelte.', en: 'The actively maintained successor to Feather Icons, with ready packages for React, Vue and Svelte.', es: 'El sucesor mantenido de Feather Icons, con paquetes listos para React, Vue y Svelte.', fr: 'Le successeur maintenu de Feather Icons, avec des paquets prêts pour React, Vue et Svelte.', de: 'Der aktiv gepflegte Nachfolger von Feather Icons, mit fertigen Paketen für React, Vue und Svelte.' },
+      source: 'https://lucide.dev',
     },
+    {
+      plan: 'oss',
+      name: 'Tabler Icons',
+      url: 'https://tabler.io/icons',
+      free: { ar: '٦٥٦٣ أيقونة SVG برخصة MIT', en: '6,563 SVG icons under the MIT license', es: '6.563 iconos SVG bajo licencia MIT', fr: '6 563 icônes SVG sous licence MIT', de: '6.563 SVG-Icons unter der MIT-Lizenz' },
+      paid: { ar: 'مفيش نسخة مدفوعة', en: 'No paid tier', es: 'Sin nivel de pago', fr: 'Pas de niveau payant', de: 'Keine kostenpflichtige Stufe' },
+      note: { ar: 'أيقونات stroke ثابتة الوزن بتتناسق مع بعضها في أي واجهة.', en: 'Consistent stroke-weight icons that sit well together in any UI.', es: 'Iconos de trazo consistente que combinan bien en cualquier interfaz.', fr: 'Icônes au trait cohérent qui s’accordent dans toute interface.', de: 'Icons mit konsistenter Strichstärke, die in jeder UI zusammenpassen.' },
+      source: 'https://tabler.io/icons',
+    },
+    {
+      plan: 'oss',
+      name: 'Phosphor Icons',
+      url: 'https://phosphoricons.com',
+      free: { ar: '٩٠٧٢ أيقونة برخصة MIT بست أوزان مختلفة', en: '9,072 icons under the MIT license in six weights', es: '9.072 iconos bajo licencia MIT en seis pesos', fr: '9 072 icônes sous licence MIT en six graisses', de: '9.072 Icons unter der MIT-Lizenz in sechs Stärken' },
+      paid: { ar: 'مفيش نسخة مدفوعة', en: 'No paid tier', es: 'Sin nivel de pago', fr: 'Pas de niveau payant', de: 'Keine kostenpflichtige Stufe' },
+      note: { ar: 'عائلة أيقونات مرنة بأوزان من thin لـ fill؛ مناسبة للوحات التحكم.', en: 'A flexible icon family in weights from thin to fill; great for dashboards.', es: 'Una familia de iconos flexible con pesos de thin a fill; ideal para paneles.', fr: 'Une famille d’icônes flexible, de thin à fill ; idéale pour les tableaux de bord.', de: 'Eine flexible Icon-Familie von thin bis fill; ideal für Dashboards.' },
+      source: 'https://phosphoricons.com',
+    },
+
   ],
 };
