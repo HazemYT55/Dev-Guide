@@ -100,5 +100,15 @@ window.DG_DATA.hosting = {
       paid: { ar: 'التطبيقات الديناميكية بتتحاسب لكل instance؛ والـ Droplets من ٤ دولار/شهر', en: 'Dynamic apps are billed per instance; Droplets start at $4/mo', es: 'Las apps dinámicas se facturan por instancia; los Droplets empiezan en $4/mes', fr: 'Les apps dynamiques sont facturées par instance ; les Droplets démarrent à 4 $/mois', de: 'Dynamische Apps werden pro Instanz abgerechnet; Droplets ab 4 $/Monat' },
       source: 'https://www.digitalocean.com/pricing',
     },
+    {
+      plan: 'trial',
+      name: 'AWS Amplify',
+      url: 'https://aws.amazon.com/amplify/',
+      free: { ar: 'مع AWS Free Tier: مجاني ١٢ شهر — ١٠٠٠ دقيقة بناء و٥ جيجا تخزين CDN و١٥ جيجا نقل بيانات في الشهر', en: 'With the AWS Free Tier: free for 12 months - 1,000 build minutes, 5 GB CDN storage and 15 GB data transfer per month', es: 'Con el AWS Free Tier: gratis por 12 meses - 1.000 minutos de build, 5 GB de almacenamiento CDN y 15 GB de transferencia al mes', fr: 'Avec l’AWS Free Tier : gratuit pendant 12 mois - 1 000 minutes de build, 5 Go de stockage CDN et 15 Go de transfert par mois', de: 'Mit dem AWS Free Tier: 12 Monate kostenlos - 1.000 Build-Minuten, 5 GB CDN-Speicher und 15 GB Datentransfer pro Monat' },
+      paid: { ar: 'بعد الـ ١٢ شهر: ‏$0.01 لدقيقة البناء، ‏$0.023 لكل جيجا تخزين، ‏$0.15 لكل جيجا منقولة', en: 'After 12 months: $0.01 per build minute, $0.023 per GB stored, $0.15 per GB served', es: 'Después de 12 meses: $0,01 por minuto de build, $0,023 por GB almacenado, $0,15 por GB servido', fr: 'Après 12 mois : 0,01 $ par minute de build, 0,023 $ par Go stocké, 0,15 $ par Go servi', de: 'Nach 12 Monaten: 0,01 $ pro Build-Minute, 0,023 $ pro GB Speicher, 0,15 $ pro GB ausgeliefert' },
+      warn: { ar: 'المدة المجانية ١٢ شهر بس؛ بعدها بتدفع حسب الاستخدام.', en: 'The free allowance lasts 12 months; after that you pay per use.', es: 'La capa gratuita dura 12 meses; después pagas por uso.', fr: 'L’offre gratuite dure 12 mois ; ensuite, paiement à l’usage.', de: 'Das Freikontingent gilt 12 Monate; danach zahlst du nutzungsbasiert.' },
+      note: { ar: 'نشر تطبيقات full-stack من Git مع باك إند مُدار؛ شهادات SSL من غير تكلفة إضافية.', en: 'Deploy full-stack apps from Git with a managed backend; SSL certificates at no extra cost.', es: 'Despliega apps full-stack desde Git con backend gestionado; certificados SSL sin costo adicional.', fr: 'Déployez des apps full-stack depuis Git avec un backend géré ; certificats SSL sans coût supplémentaire.', de: 'Full-Stack-Apps aus Git mit verwaltetem Backend deployen; SSL-Zertifikate ohne Aufpreis.' },
+      source: 'https://aws.amazon.com/amplify/pricing/',
+    },
   ],
 };

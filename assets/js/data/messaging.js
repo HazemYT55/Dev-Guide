@@ -137,5 +137,14 @@ window.DG_DATA.messaging = {
       note: { ar: 'RabbitMQ وLavinMQ مُدارة على السحابة اللي تختارها.', en: 'Managed RabbitMQ and LavinMQ on the cloud you choose.', es: 'RabbitMQ y LavinMQ gestionados en la nube que elijas.', fr: 'RabbitMQ et LavinMQ managés sur le cloud de votre choix.', de: 'Managed RabbitMQ und LavinMQ in der Cloud deiner Wahl.' },
       source: 'https://www.cloudamqp.com/plans.html',
     },
+    {
+      plan: 'trial',
+      name: 'Twilio',
+      url: 'https://www.twilio.com',
+      free: { ar: 'تسجيل تجريبي مجاني من غير كارت، وبعدها الدفع حسب الاستخدام', en: 'A free trial sign-up with no credit card required, then pay as you go', es: 'Registro de prueba gratis sin tarjeta, luego pago por uso', fr: 'Inscription d’essai gratuit sans carte bancaire, puis paiement à l’usage', de: 'Kostenlose Test-Registrierung ohne Kreditkarte, danach nutzungsbasierte Zahlung' },
+      paid: { ar: 'رسائل SMS من ‏$0.0083 للرسالة (أمريكا)؛ الصوت والقنوات التانية بأسعار حسب المنتج', en: 'SMS from $0.0083 per message (US); voice and other channels priced per product', es: 'SMS desde $0,0083 por mensaje (EE. UU.); voz y otros canales con precio por producto', fr: 'SMS dès 0,0083 $ par message (US) ; voix et autres canaux tarifés par produit', de: 'SMS ab 0,0083 $ pro Nachricht (USA); Sprache und andere Kanäle pro Produkt bepreist' },
+      note: { ar: 'أشهر API للرسائل والمكالمات؛ بيدعم SMS وRCS والمكالمات الصوتية.', en: 'The best-known messaging and voice API; supports SMS, RCS and voice calls.', es: 'La API de mensajería y voz más conocida; admite SMS, RCS y llamadas de voz.', fr: 'L’API de messagerie et de voix la plus connue ; prend en charge SMS, RCS et appels vocaux.', de: 'Die bekannteste Messaging- und Voice-API; unterstützt SMS, RCS und Sprachanrufe.' },
+      source: 'https://www.twilio.com/en-us/pricing',
+    },
   ],
 };

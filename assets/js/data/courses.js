@@ -182,5 +182,23 @@ window.DG_DATA.courses = {
       note: { ar: 'تقليد سنوي: حل الألغاز بأي لغة وتنافس على لوحة الصدارة.', en: 'A yearly tradition: solve puzzles in any language and climb the leaderboard.', es: 'Una tradición anual: resuelve acertijos en cualquier lenguaje y sube en el ranking.', fr: 'Une tradition annuelle : résolvez les puzzles dans n’importe quel langage et grimpez au classement.', de: 'Eine jährliche Tradition: löse Rätsel in jeder Sprache und klettere die Bestenliste hoch.' },
       source: 'https://adventofcode.com/2025/about',
     },
+    {
+      plan: 'free',
+      name: 'LeetCode',
+      url: 'https://leetcode.com',
+      free: { ar: 'الأسئلة والمقالات بالحلول التفصيلية مجانية', en: 'The questions and articles with detailed solutions are free', es: 'Las preguntas y los artículos con soluciones detalladas son gratis', fr: 'Les questions et les articles avec solutions détaillées sont gratuits', de: 'Die Fragen und Artikel mit ausführlichen Lösungen sind kostenlos' },
+      paid: { ar: 'Premium من ٣٥ دولار/شهر أو ١٥٩ دولار/سنة: أسئلة الشركات وترتيب حسب الشركة وتقييم أسرع', en: 'Premium $35/mo or $159/yr: company questions, company sorting, priority judging', es: 'Premium $35/mes o $159/año: preguntas de empresas, orden por empresa, evaluación prioritaria', fr: 'Premium 35 $/mois ou 159 $/an : questions d’entreprises, tri par entreprise, évaluation prioritaire', de: 'Premium 35 $/Monat oder 159 $/Jahr: Firmenfragen, Firmen-Sortierung, Prioritäts-Bewertung' },
+      note: { ar: 'الاسم الأكبر في التحضير لمقابلات البرمجة؛ فيه مسارات تعلم ومقابلات تجريبية.', en: 'The biggest name in coding interview prep, with study paths and mock interviews.', es: 'El nombre más grande en preparación de entrevistas de código, con rutas de estudio y simulacros.', fr: 'Le plus grand nom de la préparation aux entretiens de code, avec parcours d’étude et entretiens blancs.', de: 'Der größte Name für Coding-Interview-Vorbereitung, mit Lernpfaden und Probegesprächen.' },
+      source: 'https://leetcode.com/subscribe/',
+    },
+    {
+      plan: 'free',
+      name: 'Project Euler',
+      url: 'https://projecteuler.net',
+      free: { ar: 'التسجيل مجاني تمامًا وكل المسائل متاحة', en: 'Registration is completely free and every problem is open', es: 'El registro es completamente gratis y todos los problemas están abiertos', fr: 'L’inscription est entièrement gratuite et tous les problèmes sont ouverts', de: 'Die Registrierung ist komplett kostenlos und alle Probleme sind offen' },
+      paid: { ar: 'مفيش خطة مدفوعة', en: 'No paid plan', es: 'Sin plan de pago', fr: 'Pas d’offre payante', de: 'Kein kostenpflichtiger Tarif' },
+      note: { ar: 'مسائل رياضيات وبرمجة بتخليك تكتب كود فعلي؛ مئات المسائل التحدّية.', en: 'Math-meets-programming challenges that make you write real code; hundreds of problems.', es: 'Retos de matemáticas y programación que te hacen escribir código real; cientos de problemas.', fr: 'Des défis maths-programmation qui vous font écrire du vrai code ; des centaines de problèmes.', de: 'Mathe- und Programmieraufgaben, bei denen du echten Code schreibst; Hunderte Probleme.' },
+      source: 'https://projecteuler.net/',
+    },
   ],
 };

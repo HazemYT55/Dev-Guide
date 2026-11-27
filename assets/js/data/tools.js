@@ -237,5 +237,23 @@ window.DG_DATA.tools = {
       note: { ar: 'إديتور كود سريع ومفتوح المصدر وتعاوني من صناع Atom.', en: 'A fast, open-source, multiplayer code editor from the creators of Atom.', es: 'Un editor de código rápido, open source y multijugador de los creadores de Atom.', fr: 'Un éditeur de code rapide, open source et collaboratif par les créateurs d’Atom.', de: 'Ein schneller Open-Source-Multiplayer-Editor von den Machern von Atom.' },
       source: 'https://zed.dev/pricing',
     },
+    {
+      plan: 'free',
+      name: 'GitHub Codespaces',
+      url: 'https://github.com/features/codespaces',
+      free: { ar: 'الحسابات الشخصية المجانية بتاخد ١٢٠ ساعة core للحوسبة و١٥ جيجا تخزين كل شهر، وبتتجدد كل دورة فوترة', en: 'Free personal accounts include 120 core-hours of compute and 15 GB storage each month, renewed every billing cycle', es: 'Las cuentas personales gratuitas incluyen 120 horas núcleo de cómputo y 15 GB de almacenamiento al mes, renovados cada ciclo de facturación', fr: 'Les comptes personnels gratuits incluent 120 heures-cœur de calcul et 15 Go de stockage par mois, renouvelés à chaque cycle de facturation', de: 'Kostenlose persönliche Konten umfassen 120 Kernstunden Rechenzeit und 15 GB Speicher pro Monat, erneuert jeden Abrechnungszeitraum' },
+      paid: { ar: 'بعد الحصة بتدفع حسب الاستخدام للحوسبة والتخزين؛ GitHub Pro بيرفع الحصة لـ ١٨٠ ساعة و٢٠ جيجا', en: 'Beyond the quota you pay per use for compute and storage; GitHub Pro raises it to 180 hours and 20 GB', es: 'Más allá de la cuota pagas por uso de cómputo y almacenamiento; GitHub Pro la sube a 180 horas y 20 GB', fr: 'Au-delà du quota, paiement à l’usage du calcul et du stockage ; GitHub Pro le porte à 180 heures et 20 Go', de: 'Über der Quote zahlst du nutzungsbasiert für Rechenzeit und Speicher; GitHub Pro erhöht sie auf 180 Stunden und 20 GB' },
+      note: { ar: 'بيئة تطوير سحابية كاملة بتشتغل من المتصفح أو VS Code، جاهزة بإعدادات المشروع.', en: 'Full cloud dev environments from the browser or VS Code, preconfigured per project.', es: 'Entornos de desarrollo completos en la nube desde el navegador o VS Code, preconfigurados por proyecto.', fr: 'Des environnements de développement cloud complets depuis le navigateur ou VS Code, préconfigurés par projet.', de: 'Komplette Cloud-Entwicklungsumgebungen aus dem Browser oder VS Code, pro Projekt vorkonfiguriert.' },
+      source: 'https://docs.github.com/en/billing/concepts/product-billing/github-codespaces',
+    },
+    {
+      plan: 'free',
+      name: 'CodeSandbox',
+      url: 'https://codesandbox.io',
+      free: { ar: 'خطة Build بصفر دولار: ٥ أعضاء، Sandboxes متصفح وVM غير محدودة، Sandboxes خاصة، وVM لحد ٤ أنوية و٨ جيجا رام', en: 'The $0 Build plan: 5 members, unlimited browser and VM sandboxes, private sandboxes, VMs up to 4 vCPUs and 8 GiB RAM', es: 'El plan Build de $0: 5 miembros, sandboxes ilimitados de navegador y VM, sandboxes privados, VMs hasta 4 vCPU y 8 GiB de RAM', fr: 'L’offre Build à 0 $ : 5 membres, sandboxes navigateur et VM illimités, sandboxes privés, VM jusqu’à 4 vCPU et 8 Gio de RAM', de: 'Der 0-$-Build-Tarif: 5 Mitglieder, unbegrenzte Browser- und VM-Sandboxes, private Sandboxes, VMs bis 4 vCPUs und 8 GiB RAM' },
+      paid: { ar: 'Scale من ١٧٠ دولار/شهر لكل workspace: لحد ٢٠ عضو و١٦٠ ساعة VM شهرية', en: 'Scale from $170/mo per workspace: up to 20 members and 160 monthly VM hours', es: 'Scale desde $170/mes por workspace: hasta 20 miembros y 160 horas de VM al mes', fr: 'Scale dès 170 $/mois par workspace : jusqu’à 20 membres et 160 heures de VM mensuelles', de: 'Scale ab 170 $/Monat pro Workspace: bis zu 20 Mitglieder und 160 VM-Stunden monatlich' },
+      note: { ar: 'محرر كود أونلاين للنماذج الأولية السريعة وبيئات التعلم، بقى جزء من Together AI.', en: 'An online code editor for quick prototypes and learning environments, now part of Together AI.', es: 'Un editor de código online para prototipos rápidos y entornos de aprendizaje, ahora parte de Together AI.', fr: 'Un éditeur de code en ligne pour prototypes rapides et environnements d’apprentissage, désormais partie de Together AI.', de: 'Ein Online-Code-Editor für schnelle Prototypen und Lernumgebungen, jetzt Teil von Together AI.' },
+      source: 'https://codesandbox.io/pricing',
+    },
   ],
 };

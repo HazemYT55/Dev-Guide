@@ -184,5 +184,14 @@ window.DG_DATA.analytics = {
       note: { ar: 'تحليلات مدمجة في منصة الاستضافة نفسها؛ مشاريع غير محدودة على كل الخطط.', en: 'Analytics built into the hosting platform itself; unlimited projects on every plan.', es: 'Analítica integrada en la propia plataforma de hosting; proyectos ilimitados en todos los planes.', fr: 'Analytique intégrée à la plateforme d’hébergement elle-même ; projets illimités sur toutes les offres.', de: 'Direkt in die Hosting-Plattform eingebaute Analytics; unbegrenzte Projekte in allen Tarifen.' },
       source: 'https://vercel.com/docs/analytics/limits-and-pricing',
     },
+    {
+      plan: 'free',
+      name: 'Ahrefs Web Analytics',
+      url: 'https://ahrefs.com/web-analytics',
+      free: { ar: 'مجاني للمواقع الموثّقة الملكية، من غير كوكيز ولا تخزين IP', en: 'Free for websites with verified ownership, with no cookies and no stored IPs', es: 'Gratis para sitios con propiedad verificada, sin cookies ni IPs almacenadas', fr: 'Gratuit pour les sites à propriété vérifiée, sans cookies ni IP stockées', de: 'Kostenlos für Websites mit verifiziertem Besitz, ohne Cookies und ohne gespeicherte IPs' },
+      paid: { ar: 'مفيش خطة مدفوعة للتحليلات نفسها؛ أدوات SEO الكاملة من Ahrefs منتج مدفوع منفصل', en: 'No paid tier for Web Analytics itself; the full Ahrefs SEO toolset is a separate paid product', es: 'Sin plan de pago para Web Analytics en sí; el kit SEO completo de Ahrefs es un producto de pago aparte', fr: 'Pas d’offre payante pour Web Analytics lui-même ; la suite SEO complète d’Ahrefs est un produit payant séparé', de: 'Kein kostenpflichtiger Tarif für Web Analytics selbst; die komplette Ahrefs-SEO-Suite ist ein separates kostenpflichtiges Produkt' },
+      note: { ar: 'بديل بسيط وخفيف لجوجل أناليتكس من شركة أدوات SEO معروفة.', en: 'A simple, lightweight Google Analytics alternative from a well-known SEO tools company.', es: 'Una alternativa simple y ligera a Google Analytics de una conocida empresa de herramientas SEO.', fr: 'Une alternative simple et légère à Google Analytics, par un éditeur d’outils SEO reconnu.', de: 'Eine schlanke Google-Analytics-Alternative von einem bekannten SEO-Tools-Anbieter.' },
+      source: 'https://ahrefs.com/web-analytics',
+    },
   ],
 };
